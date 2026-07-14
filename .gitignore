@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+.vscode/
+
+.venv/
+env/
+
+Datasets/*.png
+Datasets/*.csv
+
+*.log
