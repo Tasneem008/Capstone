@@ -1,0 +1,110 @@
+==================================================
+=== Phase 1 QUALITY REPORT ===
+==================================================
+
+--- Basic Info ---
+Total Records     : 1200
+Total Features    : 20
+Missing Values    : 0
+Duplicate Rows    : 0
+
+--- Outlier Detection (IQR Method) ---
+Result                         : 140 outliers (range 2.70 - 3.82)
+Days_Since_First_Intake        : 0 outliers (range -139.50 - 472.50)
+Budget_Academic_Score          : 0 outliers (range -2.00 - 6.00)
+
+--- GPA Summary by Budget Level ---
+                  mean   min   max  count
+Budget_Level                             
+0             3.217268  2.03  3.93    399
+1             3.223046  2.10  3.95    417
+2             3.199844  2.17  3.94    384
+
+--- GPA Summary by Academic Level ---
+                    mean   min   max  count
+Academic_Level                             
+0               2.259130  2.03  2.48     23
+1               3.185765  2.50  3.49   1079
+2               3.745306  3.50  3.95     98
+
+--- Continuation Rate by Country ---
+         sum  count  rate_%
+Country                    
+0         29    150   19.33
+1         23    143   16.08
+2         29    150   19.33
+3         31    150   20.67
+4         24    144   16.67
+5         24    153   15.69
+6         31    160   19.38
+7         32    150   21.33
+
+--- Continuation Rate by Budget Level ---
+              sum  count  rate_%
+Budget_Level                    
+0              16    399    4.01
+1              30    417    7.19
+2             177    384   46.09
+
+==================================================
+=== Phase 2 QUALITY REPORT ===
+==================================================
+
+--- Basic Info ---
+Total Records     : 1200
+Total Features    : 20
+Missing Values    : 0
+Duplicate Rows    : 0
+
+--- Outlier Detection (IQR Method) ---
+Result                         : 135 outliers (range 2.67 - 3.83)
+Days_Since_First_Intake        : 0 outliers (range 313.00 - 617.00)
+Budget_Academic_Score          : 0 outliers (range -2.00 - 6.00)
+
+--- GPA Summary by Budget Level ---
+                  mean   min   max  count
+Budget_Level                             
+0             3.204539  2.02  3.94    412
+1             3.220557  2.10  3.94    377
+2             3.164501  2.02  3.95    411
+
+--- GPA Summary by Academic Level ---
+                    mean   min   max  count
+Academic_Level                             
+0               2.266389  2.02  2.47     36
+1               3.174532  2.50  3.49   1057
+2               3.719252  3.51  3.95    107
+
+--- Continuation Rate by Country ---
+         sum  count  rate_%
+Country                    
+0         73    149   48.99
+1         55    131   41.98
+2         76    178   42.70
+3         71    154   46.10
+4         44    139   31.65
+5         57    145   39.31
+6         62    156   39.74
+7         68    148   45.95
+
+--- Continuation Rate by Budget Level ---
+              sum  count  rate_%
+Budget_Level                    
+0              75    412   18.20
+1             174    377   46.15
+2             257    411   62.53
+
+CROSS PHASE DISTRIBUTION COMPARISON
+Result                         : KS stat=0.0375, p=0.3677 -> Similar
+Budget_Midpoint                : KS stat=0.0225, p=0.9218 -> Similar
+Budget_Academic_Score          : KS stat=0.0142, p=0.9997 -> Similar
+Days_Since_First_Intake        : KS stat=1.0000, p=0.0000 -> Different
+
+--- Mean Comparison Phase 1 vs Phase 2 ---
+Result                         : Phase1=3.21  Phase2=3.20
+Budget_Midpoint                : Phase1=12763.75  Phase2=12838.75
+Budget_Academic_Score          : Phase1=2.05  Phase2=2.06
+
+--- Continuation Rate ---
+Phase 1 Continuation Rate : 18.58%
+Phase 2 Continuation Rate : 42.17%
