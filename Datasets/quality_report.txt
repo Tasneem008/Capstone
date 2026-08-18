@@ -1,9 +1,5 @@
 QUALITY REPORT - ALL FIVE DATASETS
-
-
-============================================================
 STABLE QUALITY REPORT
-============================================================
 
 --- Basic Info ---
 Total Records     : 1200
@@ -50,11 +46,7 @@ Budget_Level
 2              82    401   20.45
 
 Overall Continuation Rate : 15.00%
-
-
-============================================================
 UNSTABLE QUALITY REPORT
-============================================================
 
 --- Basic Info ---
 Total Records     : 1200
@@ -101,11 +93,7 @@ Budget_Level
 2             192    397   48.36
 
 Overall Continuation Rate : 31.75%
-
-
-============================================================
 TRANSITIONAL QUALITY REPORT
-============================================================
 
 --- Basic Info ---
 Total Records     : 1200
@@ -152,11 +140,7 @@ Budget_Level
 2             133    390   34.10
 
 Overall Continuation Rate : 17.50%
-
-
-============================================================
 TRANSITIONAL PHASE 1 QUALITY REPORT
-============================================================
 
 --- Basic Info ---
 Total Records     : 1200
@@ -203,11 +187,7 @@ Budget_Level
 2             177    384   46.09
 
 Overall Continuation Rate : 18.58%
-
-
-============================================================
 TRANSITIONAL PHASE 2 QUALITY REPORT
-============================================================
 
 --- Basic Info ---
 Total Records     : 1200
@@ -257,9 +237,7 @@ Overall Continuation Rate : 42.17%
 
 
 
-============================================================
 CROSS DATASET DISTRIBUTION COMPARISON
-============================================================
 
 --- Stable vs Overall Dataset ---
 Result                         : KS stat=0.2670, p=0.0000 -> Different
