@@ -20,7 +20,6 @@ print(f"Transitional Phase 2 loaded    : {p2.shape}")
 
 
 
-
 stable["Dataset_Type"] = "Stable"
 unstable["Dataset_Type"] = "Unstable"
 transitional["Dataset_Type"] = "Transitional"
@@ -100,7 +99,6 @@ budget_midpoint = {
 }
 
 df["Budget_Midpoint"] = df["Budget"].map(budget_midpoint)
-
 
 
 
@@ -219,8 +217,6 @@ p2_clean.to_csv(
     "Datasets/transitional_phase_2_clean.csv",
     index=False
 )
-
-
 
 
 df.to_csv(
@@ -403,9 +399,6 @@ for name, data in datasets:
     )
 
 
-
-
-
 report.append("\n\n")
 
 report.append("CROSS DATASET DISTRIBUTION COMPARISON")
@@ -443,8 +436,6 @@ for name, data in datasets:
         )
 
 
-
-
 report.append("\n--- Mean Comparison ---")
 
 for name, data in datasets:
@@ -461,8 +452,6 @@ for name, data in datasets:
             f"{col:30s} : "
             f"{data[col].mean():.2f}"
         )
-
-
 
 
 report.append("\n--- Continuation Rate Comparison ---")
