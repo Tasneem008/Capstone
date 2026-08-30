@@ -1,9 +1,11 @@
-# Use Python 3.10-3.13; the saved scikit-learn 1.7.1 model is not Python 3.14 compatible.
-pandas>=2.0
-numpy>=1.26
+# Streamlit Community Cloud: set Python to 3.12 (or 3.13) in
+# Deploy -> Advanced settings. Do NOT use Python 3.14.
+# scikit-learn==1.7.1 matches the saved .joblib models and has no 3.14 wheels.
+pandas>=2.0,<3
+numpy>=1.26,<2.3
 openpyxl
 scikit-learn==1.7.1
-xgboost>=2.0
+xgboost>=2.0,<3
 shap>=0.51
 streamlit
 imbalanced-learn
