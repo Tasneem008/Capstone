@@ -1,0 +1,11 @@
+# Use Python 3.10-3.13; the saved scikit-learn 1.7.1 model is not Python 3.14 compatible.
+pandas>=2.0
+numpy>=1.26
+openpyxl
+scikit-learn==1.7.1
+xgboost>=2.0
+shap>=0.51
+streamlit
+imbalanced-learn
+joblib
+matplotlib

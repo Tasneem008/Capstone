@@ -1,0 +1,7 @@
+Experiment,Removed_Group,Removed_Features,Accuracy,Precision,Recall,F1,F1_Drop
+Baseline (all features),None,,0.9125,0.8764478764478765,0.7566666666666667,0.8121645796064401,0.0
+Without Financial_Features,Financial_Features,"Budget, Budget_Level, Budget_Midpoint, Budget_Level_Num, Budget_Academic_Score",0.815,0.65,0.5633333333333334,0.6035714285714285,0.20859315103501153
+Without Academic_Features,Academic_Features,"Result, Academic_Level, Academic_Level_Num, Result_Band, GPA_Academic_Match",0.9125,0.8764478764478765,0.7566666666666667,0.8121645796064401,0.0
+Without Phase_Temporal_Features,Phase_Temporal_Features,"Political_Phase, Intake_Month, Year, Season, Days_Since_First_Intake, Phase_Number",0.8575,0.7945205479452054,0.58,0.6705202312138728,0.14164434839256723
+Without Destination_Features,Destination_Features,"Course, Country, Institution",0.9108333333333334,0.8754863813229572,0.75,0.8078994614003591,0.004265118206080998
+Without Behavioral_Features,Behavioral_Features,"Researched, Researched_Bin",0.7683333333333333,0.5611111111111111,0.33666666666666667,0.42083333333333334,0.3913312462731067
