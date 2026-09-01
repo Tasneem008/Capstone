@@ -3,9 +3,10 @@ __pycache__/
 
 .vscode/
 
+venv/
 .venv/
-env/
 
+env/
 
 
 
