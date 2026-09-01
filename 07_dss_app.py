@@ -63,7 +63,7 @@ GROUP_LABELS = {
     "Academic": "🎓 Academic Profile",
     "Phase_Temporal": "🗓️ Political Phase / Timing",
     "Destination": "🌍 Destination Fit",
-    "Behavioral": "🔎 Research Behavior",
+    "Behavioral": "🔎 Explored Options",
 }
 
 FRIENDLY_NAMES = {
@@ -72,7 +72,7 @@ FRIENDLY_NAMES = {
     "Country": "Destination Country",
     "Institution": "Destination Institution",
     "Budget": "Budget Band",
-    "Researched": "Researched Options",
+    "Researched": "Explored Options",
     "Political_Phase": "Political Phase",
     "Budget_Level": "Budget Level",
     "Academic_Level": "Academic Level",
@@ -84,7 +84,7 @@ FRIENDLY_NAMES = {
     "Phase_Number": "Political Phase (numeric)",
     "Budget_Level_Num": "Budget Level (numeric)",
     "Academic_Level_Num": "Academic Level (numeric)",
-    "Researched_Bin": "Researched (binary)",
+    "Researched_Bin": "Explored Options (binary)",
     "Result_Band": "GPA Band",
     "Budget_Academic_Score": "Budget + Academic Score",
     "GPA_Academic_Match": "GPA / Academic Level Match",
@@ -95,8 +95,8 @@ FRIENDLY_NAMES = {
 # counselors see *why* a group matters, not just that it does.
 RECOMMENDATION_TEMPLATES = {
     "Behavioral": {
-        "negative": (
-            "**Research behavior** is pulling this prediction toward "
+    "negative": (
+            "**Not having explored options** is pulling this prediction toward "
             "non-continuation. This is historically the single strongest "
             "driver of dropout risk (ablation F1 drop of 0.391 when removed). "
             "Recommend a structured research session covering visa "
@@ -104,10 +104,10 @@ RECOMMENDATION_TEMPLATES = {
             "the student finalizes plans."
         ),
         "positive": (
-            "The student has already researched their options, which is the "
-            "strongest positive predictor available in this model. Reinforce "
-            "it by connecting them with current students or alumni from the "
-            "chosen institution."
+            "The student has already explored their "
+            "options, which is the strongest positive predictor available in "
+            "this model. Reinforce it by connecting them with current "
+            "students or alumni from the chosen institution."
         ),
     },
     "Financial": {
@@ -410,7 +410,7 @@ def collect_profile(reference_df):
         "Institution",
     )
     institution = st.sidebar.selectbox("Institution", institutions)
-    researched = st.sidebar.selectbox("Researched options?", ["No", "Yes"])
+    researched = st.sidebar.selectbox("Has the student explored options?", ["No", "Yes"])
     political_phase = st.sidebar.selectbox(
         "Political Phase",
         list(PHASE_MAP.keys()),
@@ -521,7 +521,7 @@ def render_dashboard(reference_df):
     st.subheader("📊 Analytics Dashboard")
     st.caption(
         "Continuation trends across the 6,000-record training corpus "
-        "(5 political phases × budget × research behavior × academic level)."
+        "(5 political phases × budget × options explored × academic level)."
     )
 
     total_students = len(reference_df)
@@ -551,7 +551,7 @@ def render_dashboard(reference_df):
 
     col_c, col_d = st.columns(2)
     with col_c:
-        st.markdown("**By Research Behavior**")
+        st.markdown("**By Explored Options**")
         research_rates = rate_by_category(reference_df, "Researched", researched_order)
         st.bar_chart(research_rates["Continuation Rate (%)"])
     with col_d:
@@ -559,7 +559,7 @@ def render_dashboard(reference_df):
         academic_rates = rate_by_category(reference_df, "Academic_Level", level_order)
         st.bar_chart(academic_rates["Continuation Rate (%)"])
 
-    st.markdown("**Political Phase × Research Behavior (interaction view)**")
+    st.markdown("**Political Phase × Explored Options (interaction view)**")
     interaction = (
         pd.crosstab(
             reference_df["Political_Phase"],
@@ -597,15 +597,13 @@ def render_dashboard(reference_df):
         st.dataframe(phase_rates, width="stretch")
         st.write("Budget Level")
         st.dataframe(budget_rates, width="stretch")
-        st.write("Research Behavior")
+        st.write("Explored Options")
         st.dataframe(research_rates, width="stretch")
         st.write("Academic Level")
         st.dataframe(academic_rates, width="stretch")
 
 
-# ---------------------------------------------------------------------------
-# Tab 3: What-If / Scenario Simulator
-# ---------------------------------------------------------------------------
+#---------------------------------------------------------------------------
 
 def get_baseline_profile(reference_df):
     last_analysis = st.session_state.get("last_analysis")
@@ -668,7 +666,7 @@ def render_whatif(reference_df, model, explainer):
             key="whatif_budget",
         )
         scenario_researched = st.selectbox(
-            "Scenario Researched Options?",
+            "Scenario: Has the student explored options?",
             ["No", "Yes"],
             index=["No", "Yes"].index(baseline_profile["Researched"]),
             key="whatif_researched",
@@ -896,7 +894,7 @@ def build_report_markdown(last_analysis):
 
 
 def render_report():
-    st.subheader("📄 Student Assessment Report")
+    st.subheader(" Student Assessment Report")
 
     last_analysis = st.session_state.get("last_analysis")
     if not last_analysis:
@@ -911,7 +909,7 @@ def render_report():
 
     timestamp = last_analysis["timestamp"].strftime("%Y%m%d_%H%M%S")
     st.download_button(
-        label="⬇️ Download Report (Markdown)",
+        label=" Download Report (Markdown)",
         data=report_markdown,
         file_name=f"assessment_report_{timestamp}.md",
         mime="text/markdown",
