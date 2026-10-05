@@ -45,7 +45,7 @@ def group_features(columns):
             token in normalized for token in ("course", "country", "institution")
         ):
             group = "Destination_Features"
-        elif "research" in normalized:
+        elif "research" in normalized or "diligence" in normalized:
             group = "Behavioral_Features"
         else:
             group = "Other_Features"

@@ -1,0 +1,159 @@
+% =============================================================================
+% Capstone report tables for Overleaf
+% Only tables that are NOT already covered by project_figures_paper/ figures.
+%
+% Requires: \usepackage{booktabs}
+% Usage:    \input{report_tables.tex}
+% =============================================================================
+
+\begin{table}[htbp]
+\centering
+\caption{Experimental setup for the 6{,}000-record study.}
+\label{tab:experimental_setup}
+\begin{tabular}{lp{8.8cm}}
+\toprule
+\textbf{Item} & \textbf{Setting} \\
+\midrule
+Dataset size & 6{,}000 students (5 political periods $\times$ 1{,}200) \\
+Target & Continuation (Yes$=$1, No$=$0); positive rate 25\% \\
+Train/test split & 80/20 stratified, \texttt{random\_state}=42 \\
+Test size & 1{,}200 \\
+Preprocessing & StandardScaler (numeric) + One-Hot Encoding (categorical) \\
+Primary model & Gradient Boosting ($n\_estimators=100$, $lr=0.10$, $max\_depth=3$) \\
+Comparator & Tuned XGBoost (operating threshold 0.73 for DSS risk mapping) \\
+Evaluation metrics & Accuracy, Precision, Recall, F1, ROC--AUC, confusion matrix \\
+XAI & SHAP TreeExplainer (global summary + local waterfall) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Model input feature set (21 columns) used in all experiments.}
+\label{tab:feature_set}
+\begin{tabular}{llp{7.2cm}}
+\toprule
+\textbf{\#} & \textbf{Feature} & \textbf{Description} \\
+\midrule
+1 & Result & GPA / academic result \\
+2 & Course & Intended program (categorical) \\
+3 & Country & Destination country (categorical) \\
+4 & Institution & Destination university (categorical) \\
+5 & Budget & Budget band (Below 10k / 10--15K / 16--20K) \\
+6 & Researched & Whether options were researched (Yes/No) \\
+7 & Political\_Phase & Political window label \\
+8 & Budget\_Level & Low / Medium / High \\
+9 & Academic\_Level & Low / Medium / High \\
+10 & Intake\_Month & Month extracted from intake date \\
+11 & Year & Year extracted from intake date \\
+12 & Season & Season code 1--4 (Dec--Feb \ldots{} Sep--Nov) \\
+13 & Days\_Since\_First\_Intake & Days since earliest intake in corpus \\
+14 & Budget\_Midpoint & Numeric midpoint of budget band \\
+15 & Phase\_Number & Ordinal phase code (1--5) \\
+16 & Budget\_Level\_Num & Ordinal encoding of budget level \\
+17 & Academic\_Level\_Num & Ordinal encoding of academic level \\
+18 & Researched\_Bin & Binary encoding of researched \\
+19 & Result\_Band & GPA band (Low / Medium / High) \\
+20 & Budget\_Academic\_Score & Budget\_Level\_Num + Academic\_Level\_Num \\
+21 & GPA\_Academic\_Match & 1 if Result\_Band matches Academic\_Level \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Feature groups used in the ablation study
+(results are shown in Figure~5; this table defines the groups).}
+\label{tab:ablation_groups}
+\begin{tabular}{lp{9cm}}
+\toprule
+\textbf{Group} & \textbf{Features removed} \\
+\midrule
+Financial & Budget, Budget\_Level, Budget\_Midpoint, Budget\_Level\_Num, Budget\_Academic\_Score \\
+Academic & Result, Academic\_Level, Academic\_Level\_Num, Result\_Band, GPA\_Academic\_Match \\
+Phase/Temporal & Political\_Phase, Intake\_Month, Year, Season, Days\_Since\_First\_Intake, Phase\_Number \\
+Destination & Course, Country, Institution \\
+Behavioral & Researched, Researched\_Bin \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Operational risk tiers in the Decision Support System
+(probability $= P(\mathrm{Continuation}=1)$).}
+\label{tab:risk_tiers}
+\begin{tabular}{lp{8.5cm}}
+\toprule
+\textbf{Probability range} & \textbf{Risk tier} \\
+\midrule
+$p \ge 0.73$ & Low Risk (high likelihood to continue pathway) \\
+$0.40 \le p < 0.73$ & Medium Risk (transitional / uncertain) \\
+$p < 0.40$ & High Risk (likely to drop out / reverse decision) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Paper~1 methodology adaptation on the same 6{,}000-record dataset
+(for comparison with related work).}
+\label{tab:paper1_comparison}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Model} & \textbf{Thr.} & \textbf{Acc.} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} \\
+\midrule
+Logistic Regression & 0.50 & 0.8092 & 0.5798 & 0.8600 & 0.6926 \\
+Random Forest & 0.50 & 0.8275 & 0.6183 & 0.8100 & 0.7013 \\
+LightGBM & 0.50 & 0.8200 & 0.6029 & 0.8200 & 0.6949 \\
+XGBoost (Tuned) & 0.50 & 0.8700 & 0.7081 & 0.8167 & 0.7585 \\
+XGBoost (Tuned, optimized) & 0.73 & 0.9117 & 0.8789 & 0.7500 & 0.8094 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Paper~2 methodology adaptation on the same 6{,}000-record dataset
+(for comparison with related work).}
+\label{tab:paper2_comparison}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Acc.} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} \\
+\midrule
+Random Forest & 0.9000 & 0.8435 & 0.7367 & 0.7865 \\
+XGBoost & 0.9108 & 0.8784 & 0.7467 & 0.8072 \\
+Gradient Boosting & 0.9125 & 0.8764 & 0.7567 & 0.8122 \\
+Stacking (RF+XGB+GB$\rightarrow$FNN) & 0.9108 & 0.8814 & 0.7433 & 0.8065 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Head-to-head comparison: best model per methodology on the 6{,}000-record held-out test set ($n=1{,}200$).}
+\label{tab:methodology_head_to_head}
+\begin{tabular}{lp{4.2cm}ccccc}
+\toprule
+\textbf{Methodology} & \textbf{Best model} & \textbf{Thr.} & \textbf{Acc.} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} \\
+\midrule
+Paper~1 (Carballo-Mend\'ivil et al., 2025)
+  & XGBoost (tuned, optimized) & 0.73 & 0.9117 & 0.8789 & 0.7500 & 0.8094 \\
+Paper~2 (Niyogisubizo et al., 2022)
+  & Gradient Boosting & 0.50 & 0.9125 & 0.8764 & 0.7567 & 0.8122 \\
+Paper~2 stacking ensemble
+  & RF+XGB+GB$\rightarrow$FNN & 0.50 & 0.9108 & 0.8814 & 0.7433 & 0.8065 \\
+This project (DSS inference)
+  & Gradient Boosting & 0.50 & 0.9125 & 0.8764 & 0.7567 & 0.8122 \\
+This project (risk tiers)
+  & XGBoost (tuned) & 0.73 & 0.9117 & 0.8789 & 0.7500 & 0.8094 \\
+\bottomrule
+\end{tabular}
+\end{table}
+

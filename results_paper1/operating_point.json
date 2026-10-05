@@ -1,0 +1,7 @@
+{
+  "model": "Gradient Boosting",
+  "threshold": 0.7,
+  "f1_optimal_threshold": 0.33,
+  "selection": "Revised data is nearly balanced (52% continuation). The F1-max cutoff is 0.33 and is too loose for a low-risk label. Low risk uses 0.70, where out-of-fold precision is about 0.94. Medium risk remains 0.40 to 0.70.",
+  "medium_risk_below": 0.4
+}

@@ -1,0 +1,4 @@
+filename,TN,FP,FN,TP,Accuracy,Model,Threshold,ROC_AUC
+35_confusion_matrix_gradient_boosting_6000.png,500,74,89,537,0.8641666666666666,Gradient Boosting,0.5,0.9513141343188877
+37_confusion_matrix_xgboost_6000_threshold_0.50.png,500,74,98,528,0.8566666666666667,XGBoost,0.5,0.9484253765403926
+39_confusion_matrix_xgboost_6000_optimized_threshold.png,550,24,181,445,0.8291666666666667,XGBoost,0.7,0.9484253765403926

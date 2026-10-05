@@ -1,7 +1,7 @@
 Experiment,Removed_Group,Removed_Features,Accuracy,Precision,Recall,F1,F1_Drop
-Baseline (all features),None,,0.9125,0.8764478764478765,0.7566666666666667,0.8121645796064401,0.0
-Without Financial_Features,Financial_Features,"Budget, Budget_Level, Budget_Midpoint, Budget_Level_Num, Budget_Academic_Score",0.815,0.65,0.5633333333333334,0.6035714285714285,0.20859315103501153
-Without Academic_Features,Academic_Features,"Result, Academic_Level, Academic_Level_Num, Result_Band, GPA_Academic_Match",0.9125,0.8764478764478765,0.7566666666666667,0.8121645796064401,0.0
-Without Phase_Temporal_Features,Phase_Temporal_Features,"Political_Phase, Intake_Month, Year, Season, Days_Since_First_Intake, Phase_Number",0.8575,0.7945205479452054,0.58,0.6705202312138728,0.14164434839256723
-Without Destination_Features,Destination_Features,"Course, Country, Institution",0.9108333333333334,0.8754863813229572,0.75,0.8078994614003591,0.004265118206080998
-Without Behavioral_Features,Behavioral_Features,"Researched, Researched_Bin",0.7683333333333333,0.5611111111111111,0.33666666666666667,0.42083333333333334,0.3913312462731067
+Baseline (all features),None,,0.8641666666666666,0.8788870703764321,0.8578274760383386,0.8682295877122069,0.0
+Without Financial_Features,Financial_Features,"Budget, Budget_Level, Budget_Midpoint, Budget_Level_Num, Budget_Academic_Score",0.835,0.8440514469453376,0.8386581469648562,0.8413461538461539,0.026883433866053075
+Without Academic_Features,Academic_Features,"Result, Academic_Level, Academic_Level_Num, Result_Band, GPA_Academic_Match",0.8533333333333334,0.8725165562913907,0.84185303514377,0.8569105691056911,0.011319018606515852
+Without Phase_Temporal_Features,Phase_Temporal_Features,"Political_Phase, Intake_Month, Year, Season, Days_Since_First_Intake, Phase_Number",0.7483333333333333,0.7327586206896551,0.8146964856230032,0.7715582450832073,0.09667134262899968
+Without Destination_Features,Destination_Features,"Course, Country, Institution",0.8591666666666666,0.8814691151919867,0.8434504792332268,0.8620408163265306,0.006188771385676306
+Without Behavioral_Features,Behavioral_Features,"Researched, Researched_Bin, Researched_Level",0.6983333333333334,0.6769436997319035,0.8067092651757188,0.7361516034985423,0.13207798421366468

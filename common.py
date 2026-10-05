@@ -43,17 +43,29 @@ MODEL_FEATURE_COLUMNS = [
     "Budget_Level_Num",
     "Academic_Level_Num",
     "Researched_Bin",
+    "Researched_Level",
     "Result_Band",
     "Budget_Academic_Score",
     "GPA_Academic_Match",
 ]
 
+# Revised October 2026 workbooks. In-file Political_Phase is wrong for
+# Stable ("Transitional") and Newly Elected ("Unstable"); the dict key is
+# the period definition used by the project.
 DATA_FILES = {
-    "Stable": "stable.xlsx",
-    "Unstable": "unstable.xlsx",
-    "Transitional phase 1st 5 months": "transitional phase 1.xlsx",
-    "Transitional phase Last 5 months": "transitional phase 2.xlsx",
-    "Newly Elected": "Transitional.xlsx",
+    "Stable": "updated_datasheet/stable_revised.xlsx",
+    "Unstable": "updated_datasheet/unstable_revised.xlsx",
+    "Transitional phase 1st 5 months": "updated_datasheet/transitional_phase_1_revised.xlsx",
+    "Transitional phase Last 5 months": "updated_datasheet/transitional_phase_2 revised.xlsx",
+    "Newly Elected": "updated_datasheet/newly elected_revised_dates_feb15_jul15_2026.xlsx",
+}
+
+# Due diligence is no longer Yes/No. Higher levels continue much more often.
+DUE_DILIGENCE_LEVEL = {
+    "No": 0,
+    "Yes Low": 1,
+    "Yes Medium": 2,
+    "Yes High": 3,
 }
 
 REQUIRED_COLUMNS = [
@@ -114,6 +126,21 @@ def load_6k(base_dir="."):
     return master
 
 
+def parse_intake_dates(series):
+    """Parse text dates and Excel serials from the revised workbooks."""
+    dt = pd.to_datetime(series, errors="coerce", dayfirst=True, format="mixed")
+    missing = dt.isna()
+    if missing.any():
+        serial = pd.to_numeric(series[missing], errors="coerce")
+        dt.loc[missing] = pd.to_datetime(
+            serial, unit="D", origin="1899-12-30", errors="coerce"
+        )
+    if dt.isna().any():
+        bad = series[dt.isna()].head(5).tolist()
+        raise ValueError(f"Some Date Intake values could not be parsed: {bad}")
+    return dt
+
+
 def engineer_features(df):
     """
     Feature engineering based on the supplied Dataset Description Report,
@@ -123,11 +150,8 @@ def engineer_features(df):
     d = df.copy()
 
     # Date features
-    dt = pd.to_datetime(
-        d["Date Intake"], errors="coerce", dayfirst=True, format="mixed"
-    )
-    if dt.isna().any():
-        raise ValueError("Some Date Intake values could not be parsed.")
+    dt = parse_intake_dates(d["Date Intake"])
+    d["Date Intake"] = dt
 
     d["Intake_Month"] = dt.dt.month
     d["Year"] = dt.dt.year
@@ -149,7 +173,13 @@ def engineer_features(df):
     d["Academic_Level_Num"] = d["Academic_Level"].map(
         {"Low": 0, "Medium": 1, "High": 2}
     )
-    d["Researched_Bin"] = d["Researched"].map({"No": 0, "Yes": 1})
+    researched = d["Researched"].astype(str).str.strip()
+    unknown = sorted(set(researched.unique()) - set(DUE_DILIGENCE_LEVEL))
+    if unknown:
+        raise ValueError(f"Unexpected Due_Diligence values: {unknown}")
+    d["Researched"] = researched
+    d["Researched_Level"] = researched.map(DUE_DILIGENCE_LEVEL).astype(int)
+    d["Researched_Bin"] = (d["Researched_Level"] > 0).astype(int)
 
     d["Result_Band"] = pd.cut(
         d["Result"],
@@ -320,14 +350,7 @@ def build_student_features(profile, reference_df=None):
         raise ValueError(f"Student profile is missing fields: {missing}")
 
     intake_date = pd.to_datetime(profile["Date Intake"])
-    reference_dates = pd.to_datetime(
-        reference_df["Date Intake"],
-        errors="coerce",
-        dayfirst=True,
-        format="mixed",
-    )
-    if reference_dates.isna().any():
-        raise ValueError("Reference data contains invalid intake dates.")
+    reference_dates = parse_intake_dates(reference_df["Date Intake"])
     first_intake = reference_dates.min()
 
     result = float(profile["Result"])
@@ -362,7 +385,8 @@ def build_student_features(profile, reference_df=None):
         "Phase_Number": PHASE_MAP[profile["Political_Phase"]],
         "Budget_Level_Num": budget_level_num,
         "Academic_Level_Num": academic_level_num,
-        "Researched_Bin": {"No": 0, "Yes": 1}[profile["Researched"]],
+        "Researched_Bin": int(DUE_DILIGENCE_LEVEL[profile["Researched"]] > 0),
+        "Researched_Level": DUE_DILIGENCE_LEVEL[profile["Researched"]],
         "Result_Band": result_band,
         "Budget_Academic_Score": budget_level_num + academic_level_num,
         "GPA_Academic_Match": int(result_band == profile["Academic_Level"]),

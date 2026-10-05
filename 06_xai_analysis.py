@@ -17,6 +17,17 @@ from common import (
 OUTPUT_DIR = PROJECT_DIR / "results_xai"
 
 
+def prettify_feature_names(names):
+    """Map internal column names to manuscript-friendly labels."""
+    cleaned = []
+    for name in names:
+        label = str(name)
+        label = label.replace("num__", "").replace("cat__", "")
+        label = label.replace("Researched", "Due_Diligence")
+        cleaned.append(label)
+    return cleaned
+
+
 def transform_for_shap(model, features):
     """Apply the fitted pipeline preprocessor and preserve output feature names."""
     if not isinstance(features, pd.DataFrame):
@@ -71,6 +82,7 @@ def explain_student(
     output_dir.mkdir(parents=True, exist_ok=True)
     transformed = transform_for_shap(model, student_features)
     explanation = _select_positive_class(explainer(transformed))
+    explanation.feature_names = prettify_feature_names(explanation.feature_names)
 
     safe_id = re.sub(r"[^A-Za-z0-9_-]+", "_", str(student_id)).strip("_")
     safe_id = safe_id or "student"
@@ -97,11 +109,15 @@ def run_xai_analysis(output_dir=OUTPUT_DIR):
 
     transformed_test = transform_for_shap(model, X_test)
     explanation = _select_positive_class(explainer(transformed_test))
+    display_names = prettify_feature_names(transformed_test.columns)
+    transformed_display = transformed_test.copy()
+    transformed_display.columns = display_names
+    explanation.feature_names = display_names
 
     plt.figure(figsize=(12, 8))
     shap.summary_plot(
         explanation.values,
-        transformed_test,
+        transformed_display,
         max_display=20,
         show=False,
     )
