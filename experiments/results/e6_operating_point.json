@@ -1,0 +1,23 @@
+{
+  "model": "Gradient Boosting",
+  "threshold": 0.54,
+  "f1_optimal_threshold": 0.33,
+  "medium_risk_below": 0.4,
+  "selection": "Low-risk cutoff is the lowest held-out threshold whose calibrated precision is at least 0.90. Medium risk stays 0.40 to that cutoff. Uncalibrated Brier 0.0904; isotonic Brier 0.0901.",
+  "brier_uncalibrated": 0.09038032101317349,
+  "brier_isotonic": 0.09008746783866037,
+  "precision_targets": {
+    "0.9": {
+      "threshold": 0.54,
+      "precision": 0.9010791366906474,
+      "recall": 0.8003194888178914,
+      "predicted_positive_rate": 0.4633333333333333
+    },
+    "0.94": {
+      "threshold": 0.61,
+      "precision": 0.9432773109243697,
+      "recall": 0.7172523961661342,
+      "predicted_positive_rate": 0.39666666666666667
+    }
+  }
+}

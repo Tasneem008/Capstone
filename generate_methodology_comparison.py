@@ -223,12 +223,12 @@ def get_head_to_head_rows(full: pd.DataFrame) -> pd.DataFrame:
       [
           {
               **p1.to_dict(),
-              "ShortLabel": "Paper 1\n(XGBoost @ 0.73)",
+              "ShortLabel": f"Paper 1\n(XGB @ {p1['Threshold']:.2f})",
               "Group": "Paper 1",
           },
           {
               **p2.to_dict(),
-              "ShortLabel": "Paper 2\n(Gradient Boosting)",
+              "ShortLabel": "Paper 2\n(Stack)",
               "Group": "Paper 2",
           },
           {
@@ -290,7 +290,7 @@ def chart_paper_models(paper_df: pd.DataFrame, title: str, filename: str, highli
         method.replace("Logistic Regression", "LR")
         .replace("Random Forest", "RF")
         .replace("LightGBM", "LGBM")
-        .replace("XGBoost (Tuned, optimized threshold)", "XGB@0.73")
+        .replace("XGBoost (Tuned, optimized threshold)", "XGB@F1")
         .replace("XGBoost (Tuned)", "XGB@0.50")
         .replace("Gradient Boosting", "GB")
         .replace("Paper 2 Stacking (RF + XGBoost + GB -> FNN)", "Stacking")
@@ -439,7 +439,7 @@ def chart_precision_recall_tradeoff(full: pd.DataFrame) -> None:
     for _, row in subset.iterrows():
       short = (
           str(row["Method"])
-          .replace("XGBoost (Tuned, optimized threshold)", "XGB@0.73")
+          .replace("XGBoost (Tuned, optimized threshold)", "XGB@F1")
           .replace("Gradient Boosting (Paper 2 pipeline)", "Our GB")
           .replace("Gradient Boosting", "GB")
           .replace("Paper 2 Stacking (RF + XGBoost + GB -> FNN)", "Stack")
@@ -499,6 +499,10 @@ def write_markdown(full: pd.DataFrame, summary: pd.DataFrame) -> None:
   lines = [
       "# Methodology and Model Comparison (6,000-Record Dataset)",
       "",
+      "These rows re-implement the methods from Paper 1 (Carballo-Mendívil et al., 2025) "
+      "and Paper 2 (Niyogisubizo et al., 2022) on this project's 6,000-record dataset. "
+      "They are not a claim that this thesis beats the published papers on their data.",
+      "",
       "All scores below are on the **same held-out test set** "
       "(20% stratified split, `random_state=42`, n=1,200) unless noted.",
       "",
@@ -544,23 +548,26 @@ def write_markdown(full: pd.DataFrame, summary: pd.DataFrame) -> None:
       f"- ROC-AUC: {p2_best['ROC_AUC']:.4f}",
       f"- MCC: {p2_best['MCC']:.4f}",
       "",
-      "Stacking (RF + XGB + GB → FNN) reached F1 0.8065 — slightly below "
-      "standalone Gradient Boosting (F1 0.8122) on this dataset.",
+      "On the revised file the Paper 2 feedforward stack is the highest single-split "
+      "accuracy. A 5-fold check of the same base models with a logistic meta-learner "
+      "does not beat Gradient Boosting (see experiments/results/MODEL_SELECTION.md). "
+      "The project keeps Gradient Boosting.",
       "",
-      "## 2. This project's adopted models (SARP-Net DSS)",
+      "## 2. This project's adopted model (SARP-Net DSS)",
       "",
       "| Component | Model | Threshold | Accuracy | Precision | Recall | F1 | ROC-AUC |",
       "|---|---|---:|---:|---:|---:|---:|---:|",
-      f"| Continuation probability + SHAP | Gradient Boosting | "
-      f"{gb['Threshold']:.2f} | {gb['Accuracy']:.4f} | {gb['Precision']:.4f} | "
+      f"| Continuation probability, SHAP, and risk tiers | Gradient Boosting | "
+      f"0.50 | {gb['Accuracy']:.4f} | {gb['Precision']:.4f} | "
       f"{gb['Recall']:.4f} | {gb['F1']:.4f} | {gb['ROC_AUC']:.4f} |",
-      f"| Risk tiers (Low / Medium / High) | XGBoost (tuned) | "
-      f"{xgb['Threshold']:.2f} | {xgb['Accuracy']:.4f} | {xgb['Precision']:.4f} | "
-      f"{xgb['Recall']:.4f} | {xgb['F1']:.4f} | {xgb['ROC_AUC']:.4f} |",
       "",
-      "**Why hybrid?** Paper 2 GB gives the highest F1 on the test set and powers "
-      "counselor-facing probabilities and SHAP explanations. Paper 1's optimized "
-      "XGBoost threshold (0.73) provides calibrated risk bands for triage.",
+      "Gradient Boosting is the project model. A fresh training-set search "
+      "(logistic, random forest, LightGBM, HistGradientBoosting, several XGBoost "
+      "and Gradient Boosting settings, an undersampled XGBoost, and a stack) "
+      "did not beat it on the locked test. The low-risk cutoff is the calibrated "
+      "0.54 threshold in `results_paper1/operating_point.json`, not an XGBoost cutoff. "
+      f"Tuned XGBoost at {xgb['Threshold']:.2f} remains a Paper 1 comparator "
+      f"(accuracy {xgb['Accuracy']:.4f}, F1 {xgb['F1']:.4f}).",
       "",
       "## 3. Head-to-head (best model per methodology)",
       "",
@@ -589,13 +596,13 @@ def write_markdown(full: pd.DataFrame, summary: pd.DataFrame) -> None:
           f"Gradient Boosting @ 0.50: TN={int(gb['TN'])}, FP={int(gb['FP'])}, "
           f"FN={int(gb['FN'])}, TP={int(gb['TP'])}",
           "",
-          f"XGBoost @ 0.73: TN={int(xgb['TN'])}, FP={int(xgb['FP'])}, "
+          f"XGBoost tuned @ {xgb['Threshold']:.2f}: TN={int(xgb['TN'])}, FP={int(xgb['FP'])}, "
           f"FN={int(xgb['FN'])}, TP={int(xgb['TP'])}",
           "",
-          "## 6. Feature contract (shared across Paper 1 & 2 adaptations)",
+          "## 6. Feature contract (shared across Paper 1 and Paper 2 adaptations)",
           "",
-          "- 21 engineered features from `master_6000_engineered.csv`",
-          "- Target: `Continuation_Bin` (25% positive class)",
+          "- 22 engineered features from `master_6000_engineered.csv`, including the four-level due diligence score",
+          "- Target: `Continuation_Bin` (52.2% positive class on the revised file)",
           "- Preprocessing: StandardScaler + OneHotEncoder in sklearn pipelines",
           "",
       ]

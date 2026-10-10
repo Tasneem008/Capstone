@@ -1,6 +1,7 @@
 {
   "model": "Gradient Boosting",
-  "threshold": 0.32999999999999985,
-  "selection": "max F1 on 5-fold out-of-fold training probabilities",
-  "medium_risk_below": 0.4
+  "threshold": 0.54,
+  "f1_optimal_threshold": 0.33,
+  "medium_risk_below": 0.4,
+  "selection": "Low-risk cutoff is the lowest held-out threshold whose calibrated precision is at least 0.90. Medium risk stays 0.40 to that cutoff. Uncalibrated Brier 0.0904; isotonic Brier 0.0901."
 }

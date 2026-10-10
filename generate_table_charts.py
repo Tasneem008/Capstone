@@ -36,50 +36,61 @@ def save_if_new(fig: plt.Figure, name: str) -> bool:
     return True
 
 
-def chart_legacy_model_comparison_table() -> None:
-    """Datasets/model_comparison_results.csv -> multi-metric bars."""
-    name = "42_legacy_lr_rf_full_metrics_from_table.png"
-    path = ROOT / "Datasets" / "model_comparison_results.csv"
-    if not path.exists() or name in EXISTING:
-        if name in EXISTING:
-            print(f"SKIP (exists): {name}")
-        return
+def force_save(fig: plt.Figure, name: str) -> None:
+    fig.tight_layout()
+    fig.savefig(OUT / name, dpi=200, bbox_inches="tight")
+    plt.close(fig)
+    print(f"WROTE: {name}")
 
-    df = pd.read_csv(path)
-    metric_cols = [
-        c
-        for c in [
-            "Validation Accuracy",
-            "Test Accuracy",
-            "5-Fold CV Accuracy",
-            "Precision",
-            "Recall",
-            "F1 Score",
-            "ROC-AUC",
-        ]
-        if c in df.columns
-    ]
-    fig, ax = plt.subplots(figsize=(10, 4.8))
+
+def chart_legacy_model_comparison_table() -> None:
+    """Current Paper 1 and Paper 2 holdout metrics. Replaces the old LR/RF table chart."""
+    name = "42_legacy_lr_rf_full_metrics_from_table.png"
+    frames = []
+    for path, prefix in (
+        (ROOT / "results_paper1" / "paper1_model_comparison.csv", "P1 "),
+        (ROOT / "results_paper2" / "paper2_model_comparison.csv", "P2 "),
+    ):
+        if not path.exists():
+            continue
+        frame = pd.read_csv(path)
+        frame["Model"] = prefix + frame["Model"].astype(str).str.replace(
+            "Paper 2 Stacking (RF + XGBoost + GB -> FNN)", "Stack", regex=False
+        )
+        frames.append(frame)
+    if not frames:
+        return
+    df = pd.concat(frames, ignore_index=True)
+    df["Model"] = (
+        df["Model"]
+        .str.replace("XGBoost (Tuned, optimized threshold)", "XGB F1-max", regex=False)
+        .str.replace("XGBoost (Tuned)", "XGB", regex=False)
+        .str.replace("Logistic Regression", "LR", regex=False)
+        .str.replace("Random Forest", "RF", regex=False)
+        .str.replace("Gradient Boosting", "GB", regex=False)
+        .str.replace("LightGBM", "LGBM", regex=False)
+    )
+    metric_cols = ["Accuracy", "Precision", "Recall", "F1"]
+    fig, ax = plt.subplots(figsize=(12, 5))
     x = np.arange(len(df))
-    width = 0.11
+    width = 0.18
     for i, metric in enumerate(metric_cols):
         ax.bar(x + (i - (len(metric_cols) - 1) / 2) * width, df[metric], width=width, label=metric)
     ax.set_xticks(x)
     ax.set_xticklabels(df["Model"])
     ax.set_ylim(0.6, 1.0)
-    ax.set_title("Legacy LR vs RF Metrics (6,000-record pipeline table)")
+    ax.set_title("Revised 6,000-record holdout: Paper 1 and Paper 2 models")
     ax.legend(fontsize=7, ncol=2)
     ax.grid(axis="y", alpha=0.3)
-    save_if_new(fig, name)
+    ax.tick_params(axis="x", rotation=25)
+    force_save(fig, name)
 
 
 def chart_ablation_full_metrics() -> None:
     """Ablation CSV Acc/Prec/Rec/F1 (not F1_Drop, which already exists)."""
     name = "43_ablation_accuracy_precision_recall_f1_by_group.png"
     path = ROOT / "results_ablation" / "ablation_results.csv"
-    if not path.exists() or name in EXISTING:
-        if name in EXISTING:
-            print(f"SKIP (exists): {name}")
+    if not path.exists():
         return
 
     ab = pd.read_csv(path).copy()
@@ -104,16 +115,14 @@ def chart_ablation_full_metrics() -> None:
     ax.set_title("Ablation Study: Accuracy / Precision / Recall / F1 by Feature Group")
     ax.legend()
     ax.grid(axis="y", alpha=0.3)
-    save_if_new(fig, name)
+    force_save(fig, name)
 
 
 def chart_ablation_absolute_f1() -> None:
     """Absolute F1 bars (distinct from existing F1_Drop charts)."""
     name = "44_ablation_absolute_f1_scores.png"
     path = ROOT / "results_ablation" / "ablation_results.csv"
-    if not path.exists() or name in EXISTING:
-        if name in EXISTING:
-            print(f"SKIP (exists): {name}")
+    if not path.exists():
         return
 
     ab = pd.read_csv(path).copy()
@@ -143,7 +152,7 @@ def chart_ablation_absolute_f1() -> None:
             fontsize=8,
         )
     ax.grid(axis="y", alpha=0.3)
-    save_if_new(fig, name)
+    force_save(fig, name)
 
 
 def chart_6000_production_model_metrics() -> None:
@@ -152,19 +161,20 @@ def chart_6000_production_model_metrics() -> None:
     Skips pure Acc/AUC-only duplication by including Precision/Recall/F1 too.
     """
     name = "45_6000_gb_xgboost_precision_recall_f1_accuracy.png"
-    if name in EXISTING:
-        print(f"SKIP (exists): {name}")
-        return
 
     df = load_engineered_data()
     _, X_test, _, y_test = split_engineered_data(df)
     gb = load_gradient_boosting_model()
     xgb = joblib.load(PAPER1_XGB_MODEL_PATH)
+    paper1 = pd.read_csv(ROOT / "results_paper1" / "paper1_model_comparison.csv")
+    xgb_f1_threshold = float(
+        paper1.loc[paper1["Model"].str.contains("optimized"), "Threshold"].iloc[0]
+    )
 
     configs = [
-        ("Gradient Boosting\n@0.50", gb.predict_proba(X_test)[:, 1], 0.50),
+        ("Gradient Boosting\n@0.50 (chosen)", gb.predict_proba(X_test)[:, 1], 0.50),
         ("XGBoost\n@0.50", xgb.predict_proba(X_test)[:, 1], 0.50),
-        ("XGBoost\n@0.73", xgb.predict_proba(X_test)[:, 1], 0.73),
+        (f"XGBoost\n@{xgb_f1_threshold:.2f}", xgb.predict_proba(X_test)[:, 1], xgb_f1_threshold),
     ]
 
     rows = []
@@ -192,7 +202,10 @@ def chart_6000_production_model_metrics() -> None:
     ax.set_title("6,000-Record Test Metrics: Gradient Boosting vs XGBoost")
     ax.legend()
     ax.grid(axis="y", alpha=0.3)
-    save_if_new(fig, name)
+    fig.tight_layout()
+    fig.savefig(OUT / name, dpi=200, bbox_inches="tight")
+    plt.close(fig)
+    print(f"WROTE: {name}")
     metrics.to_csv(OUT / "00_6000_gb_xgboost_metrics_table.csv", index=False)
 
 
@@ -203,9 +216,7 @@ def chart_threshold_precision_recall_tradeoff_table() -> None:
     """
     name = "46_xgb_threshold_top10_f1_from_search_table.png"
     path = ROOT / "results_paper1" / "xgb_threshold_search.csv"
-    if not path.exists() or name in EXISTING:
-        if name in EXISTING:
-            print(f"SKIP (exists): {name}")
+    if not path.exists():
         return
 
     t = pd.read_csv(path).sort_values("F1", ascending=False).head(10).sort_values("Threshold")
@@ -236,7 +247,7 @@ def chart_threshold_precision_recall_tradeoff_table() -> None:
     ax.set_ylim(0.5, 1.0)
     ax.legend()
     ax.grid(axis="y", alpha=0.3)
-    save_if_new(fig, name)
+    force_save(fig, name)
 
 
 def refresh_index() -> None:

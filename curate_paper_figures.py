@@ -146,11 +146,12 @@ def fig02_key_drivers(df: pd.DataFrame) -> None:
     save(fig, "fig02_key_predictive_drivers.png")
 
 
-def fig03_model_metrics(y_test, gb_prob, xgb_prob) -> None:
+def fig03_model_metrics(y_test, gb_prob, stack_prob, xgb_prob, xgb_f1_threshold) -> None:
     configs = [
-        ("GB @0.50", gb_prob, 0.50),
+        ("GB @0.50\n(chosen)", gb_prob, 0.50),
+        ("Stack @0.50", stack_prob, 0.50),
         ("XGB @0.50", xgb_prob, 0.50),
-        ("XGB @0.73", xgb_prob, 0.73),
+        (f"XGB @{xgb_f1_threshold:.2f}", xgb_prob, xgb_f1_threshold),
     ]
     rows = []
     for label, prob, thr in configs:
@@ -181,6 +182,7 @@ def fig03_model_metrics(y_test, gb_prob, xgb_prob) -> None:
 
     for prob, label, color in [
         (gb_prob, "Gradient Boosting", "#2e7d32"),
+        (stack_prob, "Stack", "#6a1b9a"),
         (xgb_prob, "XGBoost", "#1565c0"),
     ]:
         fpr, tpr, _ = roc_curve(y_test, prob)
@@ -198,11 +200,11 @@ def fig03_model_metrics(y_test, gb_prob, xgb_prob) -> None:
     metrics.to_csv(OUT / "table_model_metrics.csv", index=False)
 
 
-def fig04_confusion_matrices(y_test, gb_pred, xgb_pred, xgb_threshold) -> None:
+def fig04_confusion_matrices(y_test, gb_pred, stack_pred) -> None:
     fig, axes = plt.subplots(1, 2, figsize=(9, 4))
     for ax, pred, title, cmap in [
-        (axes[0], gb_pred, "(a) Gradient Boosting @ 0.50", "Greens"),
-        (axes[1], xgb_pred, f"(b) XGBoost @ {xgb_threshold:.2f}", "Purples"),
+        (axes[0], gb_pred, "(a) Gradient Boosting @ 0.50 (chosen)", "Greens"),
+        (axes[1], stack_pred, "(b) Stack @ 0.50", "Purples"),
     ]:
         cm = confusion_matrix(y_test, pred)
         ConfusionMatrixDisplay(cm, display_labels=["No", "Yes"]).plot(
@@ -210,7 +212,7 @@ def fig04_confusion_matrices(y_test, gb_pred, xgb_pred, xgb_threshold) -> None:
         )
         ax.set_title(title)
     fig.suptitle("Confusion matrices (held-out test, n=1,200)", y=1.03, fontsize=12)
-    save(fig, "fig04_confusion_matrices_gb_xgboost.png")
+    save(fig, "fig04_confusion_matrices_gb_stack.png")
 
 
 def fig05_ablation() -> None:
@@ -252,7 +254,7 @@ def fig05_ablation() -> None:
 def fig06_shap() -> None:
     """Copy existing SHAP plots into a 2-panel paper figure if available."""
     summary = ROOT / "results_xai" / "shap_summary.png"
-    waterfalls = sorted((ROOT / "results_xai").glob("shap_waterfall_*.png"))
+    waterfalls = sorted((ROOT / "results_xai").glob("shap_waterfall_*.png"), key=lambda path: path.stat().st_mtime)
     if not summary.exists() or not waterfalls:
         print("SKIP fig06: SHAP source plots missing")
         return
@@ -273,25 +275,23 @@ def fig06_shap() -> None:
 
 
 def fig07_threshold_operating_point() -> None:
-    path = ROOT / "results_paper2" / "gb_threshold_search.csv"
-    if not path.exists():
-        path = ROOT / "results_paper1" / "xgb_threshold_search.csv"
+    path = ROOT / "experiments" / "results" / "e6_threshold_scan.csv"
     if not path.exists():
         return
     t = pd.read_csv(path)
-    best = t.loc[t["F1"].idxmax()]
+    cutoff = load_operating_threshold()
 
     fig, ax = plt.subplots(figsize=(7.5, 4.2))
-    ax.plot(t["Threshold"], t["F1"], label="F1", color="#1565c0")
-    ax.plot(t["Threshold"], t["Precision"], label="Precision", color="#2e7d32")
-    ax.plot(t["Threshold"], t["Recall"], label="Recall", color="#ef6c00")
-    ax.axvline(best["Threshold"], color="red", linestyle="--", label=f"Best F1 @ {best['Threshold']:.2f}")
-    ax.set_xlabel("Decision threshold")
+    ax.plot(t["threshold"], t["precision"], label="Precision", color="#2e7d32")
+    ax.plot(t["threshold"], t["recall"], label="Recall", color="#ef6c00")
+    ax.axhline(0.90, color="#90a4ae", linestyle=":", label="Precision 0.90")
+    ax.axvline(cutoff, color="#c62828", linestyle="--", label=f"Low-risk cutoff {cutoff:.2f}")
+    ax.set_xlabel("Calibrated continuation probability")
     ax.set_ylabel("Score")
-    ax.set_title("Gradient Boosting threshold selection (F1-optimal risk cutoff)")
+    ax.set_title("Chosen Gradient Boosting low-risk cutoff")
     ax.legend(fontsize=8)
     ax.grid(alpha=0.3)
-    save(fig, "fig07_xgboost_threshold_selection.png")
+    save(fig, "fig07_operating_threshold.png")
 
 
 def fig08_correlation_compact(df: pd.DataFrame) -> None:
@@ -339,10 +339,10 @@ Recommended manuscript figures:
 1. fig01_dataset_overview.png
 2. fig02_key_predictive_drivers.png
 3. fig03_model_performance_metrics_roc.png
-4. fig04_confusion_matrices_gb_xgboost.png
+4. fig04_confusion_matrices_gb_stack.png
 5. fig05_ablation_study.png
 6. fig06_shap_global_and_local.png
-7. fig07_xgboost_threshold_selection.png
+7. fig07_operating_threshold.png
 8. fig08_feature_correlation.png  (optional / appendix)
 
 Removed from the paper set (duplicates or low value for the narrative):
@@ -368,14 +368,24 @@ def main() -> None:
     xgb = joblib.load(PAPER1_XGB_MODEL_PATH)
     gb_prob = gb.predict_proba(X_test)[:, 1]
     xgb_prob = xgb.predict_proba(X_test)[:, 1]
+    base_names = ["random_forest", "xgboost", "gradient_boosting"]
+    base_probs = [
+        joblib.load(ROOT / "results_paper2" / f"{name}.joblib").predict_proba(X_test)[:, 1]
+        for name in base_names
+    ]
+    meta = joblib.load(ROOT / "results_paper2" / "stacking_fnn_meta_model.joblib")
+    stack_prob = meta.predict_proba(np.column_stack(base_probs))[:, 1]
+    paper1 = pd.read_csv(ROOT / "results_paper1" / "paper1_model_comparison.csv")
+    xgb_f1_threshold = float(
+        paper1.loc[paper1["Model"].str.contains("optimized"), "Threshold"].iloc[0]
+    )
     gb_pred = (gb_prob >= 0.5).astype(int)
-    xgb_threshold = load_operating_threshold()
-    xgb_pred = (xgb_prob >= xgb_threshold).astype(int)
+    stack_pred = (stack_prob >= 0.5).astype(int)
 
     fig01_dataset_overview(df)
     fig02_key_drivers(df)
-    fig03_model_metrics(y_test, gb_prob, xgb_prob)
-    fig04_confusion_matrices(y_test, gb_pred, xgb_pred, xgb_threshold)
+    fig03_model_metrics(y_test, gb_prob, stack_prob, xgb_prob, xgb_f1_threshold)
+    fig04_confusion_matrices(y_test, gb_pred, stack_pred)
     fig05_ablation()
     fig06_shap()
     fig07_threshold_operating_point()

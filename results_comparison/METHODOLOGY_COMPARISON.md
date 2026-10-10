@@ -1,5 +1,7 @@
 # Methodology and Model Comparison (6,000-Record Dataset)
 
+These rows re-implement the methods from Paper 1 (Carballo-Mendívil et al., 2025) and Paper 2 (Niyogisubizo et al., 2022) on this project's 6,000-record dataset. They are not a claim that this thesis beats the published papers on their data.
+
 All scores below are on the **same held-out test set** (20% stratified split, `random_state=42`, n=1,200) unless noted.
 
 ## 1. Source methodologies
@@ -43,16 +45,15 @@ Two-layer stacked ensemble for university dropout prediction.
 - ROC-AUC: 0.9501
 - MCC: 0.7373
 
-Stacking (RF + XGB + GB → FNN) reached F1 0.8065 — slightly below standalone Gradient Boosting (F1 0.8122) on this dataset.
+On the revised file the Paper 2 feedforward stack is the highest single-split accuracy. A 5-fold check of the same base models with a logistic meta-learner does not beat Gradient Boosting (see experiments/results/MODEL_SELECTION.md). The project keeps Gradient Boosting.
 
-## 2. This project's adopted models (SARP-Net DSS)
+## 2. This project's adopted model (SARP-Net DSS)
 
 | Component | Model | Threshold | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Continuation probability + SHAP | Gradient Boosting | 0.50 | 0.8642 | 0.8789 | 0.8578 | 0.8682 | 0.9513 |
-| Risk tiers (Low / Medium / High) | XGBoost (tuned) | 0.29 | 0.8517 | 0.8035 | 0.9473 | 0.8695 | 0.9484 |
+| Continuation probability, SHAP, and risk tiers | Gradient Boosting | 0.50 | 0.8642 | 0.8789 | 0.8578 | 0.8682 | 0.9513 |
 
-**Why hybrid?** Paper 2 GB gives the highest F1 on the test set and powers counselor-facing probabilities and SHAP explanations. Paper 1's optimized XGBoost threshold (0.73) provides calibrated risk bands for triage.
+Gradient Boosting is the project model. A fresh training-set search (logistic, random forest, LightGBM, HistGradientBoosting, several XGBoost and Gradient Boosting settings, an undersampled XGBoost, and a stack) did not beat it on the locked test. The low-risk cutoff is the calibrated 0.54 threshold in `results_paper1/operating_point.json`, not an XGBoost cutoff. Tuned XGBoost at 0.29 remains a Paper 1 comparator (accuracy 0.8517, F1 0.8695).
 
 ## 3. Head-to-head (best model per methodology)
 
@@ -72,10 +73,10 @@ See `final_methodology_comparison.csv` for every model evaluated.
 
 Gradient Boosting @ 0.50: TN=500, FP=74, FN=89, TP=537
 
-XGBoost @ 0.73: TN=429, FP=145, FN=33, TP=593
+XGBoost tuned @ 0.29: TN=429, FP=145, FN=33, TP=593
 
-## 6. Feature contract (shared across Paper 1 & 2 adaptations)
+## 6. Feature contract (shared across Paper 1 and Paper 2 adaptations)
 
-- 21 engineered features from `master_6000_engineered.csv`
-- Target: `Continuation_Bin` (25% positive class)
+- 22 engineered features from `master_6000_engineered.csv`, including the four-level due diligence score
+- Target: `Continuation_Bin` (52.2% positive class on the revised file)
 - Preprocessing: StandardScaler + OneHotEncoder in sklearn pipelines

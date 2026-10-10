@@ -1,0 +1,11 @@
+phase_a,phase_b,shared_fingerprints
+Stable,Unstable,0
+Stable,Transitional phase 1st 5 months,0
+Stable,Transitional phase Last 5 months,0
+Stable,Newly Elected,0
+Unstable,Transitional phase 1st 5 months,0
+Unstable,Transitional phase Last 5 months,0
+Unstable,Newly Elected,502
+Transitional phase 1st 5 months,Transitional phase Last 5 months,0
+Transitional phase 1st 5 months,Newly Elected,0
+Transitional phase Last 5 months,Newly Elected,0

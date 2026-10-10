@@ -23,7 +23,6 @@ from common import (
     load_gradient_boosting_model,
     split_engineered_data,
 )
-from risk_analyzer import load_operating_threshold
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "project_figures"
@@ -122,7 +121,10 @@ def main() -> None:
         color="#1565c0",
     )
 
-    xgb_threshold = load_operating_threshold()
+    paper1 = pd.read_csv(ROOT / "results_paper1" / "paper1_model_comparison.csv")
+    xgb_threshold = float(
+        paper1.loc[paper1["Model"].str.contains("optimized"), "Threshold"].iloc[0]
+    )
     xgb_pred_opt = (xgb_prob >= xgb_threshold).astype(int)
     rows.append(
         save_confusion(
@@ -137,19 +139,31 @@ def main() -> None:
     rows[-1]["Threshold"] = xgb_threshold
     rows[-1]["ROC_AUC"] = rows[-2]["ROC_AUC"]
 
-    # Side-by-side comparison figure for the two production-relevant models
+    stale = OUT / "39_confusion_matrix_xgboost_6000_threshold_0.73.png"
+    if stale.exists():
+        stale.unlink()
+
+    base_probs = []
+    for name in ("random_forest", "xgboost", "gradient_boosting"):
+        model = joblib.load(ROOT / "results_paper2" / f"{name}.joblib")
+        base_probs.append(model.predict_proba(X_test)[:, 1])
+    meta = joblib.load(ROOT / "results_paper2" / "stacking_fnn_meta_model.joblib")
+    stack_prob = meta.predict_proba(np.column_stack(base_probs))[:, 1]
+    stack_pred = (stack_prob >= 0.5).astype(int)
+
+    # Side-by-side comparison of the chosen model and the highest single-split stack
     fig, axes = plt.subplots(1, 2, figsize=(10, 4.5))
     for ax, pred, title, cmap in [
         (
             axes[0],
             gb_pred,
-            "Gradient Boosting @ 0.50",
+            "Gradient Boosting @ 0.50 (chosen)",
             "Greens",
         ),
         (
             axes[1],
-            xgb_pred_opt,
-            f"XGBoost @ {xgb_threshold:.2f}",
+            stack_pred,
+            "Stack @ 0.50",
             "Purples",
         ),
     ]:
@@ -159,7 +173,7 @@ def main() -> None:
         )
         ax.set_title(title)
     fig.suptitle(
-        "6,000-Record Dataset — Held-out Test Confusion Matrices",
+        "6,000-Record Dataset: Held-out Test Confusion Matrices",
         fontsize=12,
         y=1.02,
     )
@@ -175,6 +189,7 @@ def main() -> None:
     fig, ax = plt.subplots(figsize=(6, 5))
     for prob, label, color in [
         (gb_prob, "Gradient Boosting", "#2e7d32"),
+        (stack_prob, "Stack", "#6a1b9a"),
         (xgb_prob, "XGBoost", "#1565c0"),
     ]:
         fpr, tpr, _ = roc_curve(y_test, prob)

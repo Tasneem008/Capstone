@@ -8,6 +8,7 @@ from __future__ import annotations
 from pathlib import Path
 import shutil
 
+import joblib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -62,9 +63,6 @@ def copy_existing() -> list[str]:
     mapping = {
         ROOT / "results_ablation" / "ablation_results.png": "19_ablation_f1_drop.png",
         ROOT / "results_xai" / "shap_summary.png": "20_shap_global_summary.png",
-        ROOT / "Datasets" / "roc_curve_comparison.png": "16_legacy_roc_lr_vs_rf.png",
-        ROOT / "Datasets" / "lr_confusion_matrix.png": "17_legacy_lr_confusion_matrix.png",
-        ROOT / "Datasets" / "rf_confusion_matrix.png": "18_legacy_rf_confusion_matrix.png",
         ROOT
         / "Datasets"
         / "report_figures"
@@ -87,7 +85,10 @@ def copy_existing() -> list[str]:
         if src.exists():
             shutil.copy2(src, OUT / dst_name)
             copied.append(dst_name)
-    waterfalls = sorted((ROOT / "results_xai").glob("shap_waterfall_*.png"))
+    waterfalls = sorted(
+        (ROOT / "results_xai").glob("shap_waterfall_*.png"),
+        key=lambda path: path.stat().st_mtime,
+    )
     if waterfalls:
         shutil.copy2(waterfalls[-1], OUT / "21_shap_local_waterfall_example.png")
         copied.append("21_shap_local_waterfall_example.png")
@@ -460,13 +461,20 @@ def plot_paper1_metrics() -> None:
     width = 0.18
     for i, metric in enumerate(["Accuracy", "Precision", "Recall", "F1"]):
         ax.bar(x + (i - 1.5) * width, subset[metric], width=width, label=metric)
-    labels = [
-        "LR",
-        "RF",
-        "LGBM",
-        "XGB@0.50",
-        "XGB@0.73",
-    ]
+    labels = []
+    for _, row in subset.iterrows():
+        if "optimized" in str(row["Model"]):
+            labels.append(f"XGB@{row['Threshold']:.2f}")
+        elif row["Model"] == "XGBoost (Tuned)":
+            labels.append("XGB@0.50")
+        elif row["Model"] == "Logistic Regression":
+            labels.append("LR")
+        elif row["Model"] == "Random Forest":
+            labels.append("RF")
+        elif row["Model"] == "LightGBM":
+            labels.append("LGBM")
+        else:
+            labels.append(str(row["Model"])[:12])
     ax.set_xticks(x)
     ax.set_xticklabels(labels)
     ax.set_ylim(0.5, 1.0)
@@ -487,12 +495,16 @@ def plot_threshold_search() -> None:
     ax.plot(t["Threshold"], t["Recall"], label="Recall", color="#ef6c00")
     best = t.loc[t["F1"].idxmax()]
     ax.axvline(best["Threshold"], color="red", linestyle="--", label=f"Best={best['Threshold']:.2f}")
-    ax.set_title("Paper 1 XGBoost Threshold Search (OOF Training)")
+    ax.set_title("Paper 1 XGBoost threshold search (training out-of-fold)")
     ax.set_xlabel("Threshold")
     ax.set_ylabel("Score")
     ax.legend()
     ax.grid(alpha=0.3)
     save(fig, "30_paper1_xgb_threshold_search_curves.png")
+    # Replace the stale copy of the old 0.73 chart.
+    src = OUT / "30_paper1_xgb_threshold_search_curves.png"
+    if src.exists():
+        shutil.copy2(src, OUT / "14_paper1_xgb_threshold_effect.png")
 
 
 def plot_ablation_from_csv() -> None:
@@ -514,18 +526,26 @@ def plot_ablation_from_csv() -> None:
 
 
 def plot_feature_importance_legacy() -> None:
-    path = ROOT / "Datasets" / "random_forest_feature_importance.csv"
-    if not path.exists():
+    model_path = ROOT / "results_paper2" / "random_forest.joblib"
+    if not model_path.exists():
         return
-    imp = pd.read_csv(path).sort_values("Importance", ascending=True).tail(15)
-    # support either Importance or importance column names
-    col = "Importance" if "Importance" in imp.columns else imp.columns[-1]
-    feat = "Feature" if "Feature" in imp.columns else imp.columns[0]
-    imp = imp.copy()
-    imp[feat] = imp[feat].astype(str).str.replace("Researched", "Due_Diligence")
+    model = joblib.load(model_path)
+    names = model.named_steps["preprocessor"].get_feature_names_out()
+    values = model.named_steps["model"].feature_importances_
+    imp = (
+        pd.DataFrame({"Feature": names, "Importance": values})
+        .sort_values("Importance", ascending=True)
+        .tail(15)
+    )
+    imp["Feature"] = (
+        imp["Feature"]
+        .astype(str)
+        .str.replace(r"^num__|^cat__", "", regex=True)
+        .str.replace("Researched", "Due_Diligence")
+    )
     fig, ax = plt.subplots(figsize=(8, 5.5))
-    ax.barh(imp[feat], imp[col], color="#37474f")
-    ax.set_title("Legacy Random Forest Feature Importance (Top 15)")
+    ax.barh(imp["Feature"], imp["Importance"], color="#37474f")
+    ax.set_title("Random Forest Feature Importance (Top 15, revised 6,000-record model)")
     ax.set_xlabel("Importance")
     save(fig, "32_legacy_rf_feature_importance.png")
 
@@ -663,26 +683,22 @@ def main() -> None:
     plot_pairwise_key_drivers(df)
     plot_missingness_and_quality(df)
 
-    # Ensure paper comparison copies exist even if report_figures missing
-    if not (OUT / "14_paper1_xgb_threshold_effect.png").exists():
-        plot_threshold_search()
-    if not (OUT / "15_paper2_model_metrics_comparison.png").exists():
-        p2_path = ROOT / "results_paper2" / "paper2_model_comparison.csv"
-        if p2_path.exists():
-            p2 = pd.read_csv(p2_path)
-            fig, ax = plt.subplots(figsize=(9, 4.5))
-            labels = ["RF", "XGBoost", "GB", "Stacking"]
-            x = np.arange(len(p2))
-            w = 0.2
-            for i, metric in enumerate(["Accuracy", "Precision", "Recall", "F1"]):
-                ax.bar(x + (i - 1.5) * w, p2[metric], width=w, label=metric)
-            ax.set_xticks(x)
-            ax.set_xticklabels(labels)
-            ax.set_ylim(0.6, 1.0)
-            ax.set_title("Paper 2 Model Comparison (Test Set)")
-            ax.legend(fontsize=8)
-            ax.grid(axis="y", alpha=0.3)
-            save(fig, "15_paper2_model_metrics_comparison.png")
+    p2_path = ROOT / "results_paper2" / "paper2_model_comparison.csv"
+    if p2_path.exists():
+        p2 = pd.read_csv(p2_path)
+        fig, ax = plt.subplots(figsize=(9, 4.5))
+        labels = ["RF", "XGBoost", "GB", "Stack"][: len(p2)]
+        x = np.arange(len(p2))
+        w = 0.2
+        for i, metric in enumerate(["Accuracy", "Precision", "Recall", "F1"]):
+            ax.bar(x + (i - 1.5) * w, p2[metric], width=w, label=metric)
+        ax.set_xticks(x)
+        ax.set_xticklabels(labels)
+        ax.set_ylim(0.6, 1.0)
+        ax.set_title("Paper 2 model comparison (held-out test)")
+        ax.legend(fontsize=8)
+        ax.grid(axis="y", alpha=0.3)
+        save(fig, "15_paper2_model_metrics_comparison.png")
 
     write_index(copied)
     print(f"Wrote {len(list(OUT.glob('*.png')))} PNG files to {OUT}")

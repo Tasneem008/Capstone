@@ -12,7 +12,7 @@ OPERATING_POINT_PATH = (
 
 
 def load_operating_threshold():
-    """F1-optimal XGBoost threshold from the latest Paper 1 run."""
+    """Calibrated low-risk cutoff written by experiments/e6_calibration.py."""
     if OPERATING_POINT_PATH.exists():
         payload = json.loads(OPERATING_POINT_PATH.read_text(encoding="utf-8"))
         return float(payload["threshold"])

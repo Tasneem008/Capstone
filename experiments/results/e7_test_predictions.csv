@@ -1,0 +1,1201 @@
+Result,Course,Country,Institution,Budget,Researched,Political_Phase,Budget_Level,Academic_Level,Intake_Month,Year,Season,Days_Since_First_Intake,Budget_Midpoint,Phase_Number,Budget_Level_Num,Academic_Level_Num,Researched_Bin,Researched_Level,Result_Band,Budget_Academic_Score,GPA_Academic_Match,y,pred,prob,error_type
+3.32,Business Administration,Malaysia,University of Malaya,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,11,2025,4,759,8000,4,0,1,1,1,Medium,1,1,0,0,0.09448780282049311,OK
+3.31,Psychology,UK,Coventry University,Below 10k,No,Newly Elected,Low,Medium,5,2026,2,912,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+2.86,Business Analytics,Ireland,University College Dublin,16-20K,No,Transitional phase 1st 5 months,High,Medium,3,2025,2,490,18000,3,2,1,0,0,Low,3,0,0,0,0.024500748704703333,OK
+2.75,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,1,2025,1,450,12500,3,1,1,1,1,Low,2,0,0,0,0.04474936881445804,OK
+3.42,Business Analytics,Canada,University of British Columbia,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,11,2024,4,383,18000,3,2,1,1,2,High,3,0,1,1,0.5612644802278488,OK
+3.15,AI,USA,Arizona State University,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,6,2025,3,585,12500,3,1,1,0,0,Medium,2,1,0,0,0.026377049299413934,OK
+3.41,Data Science,Germany,Technical University of Munich,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,10,2025,4,729,8000,4,0,1,1,3,High,1,0,1,1,0.6527244983698647,OK
+3.31,Agriculture,New Zealand,University of Auckland,Below 10k,No,Transitional phase Last 5 months,Low,Medium,12,2025,1,789,8000,4,0,1,0,0,Medium,1,1,0,0,0.007600621979399512,OK
+3.29,Agriculture,New Zealand,University of Auckland,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,929,12500,5,1,1,0,0,Medium,2,1,0,0,0.3023547961706562,OK
+3.31,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Transitional phase Last 5 months,Low,Medium,1,2026,1,821,8000,4,0,1,0,0,Medium,1,1,0,0,0.007600621979399512,OK
+3.11,Computer Science,Ireland,University College Dublin,16-20K,No,Transitional phase Last 5 months,High,Medium,9,2025,4,676,18000,4,2,1,0,0,Medium,3,1,0,0,0.03812353283444793,OK
+3.03,Psychology,UK,University of Manchester,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,350,12500,3,1,1,0,0,Medium,2,1,0,0,0.026322492189125187,OK
+2.63,Automotive Engineering,Germany,Technical University of Munich,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,10,2025,4,702,8000,4,0,1,1,2,Low,1,0,0,0,0.16869636847725608,OK
+3.12,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,10,2025,4,709,8000,4,0,1,1,3,Medium,1,1,1,1,0.6082068753949514,OK
+3.28,Accounting,Malaysia,University of Malaya,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,1,2025,1,456,12500,3,1,1,0,0,Medium,2,1,0,0,0.028354610523563466,OK
+2.99,Marketing,UK,University of Birmingham,16-20K,Yes High,Stable,High,Medium,2,2024,1,119,18000,1,2,1,1,3,Low,3,0,0,1,0.818755696817958,FP
+3.3,Marketing,Malaysia,University of Malaya,16-20K,Yes High,Newly Elected,High,High,3,2026,2,869,18000,5,2,2,1,3,Medium,4,0,1,1,0.9936851268296558,OK
+2.95,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes Medium,Stable,Low,Medium,1,2024,1,91,8000,1,0,1,1,2,Low,1,0,0,1,0.7316555552901698,FP
+3.32,Agriculture,New Zealand,University of Auckland,16-20K,No,Transitional phase Last 5 months,High,Medium,9,2025,4,686,18000,4,2,1,0,0,Medium,3,1,0,0,0.03892273872711682,OK
+3.38,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,9,2024,4,314,8000,3,0,1,1,1,Medium,1,1,0,0,0.021429361485063064,OK
+3.39,Civil Engineering,UK,King's College London,16-20K,No,Unstable,High,Medium,4,2024,2,153,18000,2,2,1,0,0,Medium,3,1,0,0,0.40858235296366685,OK
+3.22,AI,Canada,University of British Columbia,Below 10k,Yes High,Newly Elected,Low,Medium,3,2026,2,880,8000,5,0,1,1,3,Medium,1,1,1,1,0.967562165350674,OK
+2.81,Psychology,UK,University of Birmingham,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,10,2025,4,716,12500,4,1,1,1,2,Low,2,0,1,1,0.6539759213704843,OK
+3.31,Agriculture,New Zealand,University of Auckland,Below 10k,No,Transitional phase Last 5 months,Low,Medium,10,2025,4,725,8000,4,0,1,0,0,Medium,1,1,0,0,0.007600621979399512,OK
+3.21,Law,UK,University of Birmingham,16-20K,Yes Medium,Newly Elected,High,Medium,4,2026,2,885,18000,5,2,1,1,2,Medium,3,1,1,1,0.983799961869962,OK
+3.18,IT,Malaysia,University of Malaya,Below 10k,No,Transitional phase Last 5 months,Low,Medium,12,2025,1,781,8000,4,0,1,0,0,Medium,1,1,0,0,0.007075718602766595,OK
+3.37,Finance,UK,University of Leeds,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,970,8000,5,0,1,0,0,Medium,1,1,0,0,0.07474967572134264,OK
+3.0,Computer Science,USA,Arizona State University,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,6,2025,3,604,18000,3,2,1,1,1,Medium,3,1,0,0,0.11732556362666678,OK
+3.34,Business Analytics,Ireland,University College Dublin,16-20K,No,Unstable,High,Medium,7,2024,3,249,18000,2,2,1,0,0,Medium,3,1,0,0,0.19637594927328395,OK
+3.21,Computer Science,Canada,University of British Columbia,16-20K,Yes High,Newly Elected,High,Medium,5,2026,2,935,18000,5,2,1,1,3,Medium,3,1,1,1,0.9922955370234918,OK
+3.11,Psychology,UK,King's College London,10-15K,No,Unstable,Medium,Medium,5,2024,2,205,12500,2,1,1,0,0,Medium,2,1,0,0,0.4517167104539797,OK
+3.34,Accounting,Malaysia,University of Malaya,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,10,2025,4,704,18000,4,2,1,1,1,Medium,3,1,1,0,0.42201031196675315,FN
+3.26,Business Analytics,Australia,University of Sydney,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,506,12500,3,1,1,1,2,Medium,2,1,0,0,0.13395151245504883,OK
+2.34,Marketing,UK,King's College London,Below 10k,No,Unstable,Low,Low,8,2024,3,277,8000,2,0,0,0,0,Low,0,1,0,0,0.015124204605308847,OK
+3.22,Hospitality Management,Australia,University of Melbourne,Below 10k,Yes Medium,Unstable,Low,Medium,5,2024,2,183,8000,2,0,1,1,2,Medium,1,1,1,1,0.9499297672252329,OK
+2.72,Cyber Security,USA,Arizona State University,10-15K,Yes High,Stable,Medium,Medium,1,2024,1,66,12500,1,1,1,1,3,Low,2,0,1,1,0.839482706970107,OK
+3.24,Business Analytics,Canada,University of British Columbia,10-15K,No,Unstable,Medium,Medium,4,2024,2,165,12500,2,1,1,0,0,Medium,2,1,0,0,0.4228906003501512,OK
+2.68,Data Science,USA,Arizona State University,10-15K,Yes Low,Unstable,Medium,Medium,7,2024,3,246,12500,2,1,1,1,1,Low,2,0,1,1,0.9332798326162209,OK
+2.73,Software Engineering,Australia,RMIT University,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,12,2025,1,774,8000,4,0,1,1,3,Low,1,0,1,1,0.5948841937496044,OK
+2.26,Nursing,Australia,University of Sydney,16-20K,Yes High,Stable,High,Low,3,2024,2,150,18000,1,2,0,1,3,Low,2,1,1,1,0.9181436993894884,OK
+2.64,Marketing,Malaysia,University of Malaya,10-15K,Yes Medium,Unstable,Medium,Medium,7,2024,3,270,12500,2,1,1,1,2,Low,2,0,1,1,0.9664808155399044,OK
+2.86,AI,USA,Arizona State University,10-15K,Yes High,Newly Elected,Medium,Medium,6,2026,3,962,12500,5,1,1,1,3,Low,2,0,1,1,0.9856985628237924,OK
+3.78,Marketing,Malaysia,University of Malaya,16-20K,Yes High,Transitional phase 1st 5 months,High,High,9,2024,4,310,18000,3,2,2,1,3,High,4,1,1,1,0.9193808774727206,OK
+3.29,AI,USA,Arizona State University,16-20K,Yes High,Newly Elected,High,Medium,6,2026,3,960,18000,5,2,1,1,3,Medium,3,1,1,1,0.9918847772743293,OK
+3.37,IT,Malaysia,University of Malaya,10-15K,No,Newly Elected,Medium,Medium,7,2026,3,985,12500,5,1,1,0,0,Medium,2,1,0,0,0.30638831854362747,OK
+3.22,AI,Canada,University of British Columbia,Below 10k,No,Unstable,Low,Medium,6,2024,3,234,8000,2,0,1,0,0,Medium,1,1,0,0,0.10744721787319637,OK
+3.11,Computer Science,Ireland,University College Dublin,16-20K,No,Newly Elected,High,Medium,7,2026,3,976,18000,5,2,1,0,0,Medium,3,1,0,0,0.11891716649838523,OK
+3.91,Data Science,USA,Arizona State University,16-20K,No,Stable,High,High,1,2024,1,66,18000,1,2,2,0,0,High,4,1,1,0,0.4002762877549853,FN
+3.08,Marketing,UK,Coventry University,16-20K,No,Newly Elected,High,Medium,4,2026,2,910,18000,5,2,1,0,0,Medium,3,1,0,0,0.11891716649838523,OK
+3.32,Data Science,Germany,Technical University of Munich,16-20K,No,Transitional phase 1st 5 months,High,Medium,10,2024,4,349,18000,3,2,1,0,0,Medium,3,1,0,0,0.028217215164715377,OK
+3.25,Business Analytics,Ireland,University College Dublin,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,545,12500,3,1,1,1,1,Medium,2,1,0,0,0.04707817047134909,OK
+2.67,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Medium,Stable,High,Medium,2,2024,1,97,18000,1,2,1,1,2,Low,3,0,1,0,0.5126581441249044,FN
+3.03,Software Engineering,Australia,RMIT University,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,12,2025,1,778,8000,4,0,1,1,1,Medium,1,1,0,0,0.07237419668534768,OK
+3.57,Computer Science,USA,Arizona State University,16-20K,Yes Low,Transitional phase 1st 5 months,High,High,9,2024,4,325,18000,3,2,2,1,1,High,4,1,0,0,0.15982877705231832,OK
+3.33,Civil Engineering,UK,University of Manchester,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,11,2025,4,739,18000,4,2,1,1,2,Medium,3,1,1,1,0.8808569750710065,OK
+3.23,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes Medium,Stable,Low,Medium,1,2024,1,70,8000,1,0,1,1,2,Medium,1,1,1,1,0.7274594984882741,OK
+3.15,Data Science,Australia,Deakin University,Below 10k,Yes High,Newly Elected,Low,Medium,3,2026,2,854,8000,5,0,1,1,3,Medium,1,1,1,1,0.9682230579826411,OK
+3.79,IT,Malaysia,University of Malaya,Below 10k,Yes High,Transitional phase 1st 5 months,Low,High,8,2024,3,292,8000,3,0,2,1,3,High,2,1,1,0,0.4964752930009388,FN
+3.27,IT,Malaysia,University of Malaya,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,9,2025,4,677,12500,4,1,1,1,1,Medium,2,1,0,0,0.1949501714837041,OK
+3.36,Agriculture,New Zealand,University of Auckland,16-20K,Yes High,Unstable,High,Medium,4,2024,2,172,18000,2,2,1,1,3,Medium,3,1,1,1,0.991925248980882,OK
+3.27,Agriculture,New Zealand,University of Auckland,10-15K,Yes High,Newly Elected,Medium,Medium,7,2026,3,977,12500,5,1,1,1,3,Medium,2,1,1,1,0.9931231214928147,OK
+3.22,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,9,2025,4,675,12500,4,1,1,1,3,Medium,2,1,1,1,0.9125103413060711,OK
+3.36,Business Analytics,Canada,York University,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,705,18000,4,2,1,1,3,Medium,3,1,1,1,0.9728660215655955,OK
+3.29,Psychology,UK,University of Leeds,10-15K,No,Newly Elected,Medium,Medium,6,2026,3,944,12500,5,1,1,0,0,Medium,2,1,0,0,0.29352085610696693,OK
+3.72,Nursing,Australia,Deakin University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,High,11,2025,4,749,8000,4,0,2,1,2,High,2,1,1,1,0.7422307425333291,OK
+2.52,AI,USA,Arizona State University,Below 10k,Yes High,Unstable,Low,Medium,4,2024,2,162,8000,2,0,1,1,3,Low,1,0,1,1,0.9267443835803982,OK
+3.32,Agriculture,New Zealand,University of Auckland,16-20K,Yes Low,Stable,High,Medium,3,2024,2,126,18000,1,2,1,1,1,Medium,3,1,0,1,0.7534046654336021,FP
+3.38,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,11,2025,4,758,18000,4,2,1,1,2,Medium,3,1,1,1,0.8821129561863518,OK
+2.5,Automotive Engineering,Germany,Technical University of Munich,16-20K,No,Unstable,High,Medium,6,2024,3,234,18000,2,2,1,0,0,Low,3,0,0,0,0.20634076352818598,OK
+3.92,Civil Engineering,Canada,York University,10-15K,No,Unstable,Medium,High,4,2024,2,159,12500,2,1,2,0,0,High,3,1,1,1,0.8406530734075641,OK
+3.21,Business Analytics,Australia,Monash University,Below 10k,Yes High,Newly Elected,Low,Medium,3,2026,2,856,8000,5,0,1,1,3,Medium,1,1,1,1,0.9667261573265369,OK
+3.25,Computer Science,USA,Arizona State University,Below 10k,Yes Medium,Stable,Low,Medium,11,2023,4,17,8000,1,0,1,1,2,Medium,1,1,1,1,0.6920674244251935,OK
+3.3,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,12,2025,1,766,8000,4,0,1,1,2,Medium,1,1,0,0,0.19629961910025517,OK
+3.36,Environmental Science,New Zealand,University of Auckland,Below 10k,No,Transitional phase Last 5 months,Low,Medium,9,2025,4,685,8000,4,0,1,0,0,Medium,1,1,0,0,0.008319860584213886,OK
+3.39,Nursing,Australia,University of Sydney,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,9,2025,4,698,12500,4,1,1,1,3,Medium,2,1,1,1,0.9318143811538622,OK
+3.3,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,3,2025,2,514,8000,3,0,1,0,0,Medium,1,1,0,0,0.00638856839951652,OK
+2.95,Accounting,Malaysia,University of Malaya,Below 10k,No,Stable,Low,Medium,1,2024,1,91,8000,1,0,1,0,0,Low,1,0,0,0,0.4962508796105101,OK
+3.18,Computer Science,Canada,University of British Columbia,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,1,2025,1,427,8000,3,0,1,1,1,Medium,1,1,0,0,0.023059946555898665,OK
+3.49,Mechanical Engineering,Germany,Technical University of Munich,16-20K,No,Transitional phase Last 5 months,High,Medium,1,2026,1,815,18000,4,2,1,0,0,High,3,0,0,0,0.039855251591746986,OK
+3.0,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,12,2025,1,770,18000,4,2,1,1,2,Medium,3,1,1,1,0.864380370614441,OK
+2.31,Software Engineering,Australia,RMIT University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Low,1,2026,1,806,8000,4,0,0,1,2,Low,0,1,0,0,0.04663522385823564,OK
+3.22,Agriculture,New Zealand,University of Auckland,16-20K,Yes High,Newly Elected,High,High,6,2026,3,954,18000,5,2,2,1,3,Medium,4,0,1,1,0.9931093218122566,OK
+2.71,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Medium,Stable,High,Medium,11,2023,4,25,18000,1,2,1,1,2,Low,3,0,1,1,0.5598652822671295,OK
+3.13,Data Science,USA,Arizona State University,Below 10k,Yes Medium,Newly Elected,Low,Medium,6,2026,3,943,8000,5,0,1,1,2,Medium,1,1,1,1,0.9390988794190935,OK
+3.18,Finance,UK,Coventry University,10-15K,No,Unstable,Medium,Medium,5,2024,2,210,12500,2,1,1,0,0,Medium,2,1,1,0,0.421606997428162,FN
+2.96,IT,Malaysia,University of Malaya,10-15K,Yes Low,Newly Elected,Medium,Medium,5,2026,2,937,12500,5,1,1,1,1,Low,2,0,1,1,0.9376898238450718,OK
+3.17,Agriculture,New Zealand,University of Auckland,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,3,2025,2,487,18000,3,2,1,1,2,Medium,3,1,1,0,0.5321982480375949,FN
+3.21,Marketing,UK,University of Birmingham,Below 10k,No,Unstable,Low,Medium,7,2024,3,251,8000,2,0,1,0,0,Medium,1,1,1,0,0.10744721787319637,FN
+2.66,Data Science,USA,Arizona State University,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,11,2025,4,737,18000,4,2,1,1,3,Low,3,0,1,1,0.9408652374802551,OK
+3.34,Accounting,Malaysia,University of Malaya,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,1,2025,1,429,8000,3,0,1,0,0,Medium,1,1,0,0,0.008005885741156453,OK
+3.18,Agriculture,New Zealand,University of Auckland,10-15K,No,Newly Elected,Medium,Medium,3,2026,2,881,12500,5,1,1,0,0,Medium,2,1,1,0,0.305903337272882,FN
+2.19,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Stable,Low,Low,3,2024,2,132,8000,1,0,0,0,0,Low,0,1,0,1,0.5405129811877963,FP
+3.22,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,5,2025,2,551,8000,3,0,1,1,1,Medium,1,1,0,0,0.025859190565357616,OK
+3.16,Finance,UK,King's College London,10-15K,Yes High,Newly Elected,High,High,3,2026,2,869,12500,5,2,2,1,3,Medium,4,0,1,1,0.9924564375477105,OK
+2.65,Finance,UK,University of Birmingham,16-20K,No,Transitional phase 1st 5 months,High,Medium,10,2024,4,338,18000,3,2,1,0,0,Low,3,0,0,0,0.030312167227710348,OK
+2.24,Software Engineering,Australia,Torrens University,Below 10k,Yes Medium,Stable,Low,Low,3,2024,2,126,8000,1,0,0,1,2,Low,0,1,1,1,0.7193355620437932,OK
+3.16,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,794,8000,4,0,1,1,2,Medium,1,1,0,0,0.19210766423575815,OK
+2.75,Data Science,Germany,Technical University of Munich,16-20K,Yes Medium,Stable,High,Medium,11,2023,4,16,18000,1,2,1,1,2,Low,3,0,1,1,0.7537187574453733,OK
+2.9,Computer Science,Canada,University of Toronto,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,2,2025,1,468,18000,3,2,1,1,3,Low,3,0,1,1,0.9214490469586636,OK
+3.61,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes Medium,Unstable,Low,High,6,2024,3,236,8000,2,0,2,1,2,High,2,1,1,1,0.9872949824572541,OK
+3.17,Civil Engineering,Canada,York University,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,1,2025,1,433,12500,3,1,1,0,0,Medium,2,1,0,0,0.02513831473165779,OK
+2.52,Business Analytics,Canada,University of Toronto,16-20K,No,Transitional phase Last 5 months,High,Medium,1,2026,1,793,18000,4,2,1,0,0,Low,3,0,0,0,0.03484895167596098,OK
+3.15,Business Analytics,Ireland,University College Dublin,10-15K,No,Newly Elected,Medium,Medium,7,2026,3,978,12500,5,1,1,0,0,Medium,2,1,1,0,0.3042522916530145,FN
+3.14,Data Science,Australia,Torrens University,16-20K,No,Stable,High,Medium,11,2023,4,15,18000,1,2,1,0,0,Medium,3,1,1,0,0.42844183495947824,FN
+3.2,Computer Science,USA,Arizona State University,16-20K,Yes Medium,Unstable,High,Medium,4,2024,2,179,18000,2,2,1,1,2,Medium,3,1,1,1,0.9709567382390659,OK
+2.73,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,12,2024,1,403,18000,3,2,1,1,2,Low,3,0,1,0,0.48549972995907253,FN
+3.46,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes High,Stable,Medium,Medium,2,2024,1,115,12500,1,1,1,1,3,High,2,0,1,1,0.8573978634827603,OK
+3.38,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,9,2025,4,692,18000,4,2,1,1,1,Medium,3,1,1,0,0.43234479034984946,FN
+3.85,Nursing,Australia,RMIT University,10-15K,Yes High,Transitional phase Last 5 months,Medium,High,11,2025,4,746,12500,4,1,2,1,3,High,3,1,1,1,0.9817986839935589,OK
+2.79,Law,UK,University of Manchester,Below 10k,Yes High,Stable,Low,Medium,2,2024,1,93,8000,1,0,1,1,3,Low,1,0,1,1,0.868134771379844,OK
+3.22,Marketing,Malaysia,University of Malaya,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,934,12500,5,1,1,0,0,Medium,2,1,1,0,0.29352085610696693,FN
+3.22,Finance,Ireland,University College Dublin,Below 10k,No,Newly Elected,Low,Medium,3,2026,2,852,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+3.18,Cyber Security,USA,Arizona State University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,8,2024,3,290,8000,3,0,1,1,2,Medium,1,1,0,0,0.035951862030590795,OK
+3.03,Electrical Engineering,USA,Arizona State University,16-20K,Yes Low,Stable,High,Medium,11,2023,4,10,18000,1,2,1,1,1,Medium,3,1,0,1,0.6733135970728488,FP
+2.99,Finance,UK,Coventry University,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,966,8000,5,0,1,0,0,Low,1,0,0,0,0.07381348364070771,OK
+3.41,Accounting,Malaysia,University of Malaya,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,12,2025,1,786,8000,4,0,1,1,3,High,1,0,1,1,0.606371777747075,OK
+3.21,Business Administration,Malaysia,University of Malaya,Below 10k,Yes Low,Unstable,Low,Medium,6,2024,3,219,8000,2,0,1,1,1,Medium,1,1,1,1,0.9115644416329699,OK
+2.59,Finance,Ireland,University College Dublin,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,1,2026,1,798,8000,4,0,1,1,3,Low,1,0,1,1,0.5959699484762364,OK
+3.32,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,4,2025,2,539,8000,3,0,1,1,2,Medium,1,1,0,0,0.05092092650831279,OK
+3.05,Business Analytics,Ireland,University College Dublin,10-15K,Yes Medium,Stable,Medium,Medium,2,2024,1,101,12500,1,1,1,1,2,Medium,2,1,0,1,0.705814409574368,FP
+3.3,Business Analytics,Australia,RMIT University,10-15K,Yes Medium,Newly Elected,Medium,Medium,2,2026,1,843,12500,5,1,1,1,2,Medium,2,1,1,1,0.9754664751216398,OK
+3.39,Accounting,Malaysia,University of Malaya,Below 10k,Yes Low,Unstable,Low,Medium,6,2024,3,228,8000,2,0,1,1,1,Medium,1,1,1,1,0.9143363786882618,OK
+3.19,Business Analytics,Canada,University of Toronto,Below 10k,Yes Medium,Unstable,Low,Medium,7,2024,3,252,8000,2,0,1,1,2,Medium,1,1,1,1,0.9402820244328893,OK
+3.22,Data Science,USA,Arizona State University,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,9,2025,4,694,18000,4,2,1,1,1,Medium,3,1,0,0,0.40403199672362716,OK
+3.36,AI,Canada,University of Toronto,Below 10k,Yes Medium,Unstable,Low,Medium,5,2024,2,186,8000,2,0,1,1,2,Medium,1,1,1,1,0.942728325456235,OK
+3.28,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase Last 5 months,Low,Medium,1,2026,1,795,8000,4,0,1,0,0,Medium,1,1,0,0,0.007422592605316518,OK
+3.2,Public Health,Canada,University of Toronto,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,1,2026,1,818,12500,4,1,1,1,2,Medium,2,1,0,1,0.6734983240880806,FP
+3.35,Computer Science,USA,Arizona State University,16-20K,Yes High,Unstable,High,Medium,8,2024,3,280,18000,2,2,1,1,3,Medium,3,1,1,1,0.9917919538168083,OK
+2.63,Civil Engineering,Canada,University of British Columbia,10-15K,No,Stable,Medium,Medium,3,2024,2,122,12500,1,1,1,0,0,Low,2,0,0,0,0.5181951171027944,OK
+3.24,Computer Science,USA,Arizona State University,10-15K,Yes Medium,Unstable,Medium,Medium,7,2024,3,252,12500,2,1,1,1,2,Medium,2,1,1,1,0.9685253838384386,OK
+2.67,Mechanical Engineering,Germany,Technical University of Munich,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,10,2025,4,728,8000,4,0,1,1,3,Low,1,0,1,1,0.5414430830454187,OK
+3.15,Computer Science,Ireland,University College Dublin,Below 10k,Yes Low,Newly Elected,Low,Medium,3,2026,2,865,8000,5,0,1,1,1,Medium,1,1,1,1,0.9029273025824577,OK
+3.01,Agriculture,New Zealand,University of Auckland,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,309,12500,3,1,1,1,3,Medium,2,1,1,0,0.43984848146397726,FN
+2.59,Hospitality Management,Australia,Monash University,16-20K,Yes Medium,Stable,High,Medium,12,2023,1,57,18000,1,2,1,1,2,Low,3,0,0,1,0.6832840128454377,FP
+3.27,Software Engineering,Australia,RMIT University,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,12,2025,1,766,18000,4,2,1,1,1,Medium,3,1,0,0,0.3533020296711352,OK
+2.23,Law,UK,University of Manchester,Below 10k,No,Transitional phase Last 5 months,Low,Low,1,2026,1,792,8000,4,0,0,0,0,Low,0,1,0,0,0.0023006928420361496,OK
+2.52,Electrical Engineering,USA,Arizona State University,10-15K,Yes High,Unstable,Medium,Medium,4,2024,2,155,12500,2,1,1,1,3,Low,2,0,1,1,0.9565918466543002,OK
+3.29,Mechanical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,10,2025,4,713,8000,4,0,1,1,1,Medium,1,1,0,0,0.09606993468626546,OK
+3.69,Computer Science,USA,Arizona State University,10-15K,No,Transitional phase Last 5 months,Medium,High,10,2025,4,700,12500,4,1,2,0,0,High,3,1,1,0,0.50194941473236,FN
+3.43,Public Health,Canada,University of British Columbia,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,6,2025,3,607,12500,3,1,1,0,0,High,2,0,0,0,0.029883611416419743,OK
+2.92,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,12,2025,1,776,18000,4,2,1,1,1,Low,3,0,1,0,0.3392882739205178,FN
+2.77,Marketing,Malaysia,University of Malaya,10-15K,Yes High,Stable,Medium,Medium,3,2024,2,134,12500,1,1,1,1,3,Low,2,0,1,1,0.907403793369602,OK
+3.73,Hospitality Management,UK,King's College London,Below 10k,Yes Low,Stable,Low,High,1,2024,1,72,8000,1,0,2,1,1,High,2,1,0,1,0.6183838364399632,FP
+2.54,AI,Canada,York University,16-20K,No,Stable,High,Medium,2,2024,1,105,18000,1,2,1,0,0,Low,3,0,0,1,0.5617807708239574,FP
+3.4,Psychology,UK,King's College London,10-15K,No,Newly Elected,Medium,Medium,7,2026,3,984,12500,5,1,1,0,0,High,2,0,1,0,0.3036836346346474,FN
+3.67,AI,USA,Arizona State University,10-15K,Yes Medium,Unstable,Medium,High,6,2024,3,214,12500,2,1,2,1,2,High,3,1,1,1,0.9895915700625789,OK
+3.44,Business Analytics,Canada,University of Toronto,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,12,2024,1,398,8000,3,0,1,1,1,High,1,0,0,0,0.018821147174843893,OK
+3.13,Agriculture,New Zealand,University of Auckland,16-20K,Yes Low,Newly Elected,High,Medium,3,2026,2,880,18000,5,2,1,1,1,Medium,3,1,1,1,0.94922511833547,OK
+3.3,AI,Canada,University of British Columbia,16-20K,No,Newly Elected,High,Medium,6,2026,3,958,18000,5,2,1,0,0,Medium,3,1,0,0,0.1110312757320522,OK
+2.97,Computer Science,Canada,York University,16-20K,Yes Low,Stable,High,Medium,11,2023,4,18,18000,1,2,1,1,1,Low,3,0,1,1,0.6733135970728488,OK
+3.11,Finance,Ireland,University College Dublin,16-20K,Yes Medium,Newly Elected,High,Medium,5,2026,2,927,18000,5,2,1,1,2,Medium,3,1,1,1,0.9841354479809791,OK
+3.11,Business Analytics,Australia,Monash University,16-20K,No,Unstable,High,Medium,7,2024,3,264,18000,2,2,1,0,0,Medium,3,1,0,0,0.19156297288791171,OK
+3.32,Computer Science,Canada,University of Toronto,16-20K,Yes High,Unstable,High,Medium,7,2024,3,263,18000,2,2,1,1,3,Medium,3,1,1,1,0.9906554504903166,OK
+3.96,Automotive Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Stable,Low,High,1,2024,1,61,8000,1,0,2,1,1,High,2,1,1,1,0.6449640817658887,OK
+3.27,AI,Canada,University of British Columbia,10-15K,Yes Low,Newly Elected,Medium,Medium,7,2026,3,973,12500,5,1,1,1,1,Medium,2,1,1,1,0.9381896620957795,OK
+2.55,Computer Science,Ireland,University College Dublin,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,8,2024,3,301,12500,3,1,1,1,2,Low,2,0,0,0,0.06666119578123761,OK
+3.17,Marketing,Malaysia,University of Malaya,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,6,2025,3,589,12500,3,1,1,1,1,Medium,2,1,0,0,0.04707817047134909,OK
+3.1,Environmental Science,New Zealand,University of Auckland,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,10,2025,4,728,12500,4,1,1,1,3,Medium,2,1,1,1,0.9065341319500034,OK
+2.59,Agriculture,New Zealand,University of Auckland,10-15K,No,Stable,Medium,Medium,1,2024,1,85,12500,1,1,1,0,0,Low,2,0,1,1,0.5701204312090323,OK
+3.27,Computer Science,Canada,York University,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,9,2025,4,695,18000,4,2,1,1,3,Medium,3,1,1,1,0.9726388309725194,OK
+2.92,Business Analytics,Ireland,University College Dublin,16-20K,No,Unstable,High,Medium,7,2024,3,243,18000,2,2,1,0,0,Low,3,0,0,0,0.20407287027478857,OK
+2.79,AI,USA,Arizona State University,16-20K,Yes Low,Stable,High,Medium,11,2023,4,6,18000,1,2,1,1,1,Low,3,0,1,1,0.697732772898568,OK
+3.3,Cyber Security,USA,Arizona State University,16-20K,Yes High,Newly Elected,High,High,3,2026,2,878,18000,5,2,2,1,3,Medium,4,0,1,1,0.9927886067146003,OK
+3.24,Hospitality Management,Australia,Deakin University,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,6,2025,3,598,18000,3,2,1,1,3,Medium,3,1,1,1,0.9380895892836617,OK
+3.1,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Newly Elected,Low,Medium,4,2026,2,887,8000,5,0,1,0,0,Medium,1,1,0,0,0.0767533953742483,OK
+2.05,Business Analytics,Ireland,University College Dublin,Below 10k,Yes Medium,Newly Elected,Low,Low,5,2026,2,924,8000,5,0,0,1,2,Low,0,1,0,0,0.21647392762422585,OK
+3.3,Law,UK,King's College London,10-15K,Yes High,Unstable,Medium,Medium,5,2024,2,194,12500,2,1,1,1,3,Medium,2,1,1,1,0.9898559435551936,OK
+3.35,Data Science,Germany,Technical University of Munich,16-20K,Yes High,Newly Elected,High,Medium,4,2026,2,906,18000,5,2,1,1,3,Medium,3,1,1,1,0.9939002850236344,OK
+3.64,Marketing,UK,University of Leeds,16-20K,No,Unstable,High,High,7,2024,3,244,18000,2,2,2,0,0,High,4,1,1,1,0.7289147728800236,OK
+3.23,Computer Science,Ireland,University College Dublin,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,805,8000,4,0,1,1,2,Medium,1,1,1,0,0.23876487213394487,FN
+3.28,Computer Science,Ireland,University College Dublin,16-20K,Yes High,Unstable,High,Medium,6,2024,3,227,18000,2,2,1,1,3,Medium,3,1,1,1,0.9906554504903166,OK
+3.11,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Medium,Unstable,Low,Medium,7,2024,3,273,8000,2,0,1,1,2,Medium,1,1,1,1,0.9429836900279327,OK
+3.17,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Unstable,Low,Medium,7,2024,3,273,8000,2,0,1,0,0,Medium,1,1,0,0,0.08469273229228334,OK
+3.78,Computer Science,USA,Arizona State University,10-15K,No,Newly Elected,Medium,High,3,2026,2,871,12500,5,1,2,0,0,High,3,1,1,1,0.7562571463282708,OK
+3.34,Nursing,Australia,University of Sydney,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,9,2025,4,676,18000,4,2,1,1,2,Medium,3,1,1,1,0.8844694254433727,OK
+3.42,Psychology,UK,Coventry University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,11,2025,4,740,8000,4,0,1,1,2,High,1,0,0,0,0.2208705400885891,OK
+3.2,Nursing,Australia,RMIT University,10-15K,Yes Medium,Newly Elected,Medium,Medium,5,2026,2,942,12500,5,1,1,1,2,Medium,2,1,1,1,0.9803172968917876,OK
+3.18,AI,USA,Arizona State University,10-15K,No,Newly Elected,Medium,Medium,4,2026,2,883,12500,5,1,1,0,0,Medium,2,1,0,0,0.28887338085535036,OK
+3.51,Cyber Security,USA,Arizona State University,16-20K,No,Transitional phase 1st 5 months,High,High,3,2025,2,490,18000,3,2,2,0,0,High,4,1,0,0,0.07033148957288528,OK
+3.32,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,11,2025,4,738,8000,4,0,1,1,3,Medium,1,1,1,1,0.6326564782880993,OK
+3.27,Business Analytics,Canada,York University,16-20K,No,Unstable,High,Medium,7,2024,3,261,18000,2,2,1,0,0,Medium,3,1,0,0,0.1823895740285341,OK
+3.15,Hospitality Management,New Zealand,University of Auckland,16-20K,No,Unstable,High,Medium,6,2024,3,231,18000,2,2,1,0,0,Medium,3,1,0,0,0.21543257695896123,OK
+2.8,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,10,2024,4,357,18000,3,2,1,1,1,Low,3,0,0,0,0.15637600507607283,OK
+3.23,Marketing,UK,University of Manchester,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,967,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+3.63,Software Engineering,Australia,University of Melbourne,Below 10k,No,Transitional phase Last 5 months,Low,High,9,2025,4,675,8000,4,0,2,0,0,High,2,1,1,0,0.13573126235332061,FN
+2.01,Nursing,Australia,Torrens University,10-15K,No,Stable,Medium,Low,1,2024,1,82,12500,1,1,0,0,0,Low,1,1,0,0,0.4324150435802742,OK
+3.23,Accounting,Malaysia,University of Malaya,Below 10k,No,Newly Elected,Low,Medium,5,2026,2,936,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+3.39,Marketing,Malaysia,University of Malaya,Below 10k,Yes Medium,Unstable,Low,Medium,5,2024,2,197,8000,2,0,1,1,2,Medium,1,1,1,1,0.942728325456235,OK
+3.51,Law,UK,University of Leeds,10-15K,Yes Low,Transitional phase Last 5 months,Medium,High,11,2025,4,759,12500,4,1,2,1,1,High,3,1,1,0,0.42201031196675315,FN
+3.13,Marketing,Malaysia,University of Malaya,16-20K,Yes High,Unstable,High,Medium,7,2024,3,254,18000,2,2,1,1,3,Medium,3,1,1,1,0.9888438931320028,OK
+2.88,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Stable,Low,Medium,3,2024,2,147,8000,1,0,1,0,0,Low,1,0,1,0,0.40352728984995256,FN
+3.38,Hospitality Management,New Zealand,University of Auckland,16-20K,No,Unstable,High,Medium,4,2024,2,169,18000,2,2,1,0,0,Medium,3,1,0,0,0.20741886109132182,OK
+2.57,IT,Malaysia,University of Malaya,Below 10k,Yes High,Newly Elected,Low,Medium,6,2026,3,958,8000,5,0,1,1,3,Low,1,0,1,1,0.9608109004375472,OK
+3.22,Hospitality Management,New Zealand,University of Auckland,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,320,12500,3,1,1,1,1,Medium,2,1,0,0,0.0292370116094505,OK
+3.59,Marketing,Malaysia,University of Malaya,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,High,11,2024,4,375,12500,3,1,2,1,1,High,3,1,0,0,0.06667165929979196,OK
+3.34,Hospitality Management,Australia,RMIT University,16-20K,No,Newly Elected,High,Medium,6,2026,3,971,18000,5,2,1,0,0,Medium,3,1,0,0,0.12035108325324892,OK
+2.92,Public Health,Canada,York University,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,1,2025,1,447,8000,3,0,1,1,1,Low,1,0,0,0,0.024117201566786792,OK
+3.16,Computer Science,USA,Arizona State University,16-20K,Yes Medium,Stable,High,Medium,11,2023,4,23,18000,1,2,1,1,2,Medium,3,1,1,1,0.7074873732646508,OK
+3.23,Civil Engineering,Canada,University of British Columbia,10-15K,No,Newly Elected,Medium,Medium,7,2026,3,984,12500,5,1,1,0,0,Medium,2,1,0,0,0.43200924046402167,OK
+3.73,Hospitality Management,New Zealand,University of Auckland,10-15K,Yes Medium,Stable,Medium,High,12,2023,1,55,12500,1,1,2,1,2,High,3,1,1,1,0.7174145423619579,OK
+2.97,Business Administration,Malaysia,University of Malaya,16-20K,No,Transitional phase Last 5 months,High,Medium,12,2025,1,783,18000,4,2,1,0,0,Low,3,0,0,0,0.03812353283444793,OK
+3.29,Law,UK,University of Birmingham,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,4,2025,2,545,8000,3,0,1,1,2,Medium,1,1,0,0,0.0462942812084963,OK
+3.15,Nursing,Australia,Monash University,10-15K,No,Newly Elected,Medium,Medium,4,2026,2,883,12500,5,1,1,0,0,Medium,2,1,1,0,0.323500649495529,FN
+3.91,Electrical Engineering,Germany,Technical University of Munich,Below 10k,No,Newly Elected,Low,High,4,2026,2,901,8000,5,0,2,0,0,High,2,1,1,1,0.5929189640365387,OK
+3.3,Data Science,Germany,Technical University of Munich,16-20K,Yes High,Unstable,High,Medium,6,2024,3,241,18000,2,2,1,1,3,Medium,3,1,1,1,0.9906554504903166,OK
+3.27,Software Engineering,Australia,Deakin University,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,11,2025,4,760,8000,4,0,1,1,3,Medium,1,1,0,1,0.654474833798235,FP
+3.33,Psychology,UK,University of Birmingham,10-15K,Yes High,Newly Elected,High,High,7,2026,3,980,12500,5,2,2,1,3,Medium,4,0,1,1,0.9936851268296558,OK
+3.42,Law,UK,University of Manchester,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,375,12500,3,1,1,1,1,High,2,0,0,0,0.04856347558838531,OK
+3.31,AI,Canada,University of Toronto,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,6,2025,3,587,12500,3,1,1,0,0,Medium,2,1,0,0,0.02493721300425247,OK
+2.79,Civil Engineering,UK,University of Manchester,16-20K,No,Transitional phase Last 5 months,High,Medium,11,2025,4,750,18000,4,2,1,0,0,Low,3,0,0,0,0.033940042168250396,OK
+3.18,Data Science,Germany,Technical University of Munich,Below 10k,Yes Low,Unstable,Low,Medium,4,2024,2,164,8000,2,0,1,1,1,Medium,1,1,1,1,0.9143551534484626,OK
+3.58,Psychology,UK,University of Birmingham,10-15K,Yes Low,Unstable,Medium,High,6,2024,3,214,12500,2,1,2,1,1,High,3,1,1,1,0.9776005732609657,OK
+3.25,Electrical Engineering,USA,Arizona State University,10-15K,No,Transitional phase Last 5 months,Medium,Medium,10,2025,4,717,12500,4,1,1,0,0,Medium,2,1,0,0,0.036669553495058224,OK
+3.23,Hospitality Management,Australia,RMIT University,Below 10k,No,Stable,Low,Medium,2,2024,1,92,8000,1,0,1,0,0,Medium,1,1,0,0,0.4140545214866648,OK
+3.15,Data Science,USA,Arizona State University,16-20K,No,Transitional phase 1st 5 months,High,Medium,1,2025,1,457,18000,3,2,1,0,0,Medium,3,1,0,0,0.01689046840643369,OK
+3.74,Automotive Engineering,Germany,Technical University of Munich,10-15K,No,Stable,Medium,High,2,2024,1,101,12500,1,1,2,0,0,High,3,1,0,0,0.5094426395371545,OK
+2.83,Electrical Engineering,USA,Arizona State University,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,5,2025,2,553,18000,3,2,1,1,2,Low,3,0,1,0,0.3786299685540292,FN
+3.31,Agriculture,New Zealand,University of Auckland,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,235,12500,2,1,1,1,2,Medium,2,1,1,1,0.9763734987690189,OK
+3.38,IT,Malaysia,University of Malaya,10-15K,No,Transitional phase Last 5 months,Medium,Medium,12,2025,1,791,12500,4,1,1,0,0,Medium,2,1,0,0,0.040392541108114896,OK
+2.03,Cyber Security,USA,Arizona State University,Below 10k,No,Transitional phase 1st 5 months,Low,Low,12,2024,1,403,8000,3,0,0,0,0,Low,0,1,0,0,0.0018255417083828847,OK
+3.2,Business Analytics,Canada,University of Toronto,16-20K,No,Newly Elected,High,Medium,4,2026,2,892,18000,5,2,1,0,0,Medium,3,1,0,0,0.10501556172657496,OK
+3.28,Business Analytics,Canada,University of British Columbia,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,2,2025,1,484,12500,3,1,1,1,2,Medium,2,1,0,0,0.13166772675633354,OK
+3.16,Business Analytics,Australia,Deakin University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,10,2025,4,714,8000,4,0,1,1,2,Medium,1,1,0,0,0.21168791064117368,OK
+3.0,Data Science,Germany,Technical University of Munich,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,354,12500,3,1,1,0,0,Medium,2,1,0,0,0.028884496014588524,OK
+3.15,Nursing,Australia,Monash University,10-15K,Yes High,Unstable,Medium,Medium,7,2024,3,265,12500,2,1,1,1,3,Medium,2,1,1,1,0.9878912863011182,OK
+3.13,Automotive Engineering,Germany,Technical University of Munich,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,1,2026,1,806,18000,4,2,1,1,3,Medium,3,1,1,1,0.9695318978000116,OK
+2.83,Psychology,UK,Coventry University,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,1,2026,1,806,18000,4,2,1,1,3,Low,3,0,1,1,0.9698760093423822,OK
+3.15,Computer Science,Ireland,University College Dublin,Below 10k,Yes Medium,Newly Elected,Low,Medium,4,2026,2,899,8000,5,0,1,1,2,Medium,1,1,1,1,0.948650087173792,OK
+3.32,Environmental Science,New Zealand,University of Auckland,Below 10k,No,Newly Elected,Low,Medium,3,2026,2,870,8000,5,0,1,0,0,Medium,1,1,0,0,0.07143685936609429,OK
+3.14,Business Analytics,Australia,University of Sydney,Below 10k,Yes Low,Unstable,Low,Medium,8,2024,3,278,8000,2,0,1,1,1,Medium,1,1,1,1,0.9111570445410349,OK
+3.37,Public Health,Canada,York University,10-15K,Yes High,Newly Elected,High,High,2,2026,1,847,12500,5,2,2,1,3,Medium,4,0,1,1,0.9922465328888669,OK
+3.18,Business Analytics,Ireland,University College Dublin,10-15K,No,Transitional phase Last 5 months,Medium,Medium,1,2026,1,797,12500,4,1,1,0,0,Medium,2,1,0,0,0.03713062327816424,OK
+2.51,Automotive Engineering,Germany,Technical University of Munich,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,5,2025,2,553,12500,3,1,1,0,0,Low,2,0,0,0,0.027898401783779964,OK
+3.34,Agriculture,New Zealand,University of Auckland,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,2,2025,1,464,8000,3,0,1,1,3,Medium,1,1,0,0,0.1212265110772502,OK
+3.35,Data Science,Australia,University of Sydney,16-20K,Yes Medium,Unstable,High,Medium,5,2024,2,204,18000,2,2,1,1,2,Medium,3,1,1,1,0.9780549649225675,OK
+3.08,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes High,Unstable,Medium,Medium,7,2024,3,245,12500,2,1,1,1,3,Medium,2,1,1,1,0.9761537795128014,OK
+3.27,Hospitality Management,Australia,RMIT University,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,3,2025,2,512,18000,3,2,1,1,1,Medium,3,1,0,0,0.15883969219773117,OK
+3.21,Public Health,Canada,University of British Columbia,10-15K,No,Newly Elected,Medium,Medium,2,2026,1,849,12500,5,1,1,0,0,Medium,2,1,0,0,0.2763732912035494,OK
+3.32,Environmental Science,New Zealand,University of Auckland,16-20K,No,Newly Elected,High,Medium,6,2026,3,948,18000,5,2,1,0,0,Medium,3,1,0,0,0.1152690461197391,OK
+3.07,Business Administration,Malaysia,University of Malaya,Below 10k,No,Stable,Low,Medium,2,2024,1,110,8000,1,0,1,0,0,Medium,1,1,1,0,0.4962508796105101,FN
+2.27,IT,Malaysia,University of Malaya,10-15K,Yes Medium,Stable,Medium,Low,11,2023,4,12,12500,1,1,0,1,2,Low,1,1,1,1,0.728496476571018,OK
+3.21,IT,Malaysia,University of Malaya,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,705,18000,4,2,1,1,3,Medium,3,1,1,1,0.964136354175711,OK
+3.19,Civil Engineering,UK,Coventry University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,401,12500,3,1,1,1,3,Medium,2,1,0,0,0.4305799307996879,OK
+3.24,Electrical Engineering,USA,Arizona State University,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,10,2025,4,702,12500,4,1,1,1,2,Medium,2,1,1,1,0.593389787791327,OK
+2.72,Agriculture,New Zealand,University of Auckland,Below 10k,No,Stable,Low,Medium,2,2024,1,118,8000,1,0,1,0,0,Low,1,0,1,0,0.5161909152571578,FN
+3.23,AI,USA,Arizona State University,Below 10k,Yes High,Unstable,Low,Medium,7,2024,3,259,8000,2,0,1,1,3,Medium,1,1,1,1,0.9557259349653889,OK
+3.27,Cyber Security,USA,Arizona State University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,5,2025,2,568,12500,3,1,1,1,3,Medium,2,1,1,0,0.4945801190706926,FN
+3.47,Civil Engineering,Canada,University of British Columbia,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,12,2024,1,409,8000,3,0,1,1,2,High,1,0,0,0,0.03245481176982637,OK
+3.28,AI,USA,Arizona State University,16-20K,Yes High,Newly Elected,High,Medium,3,2026,2,855,18000,5,2,1,1,3,Medium,3,1,1,1,0.9918847772743293,OK
+3.19,Data Science,USA,Arizona State University,Below 10k,No,Stable,Low,Medium,1,2024,1,61,8000,1,0,1,0,0,Medium,1,1,0,0,0.46569401740039146,OK
+2.71,Nursing,Australia,University of Melbourne,10-15K,Yes High,Stable,Medium,Medium,1,2024,1,78,12500,1,1,1,1,3,Low,2,0,0,1,0.8733181061570305,FP
+2.77,Data Science,Germany,Technical University of Munich,Below 10k,No,Stable,Low,Medium,3,2024,2,140,8000,1,0,1,0,0,Low,1,0,1,0,0.48579096821593315,FN
+3.38,Mechanical Engineering,Germany,Technical University of Munich,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,10,2025,4,703,12500,4,1,1,1,3,Medium,2,1,1,1,0.9318143811538622,OK
+2.63,Business Analytics,Canada,York University,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,3,2025,2,504,18000,3,2,1,1,2,Low,3,0,0,0,0.501082614170306,OK
+3.4,Business Administration,Malaysia,University of Malaya,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,332,12500,3,1,1,1,1,High,2,0,0,0,0.031413085000610345,OK
+3.35,Public Health,Canada,University of British Columbia,Below 10k,No,Newly Elected,Low,Medium,3,2026,2,862,8000,5,0,1,0,0,Medium,1,1,0,0,0.07474967572134264,OK
+2.3,Computer Science,Ireland,University College Dublin,16-20K,No,Stable,High,Low,12,2023,1,51,18000,1,2,0,0,0,Low,2,1,1,0,0.5394680025360867,FN
+3.23,Law,UK,University of Manchester,10-15K,Yes Low,Newly Elected,Medium,Medium,4,2026,2,894,12500,5,1,1,1,1,Medium,2,1,1,1,0.9381896620957795,OK
+3.38,Marketing,Malaysia,University of Malaya,10-15K,No,Unstable,Medium,Medium,4,2024,2,164,12500,2,1,1,0,0,Medium,2,1,0,0,0.45178345202523035,OK
+3.11,Hospitality Management,New Zealand,University of Auckland,16-20K,No,Transitional phase 1st 5 months,High,Medium,3,2025,2,506,18000,3,2,1,0,0,Medium,3,1,0,0,0.024500748704703333,OK
+3.85,Business Administration,Malaysia,University of Malaya,Below 10k,No,Transitional phase 1st 5 months,Low,High,2,2025,1,484,8000,3,0,2,0,0,High,2,1,0,0,0.07432867465724279,OK
+3.12,Law,UK,University of Leeds,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,707,18000,4,2,1,1,3,Medium,3,1,1,1,0.9639371228255932,OK
+2.95,Law,UK,Coventry University,Below 10k,Yes Medium,Stable,Low,Medium,2,2024,1,102,8000,1,0,1,1,2,Low,1,0,1,1,0.7419581767147658,OK
+2.84,Computer Science,Canada,University of British Columbia,10-15K,Yes Medium,Stable,Medium,Medium,2,2024,1,101,12500,1,1,1,1,2,Low,2,0,0,1,0.719699439621536,FP
+3.12,Agriculture,New Zealand,University of Auckland,16-20K,Yes Medium,Newly Elected,High,Medium,4,2026,2,908,18000,5,2,1,1,2,Medium,3,1,1,1,0.9847815572336811,OK
+2.83,Finance,Ireland,University College Dublin,10-15K,No,Newly Elected,Medium,Medium,3,2026,2,860,12500,5,1,1,0,0,Low,2,0,0,0,0.3410882004509275,OK
+3.18,Computer Science,Canada,University of Toronto,Below 10k,No,Stable,Low,Medium,3,2024,2,122,8000,1,0,1,0,0,Medium,1,1,0,0,0.4314328419651812,OK
+3.38,Computer Science,Ireland,University College Dublin,Below 10k,Yes Low,Newly Elected,Low,Medium,4,2026,2,884,8000,5,0,1,1,1,Medium,1,1,1,1,0.9041141025814695,OK
+3.34,Computer Science,Ireland,University College Dublin,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,10,2025,4,704,12500,4,1,1,1,3,Medium,2,1,1,1,0.9318143811538622,OK
+3.27,Nursing,Australia,University of Sydney,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,9,2024,4,305,18000,3,2,1,1,1,Medium,3,1,0,0,0.09656850366425987,OK
+3.39,Accounting,Malaysia,University of Malaya,Below 10k,Yes Low,Newly Elected,Low,Medium,5,2026,2,926,8000,5,0,1,1,1,Medium,1,1,1,1,0.9041141025814695,OK
+3.25,Business Analytics,Australia,RMIT University,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,232,12500,2,1,1,1,2,Medium,2,1,1,1,0.97473954572137,OK
+3.4,Automotive Engineering,Germany,Technical University of Munich,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,4,2025,2,543,8000,3,0,1,1,2,High,1,0,0,0,0.051233792698152085,OK
+3.51,Data Science,Germany,Technical University of Munich,Below 10k,No,Newly Elected,Low,High,5,2026,2,915,8000,5,0,2,0,0,High,2,1,0,0,0.27144169437454224,OK
+3.38,IT,Malaysia,University of Malaya,10-15K,Yes High,Newly Elected,Medium,Medium,3,2026,2,858,12500,5,1,1,1,3,Medium,2,1,1,1,0.9923492202551614,OK
+2.61,Accounting,Malaysia,University of Malaya,16-20K,No,Transitional phase 1st 5 months,High,Medium,1,2025,1,430,18000,3,2,1,0,0,Low,3,0,0,0,0.023530254577004018,OK
+3.45,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Stable,High,Medium,1,2024,1,69,18000,1,2,1,1,2,High,3,0,1,1,0.7463084191545037,OK
+3.26,Marketing,UK,King's College London,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,532,12500,3,1,1,1,2,Medium,2,1,0,0,0.13395151245504883,OK
+3.26,Data Science,Germany,Technical University of Munich,Below 10k,No,Stable,Low,Medium,1,2024,1,64,8000,1,0,1,0,0,Medium,1,1,1,0,0.4660889115939152,FN
+3.18,IT,Malaysia,University of Malaya,Below 10k,No,Newly Elected,Low,Medium,3,2026,2,860,8000,5,0,1,0,0,Medium,1,1,0,0,0.06785300674649629,OK
+3.37,Data Science,USA,Arizona State University,Below 10k,No,Unstable,Low,Medium,7,2024,3,258,8000,2,0,1,0,0,Medium,1,1,0,0,0.11650561196588405,OK
+3.9,Environmental Science,New Zealand,University of Auckland,10-15K,No,Transitional phase 1st 5 months,Medium,High,4,2025,2,543,12500,3,1,2,0,0,High,3,1,0,0,0.16626599180013685,OK
+3.11,Business Analytics,Australia,Deakin University,16-20K,Yes Medium,Unstable,High,Medium,7,2024,3,271,18000,2,2,1,1,2,Medium,3,1,1,1,0.9771814747722463,OK
+3.37,Civil Engineering,Canada,University of Toronto,16-20K,Yes Medium,Unstable,High,Medium,8,2024,3,274,18000,2,2,1,1,2,Medium,3,1,1,1,0.9772530702610136,OK
+3.22,Software Engineering,Australia,Deakin University,16-20K,No,Unstable,High,Medium,6,2024,3,229,18000,2,2,1,0,0,Medium,3,1,0,0,0.18634592610668574,OK
+3.12,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes High,Newly Elected,High,High,6,2026,3,958,18000,5,2,2,1,3,Medium,4,0,1,1,0.9930747238533442,OK
+2.85,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Medium,Stable,High,Medium,2,2024,1,119,18000,1,2,1,1,2,Low,3,0,1,1,0.6025001079769026,OK
+3.29,Business Analytics,Australia,University of Melbourne,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,3,2025,2,505,18000,3,2,1,1,1,Medium,3,1,1,0,0.15883969219773117,FN
+3.13,Environmental Science,New Zealand,University of Auckland,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,335,12500,3,1,1,0,0,Medium,2,1,0,0,0.03388126218469532,OK
+3.27,Software Engineering,Australia,RMIT University,Below 10k,Yes High,Newly Elected,High,High,3,2026,2,866,8000,5,2,2,1,3,Medium,4,0,1,1,0.9943482548123728,OK
+2.64,Computer Science,USA,Arizona State University,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,9,2025,4,697,18000,4,2,1,1,3,Low,3,0,1,1,0.9408652374802551,OK
+3.4,Data Science,Germany,Technical University of Munich,Below 10k,No,Unstable,Low,Medium,7,2024,3,248,8000,2,0,1,0,0,High,1,0,0,0,0.11403175477784525,OK
+3.26,Computer Science,Ireland,University College Dublin,16-20K,No,Unstable,High,Medium,6,2024,3,220,18000,2,2,1,0,0,Medium,3,1,0,0,0.18634592610668574,OK
+3.24,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes Medium,Unstable,Medium,Medium,5,2024,2,183,12500,2,1,1,1,2,Medium,2,1,1,1,0.9758162911650146,OK
+3.23,Agriculture,New Zealand,University of Auckland,16-20K,No,Unstable,High,Medium,6,2024,3,230,18000,2,2,1,0,0,Medium,3,1,1,0,0.1928347091140915,FN
+2.71,Hospitality Management,Australia,University of Sydney,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,10,2024,4,361,18000,3,2,1,1,1,Low,3,0,0,0,0.1378885479042303,OK
+3.26,AI,Canada,York University,16-20K,No,Unstable,High,Medium,8,2024,3,277,18000,2,2,1,0,0,Medium,3,1,1,0,0.14526938501852008,FN
+3.4,Business Administration,Malaysia,University of Malaya,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,11,2025,4,732,12500,4,1,1,1,2,High,2,0,0,1,0.6508807651877153,FP
+3.19,Agriculture,New Zealand,University of Auckland,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,11,2024,4,386,8000,3,0,1,0,0,Medium,1,1,0,0,0.006131003038266918,OK
+3.29,Civil Engineering,UK,University of Birmingham,Below 10k,No,Newly Elected,Low,Medium,4,2026,2,888,8000,5,0,1,0,0,Medium,1,1,0,0,0.06118243475040657,OK
+3.47,Business Analytics,Ireland,University College Dublin,10-15K,No,Transitional phase Last 5 months,Medium,Medium,10,2025,4,719,12500,4,1,1,0,0,High,2,0,0,0,0.038905080012261437,OK
+2.44,Supply Chain Management,Ireland,University College Dublin,10-15K,Yes High,Stable,Medium,Low,2,2024,1,107,12500,1,1,0,1,3,Low,1,1,1,1,0.8395918797328875,OK
+3.35,Data Science,Germany,Technical University of Munich,Below 10k,Yes High,Unstable,Low,Medium,6,2024,3,217,8000,2,0,1,1,3,Medium,1,1,1,1,0.9709257800118606,OK
+3.39,Marketing,UK,Coventry University,Below 10k,No,Transitional phase Last 5 months,Low,Medium,11,2025,4,732,8000,4,0,1,0,0,Medium,1,1,0,0,0.00797852987646007,OK
+3.45,Psychology,UK,University of Manchester,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,381,12500,3,1,1,0,0,High,2,0,0,0,0.024347853160209345,OK
+3.44,Automotive Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,1,2026,1,802,8000,4,0,1,1,1,High,1,0,0,0,0.09009174831022834,OK
+2.28,Data Science,Australia,RMIT University,10-15K,Yes High,Stable,Medium,Low,11,2023,4,3,12500,1,1,0,1,3,Low,1,1,1,1,0.8601109687372583,OK
+3.21,IT,Australia,Monash University,Below 10k,Yes High,Stable,Low,Medium,12,2023,1,30,8000,1,0,1,1,3,Medium,1,1,1,1,0.7653966106025231,OK
+2.44,Business Analytics,Ireland,University College Dublin,Below 10k,Yes High,Stable,Low,Low,11,2023,4,0,8000,1,0,0,1,3,Low,0,1,1,1,0.8605628008383306,OK
+3.5,Civil Engineering,UK,University of Manchester,Below 10k,Yes High,Transitional phase 1st 5 months,Low,High,10,2024,4,350,8000,3,0,2,1,3,High,2,1,0,0,0.399113583252257,OK
+2.17,Software Engineering,Australia,University of Sydney,Below 10k,Yes Medium,Stable,Low,Low,12,2023,1,30,8000,1,0,0,1,2,Low,0,1,1,1,0.6411551446920567,OK
+3.28,Data Science,Australia,Deakin University,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,12,2025,1,770,12500,4,1,1,1,2,Medium,2,1,0,1,0.6062780109680005,FP
+3.36,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes High,Stable,High,Medium,2,2024,1,111,18000,1,2,1,1,3,Medium,3,1,1,1,0.8974678740429012,OK
+2.92,Psychology,UK,University of Birmingham,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,715,18000,4,2,1,1,3,Low,3,0,1,1,0.9688482765957316,OK
+3.77,Computer Science,Ireland,University College Dublin,10-15K,No,Newly Elected,Medium,High,3,2026,2,871,12500,5,1,2,0,0,High,3,1,1,1,0.763425462432749,OK
+3.0,Computer Science,Ireland,University College Dublin,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,343,12500,3,1,1,1,1,Medium,2,1,0,0,0.05817286009420291,OK
+2.88,Psychology,UK,Coventry University,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,12,2024,1,409,8000,3,0,1,1,3,Low,1,0,0,0,0.07557781218813456,OK
+2.96,Supply Chain Management,Ireland,University College Dublin,Below 10k,No,Stable,Low,Medium,1,2024,1,89,8000,1,0,1,0,0,Low,1,0,1,0,0.4829742082442099,FN
+3.41,Electrical Engineering,USA,Arizona State University,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,12,2025,1,778,8000,4,0,1,1,3,High,1,0,1,1,0.6235940816630012,OK
+2.3,Cyber Security,USA,Arizona State University,Below 10k,No,Stable,Low,Low,11,2023,4,5,8000,1,0,0,0,0,Low,0,1,0,1,0.6868327731744498,FP
+3.39,Civil Engineering,UK,King's College London,16-20K,No,Newly Elected,High,Medium,6,2026,3,949,18000,5,2,1,0,0,Medium,3,1,0,0,0.10785789352635357,OK
+3.46,AI,USA,Arizona State University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,317,12500,3,1,1,1,3,High,2,0,1,0,0.41267202287061117,FN
+3.13,Business Administration,Malaysia,University of Malaya,Below 10k,Yes Medium,Unstable,Low,Medium,6,2024,3,238,8000,2,0,1,1,2,Medium,1,1,1,1,0.9419887957339318,OK
+3.08,Environmental Science,New Zealand,University of Auckland,16-20K,No,Unstable,High,Medium,5,2024,2,194,18000,2,2,1,0,0,Medium,3,1,1,0,0.21543257695896123,FN
+3.86,Psychology,UK,King's College London,16-20K,Yes High,Newly Elected,High,High,6,2026,3,961,18000,5,2,2,1,3,High,4,1,1,1,0.9949505798900274,OK
+3.17,Marketing,Malaysia,University of Malaya,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,10,2025,4,700,8000,4,0,1,1,2,Medium,1,1,0,0,0.2222038014556331,OK
+2.68,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes Medium,Newly Elected,Low,Medium,2,2026,1,846,8000,5,0,1,1,2,Low,1,0,1,1,0.9208877252403617,OK
+3.1,Business Analytics,Ireland,University College Dublin,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,406,12500,3,1,1,0,0,Medium,2,1,0,0,0.026322492189125187,OK
+3.32,Business Analytics,Ireland,University College Dublin,16-20K,No,Newly Elected,High,Medium,3,2026,2,860,18000,5,2,1,0,0,Medium,3,1,0,0,0.10846079480941609,OK
+3.36,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,11,2024,4,383,18000,3,2,1,1,3,Medium,3,1,1,1,0.9339753885157419,OK
+3.39,Law,UK,King's College London,10-15K,No,Unstable,Medium,Medium,5,2024,2,184,12500,2,1,1,0,0,Medium,2,1,1,0,0.43984109205015165,FN
+2.84,Environmental Science,New Zealand,University of Auckland,16-20K,No,Stable,High,Medium,11,2023,4,7,18000,1,2,1,0,0,Low,3,0,0,0,0.4748178532542077,OK
+2.36,Agriculture,New Zealand,University of Auckland,16-20K,Yes Low,Unstable,High,Low,7,2024,3,271,18000,2,2,0,1,1,Low,2,1,1,1,0.8080632086943837,OK
+3.23,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes High,Newly Elected,Medium,Medium,4,2026,2,892,12500,5,1,1,1,3,Medium,2,1,1,1,0.9830019938911726,OK
+3.31,Data Science,Germany,Technical University of Munich,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,232,12500,2,1,1,1,2,Medium,2,1,1,1,0.9758162911650146,OK
+3.23,Automotive Engineering,Germany,Technical University of Munich,Below 10k,Yes High,Newly Elected,Low,Medium,7,2026,3,983,8000,5,0,1,1,3,Medium,1,1,1,1,0.9697587624005803,OK
+3.35,Marketing,UK,University of Leeds,Below 10k,Yes High,Stable,Low,Medium,11,2023,4,9,8000,1,0,1,1,3,Medium,1,1,1,1,0.8738151305549787,OK
+2.96,Accounting,Malaysia,University of Malaya,Below 10k,No,Transitional phase Last 5 months,Low,Medium,11,2025,4,733,8000,4,0,1,0,0,Low,1,0,0,0,0.007439578897378869,OK
+3.3,Marketing,UK,King's College London,16-20K,No,Stable,High,Medium,12,2023,1,47,18000,1,2,1,0,0,Medium,3,1,1,0,0.3767967217402035,FN
+3.24,Data Science,USA,Arizona State University,Below 10k,Yes Medium,Newly Elected,Low,Medium,3,2026,2,875,8000,5,0,1,1,2,Medium,1,1,1,1,0.9378711338266197,OK
+3.12,Data Science,Australia,RMIT University,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,11,2024,4,366,8000,3,0,1,1,1,Medium,1,1,0,0,0.02689270238163463,OK
+3.24,Electrical Engineering,Germany,Technical University of Munich,16-20K,No,Transitional phase Last 5 months,High,Medium,12,2025,1,775,18000,4,2,1,0,0,Medium,3,1,0,0,0.03803917287280114,OK
+3.18,Data Science,Australia,University of Melbourne,10-15K,Yes High,Newly Elected,High,High,3,2026,2,877,12500,5,2,2,1,3,Medium,4,0,1,1,0.9936432448818626,OK
+2.58,Business Analytics,Ireland,University College Dublin,16-20K,No,Newly Elected,High,Medium,4,2026,2,900,18000,5,2,1,0,0,Low,3,0,0,0,0.11306642513947082,OK
+3.48,Nursing,Australia,Deakin University,16-20K,Yes High,Stable,High,Medium,12,2023,1,54,18000,1,2,1,1,3,High,3,0,1,1,0.8665745147778618,OK
+3.15,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,517,12500,3,1,1,1,2,Medium,2,1,0,0,0.1366250582034831,OK
+3.25,Computer Science,Canada,University of British Columbia,10-15K,Yes Medium,Newly Elected,Medium,Medium,4,2026,2,891,12500,5,1,1,1,2,Medium,2,1,1,1,0.9803172968917876,OK
+3.11,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Newly Elected,Medium,Medium,5,2026,2,916,12500,5,1,1,1,1,Medium,2,1,1,1,0.9404478201433432,OK
+2.77,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,2,2025,1,483,8000,3,0,1,0,0,Low,1,0,0,0,0.007600429046220106,OK
+3.17,Hospitality Management,New Zealand,University of Auckland,16-20K,No,Newly Elected,High,Medium,5,2026,2,929,18000,5,2,1,0,0,Medium,3,1,0,0,0.1169900874496303,OK
+3.82,Computer Science,Ireland,University College Dublin,10-15K,Yes Medium,Stable,Medium,High,3,2024,2,135,12500,1,1,2,1,2,High,3,1,1,1,0.8400723906999972,OK
+3.22,AI,Canada,University of Toronto,10-15K,Yes Low,Unstable,Medium,Medium,4,2024,2,175,12500,2,1,1,1,1,Medium,2,1,1,1,0.9531958684164299,OK
+3.93,Nursing,Australia,University of Sydney,10-15K,No,Unstable,Medium,High,6,2024,3,229,12500,2,1,2,0,0,High,3,1,1,1,0.8615314553080574,OK
+3.17,Civil Engineering,Canada,University of Toronto,16-20K,Yes High,Unstable,High,Medium,4,2024,2,181,18000,2,2,1,1,3,Medium,3,1,1,1,0.9887941423058273,OK
+3.33,Agriculture,New Zealand,University of Auckland,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,391,12500,3,1,1,1,2,Medium,2,1,0,0,0.12140119414009536,OK
+3.63,Computer Science,Canada,University of British Columbia,16-20K,Yes Medium,Stable,High,High,12,2023,1,47,18000,1,2,2,1,2,High,4,1,1,1,0.7132537017372358,OK
+2.82,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,9,2025,4,695,18000,4,2,1,1,3,Low,3,0,1,1,0.9694065495603683,OK
+3.24,Cyber Security,USA,Arizona State University,10-15K,Yes Low,Unstable,Medium,Medium,8,2024,3,277,12500,2,1,1,1,1,Medium,2,1,1,1,0.9581010246021067,OK
+3.18,Marketing,Malaysia,University of Malaya,Below 10k,Yes Low,Stable,Low,Medium,2,2024,1,94,8000,1,0,1,1,1,Medium,1,1,1,1,0.6493693728465817,OK
+3.23,Supply Chain Management,Ireland,University College Dublin,Below 10k,No,Newly Elected,Low,Medium,5,2026,2,917,8000,5,0,1,0,0,Medium,1,1,0,0,0.06536356524032631,OK
+3.18,Civil Engineering,UK,University of Leeds,10-15K,No,Unstable,Medium,Medium,5,2024,2,203,12500,2,1,1,0,0,Medium,2,1,0,0,0.38546779180543905,OK
+2.61,Electrical Engineering,USA,Arizona State University,10-15K,Yes Low,Newly Elected,Medium,Medium,3,2026,2,876,12500,5,1,1,1,1,Low,2,0,1,1,0.9095451034289328,OK
+3.17,Data Science,USA,Arizona State University,10-15K,No,Unstable,Medium,Medium,4,2024,2,160,12500,2,1,1,0,0,Medium,2,1,1,0,0.42381668038863896,FN
+3.27,Data Science,Australia,Monash University,Below 10k,Yes Low,Unstable,Low,Medium,7,2024,3,248,8000,2,0,1,1,1,Medium,1,1,1,1,0.9115644416329699,OK
+3.25,Psychology,UK,University of Leeds,Below 10k,Yes Medium,Stable,Low,Medium,3,2024,2,134,8000,1,0,1,1,2,Medium,1,1,1,1,0.8449035122454052,OK
+3.49,Data Science,USA,Arizona State University,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,3,2025,2,492,18000,3,2,1,1,2,High,3,0,0,0,0.5239836602655302,OK
+3.01,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,2,2025,1,458,8000,3,0,1,1,2,Medium,1,1,0,0,0.047572335094118526,OK
+3.12,Computer Science,Canada,York University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,9,2024,4,327,8000,3,0,1,1,2,Medium,1,1,0,0,0.03136357625798029,OK
+3.26,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,2,2025,1,459,18000,3,2,1,1,1,Medium,3,1,0,0,0.137203179761693,OK
+3.27,Hospitality Management,Australia,Monash University,16-20K,No,Unstable,High,Medium,8,2024,3,278,18000,2,2,1,0,0,Medium,3,1,0,0,0.14526938501852008,OK
+2.99,Data Science,Australia,University of Melbourne,10-15K,Yes High,Unstable,Medium,Medium,7,2024,3,253,12500,2,1,1,1,3,Low,2,0,1,1,0.9912507126354714,OK
+2.15,Hospitality Management,New Zealand,University of Auckland,16-20K,No,Stable,High,Low,11,2023,4,20,18000,1,2,0,0,0,Low,2,1,1,0,0.535975581481776,FN
+3.36,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Newly Elected,High,Medium,5,2026,2,932,18000,5,2,1,1,2,Medium,3,1,1,1,0.9846269297906513,OK
+3.3,Civil Engineering,Canada,University of British Columbia,Below 10k,Yes High,Unstable,Low,Medium,5,2024,2,197,8000,2,0,1,1,3,Medium,1,1,1,1,0.9699247532831422,OK
+3.04,Business Analytics,Canada,University of British Columbia,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,714,18000,4,2,1,1,3,Medium,3,1,1,1,0.9680443203012971,OK
+3.69,Business Analytics,Canada,University of British Columbia,10-15K,Yes High,Stable,Medium,High,1,2024,1,86,12500,1,1,2,1,3,High,3,1,1,1,0.8813935450052791,OK
+3.31,Supply Chain Management,Ireland,University College Dublin,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,11,2025,4,753,12500,4,1,1,1,3,Medium,2,1,1,1,0.9250133441491656,OK
+3.45,Automotive Engineering,Germany,Technical University of Munich,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,11,2025,4,737,18000,4,2,1,1,3,High,3,0,1,1,0.9714209275695721,OK
+3.45,Business Analytics,Canada,University of British Columbia,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,3,2025,2,493,8000,3,0,1,0,0,High,1,0,0,0,0.00626754126604541,OK
+2.81,Business Analytics,Ireland,University College Dublin,10-15K,No,Transitional phase Last 5 months,Medium,Medium,9,2025,4,693,12500,4,1,1,0,0,Low,2,0,0,0,0.03941866848198606,OK
+3.35,IT,Malaysia,University of Malaya,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,813,8000,4,0,1,1,2,Medium,1,1,0,0,0.23967989391598787,OK
+3.26,Agriculture,New Zealand,University of Auckland,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,9,2025,4,676,8000,4,0,1,1,3,Medium,1,1,1,1,0.6669074746024669,OK
+3.24,Cyber Security,USA,Arizona State University,16-20K,Yes Medium,Unstable,High,Medium,7,2024,3,253,18000,2,2,1,1,2,Medium,3,1,1,1,0.9741306280316966,OK
+3.73,Law,UK,University of Leeds,16-20K,No,Transitional phase Last 5 months,High,High,12,2025,1,784,18000,4,2,2,0,0,High,4,1,1,1,0.5857689591671512,OK
+3.16,Public Health,Canada,York University,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,921,12500,5,1,1,0,0,Medium,2,1,1,0,0.30985028389429736,FN
+2.9,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Medium,Unstable,High,Medium,5,2024,2,202,18000,2,2,1,1,2,Low,3,0,1,1,0.9772582976770939,OK
+3.3,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes High,Newly Elected,Low,Medium,4,2026,2,906,8000,5,0,1,1,3,Medium,1,1,1,1,0.9726919569317829,OK
+2.58,Automotive Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Newly Elected,High,Medium,3,2026,2,865,18000,5,2,1,1,2,Low,3,0,1,1,0.9785689864700584,OK
+3.24,Business Analytics,Ireland,University College Dublin,10-15K,Yes Low,Unstable,Medium,Medium,4,2024,2,161,12500,2,1,1,1,1,Medium,2,1,1,1,0.9558356533576818,OK
+2.18,Civil Engineering,Canada,University of British Columbia,Below 10k,No,Stable,Low,Low,12,2023,1,60,8000,1,0,0,0,0,Low,0,1,0,0,0.5084426327778427,OK
+3.6,AI,USA,Arizona State University,Below 10k,Yes High,Stable,Low,High,2,2024,1,118,8000,1,0,2,1,3,High,2,1,1,1,0.8569765033195531,OK
+3.36,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,12,2024,1,410,8000,3,0,1,1,1,Medium,1,1,0,0,0.023959722268793032,OK
+3.4,Finance,UK,University of Leeds,10-15K,Yes Low,Unstable,Medium,Medium,5,2024,2,188,12500,2,1,1,1,1,High,2,0,1,1,0.9544469785764355,OK
+3.33,Computer Science,Ireland,University College Dublin,16-20K,No,Transitional phase 1st 5 months,High,Medium,2,2025,1,461,18000,3,2,1,0,0,Medium,3,1,0,0,0.026770876328979874,OK
+3.14,Accounting,Malaysia,University of Malaya,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,10,2025,4,719,8000,4,0,1,1,2,Medium,1,1,0,0,0.216111810606944,OK
+2.73,Accounting,Malaysia,University of Malaya,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,5,2025,2,569,8000,3,0,1,0,0,Low,1,0,0,0,0.006786045037757919,OK
+3.5,Hospitality Management,New Zealand,University of Auckland,16-20K,No,Unstable,High,High,7,2024,3,255,18000,2,2,2,0,0,High,4,1,1,1,0.5854931225210983,OK
+3.38,Agriculture,New Zealand,University of Auckland,10-15K,Yes Medium,Newly Elected,Medium,Medium,7,2026,3,974,12500,5,1,1,1,2,Medium,2,1,1,1,0.981751469784273,OK
+3.16,Cyber Security,USA,Arizona State University,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,12,2025,1,785,8000,4,0,1,1,1,Medium,1,1,0,0,0.07237419668534768,OK
+3.18,Accounting,Malaysia,University of Malaya,10-15K,No,Newly Elected,Medium,Medium,6,2026,3,960,12500,5,1,1,0,0,Medium,2,1,0,0,0.2970098581352818,OK
+3.25,Hospitality Management,Australia,RMIT University,Below 10k,Yes High,Newly Elected,High,High,5,2026,2,928,8000,5,2,2,1,3,Medium,4,0,1,1,0.9945478268293301,OK
+3.79,Computer Science,USA,Arizona State University,Below 10k,Yes High,Transitional phase Last 5 months,Low,High,12,2025,1,789,8000,4,0,2,1,3,High,2,1,1,1,0.9417175438629358,OK
+3.48,Marketing,UK,University of Birmingham,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,793,8000,4,0,1,1,2,High,1,0,0,0,0.23736256631711516,OK
+2.68,Business Analytics,Australia,University of Sydney,16-20K,Yes Medium,Stable,High,Medium,11,2023,4,7,18000,1,2,1,1,2,Low,3,0,1,1,0.706448748723131,OK
+3.39,Civil Engineering,UK,University of Birmingham,16-20K,No,Transitional phase 1st 5 months,High,Medium,9,2024,4,306,18000,3,2,1,0,0,Medium,3,1,0,0,0.01491370587372125,OK
+3.35,Supply Chain Management,Ireland,University College Dublin,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,378,12500,3,1,1,0,0,Medium,2,1,0,0,0.027490754709720896,OK
+3.13,Public Health,Canada,York University,10-15K,No,Newly Elected,Medium,Medium,3,2026,2,879,12500,5,1,1,0,0,Medium,2,1,0,0,0.30985028389429736,OK
+2.78,Business Administration,Malaysia,University of Malaya,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,5,2025,2,575,12500,3,1,1,0,0,Low,2,0,0,0,0.027404918698668436,OK
+3.13,Finance,UK,Coventry University,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,529,12500,3,1,1,1,2,Medium,2,1,0,0,0.1344744011894145,OK
+3.32,Business Analytics,Australia,University of Sydney,16-20K,No,Transitional phase 1st 5 months,High,Medium,10,2024,4,339,18000,3,2,1,0,0,Medium,3,1,0,0,0.03310248236026283,OK
+3.3,Finance,Ireland,University College Dublin,Below 10k,No,Unstable,Low,Medium,6,2024,3,227,8000,2,0,1,0,0,Medium,1,1,1,0,0.10744721787319637,FN
+3.05,Marketing,Malaysia,University of Malaya,Below 10k,Yes Medium,Stable,Low,Medium,1,2024,1,79,8000,1,0,1,1,2,Medium,1,1,1,1,0.7419581767147658,OK
+3.3,Agriculture,New Zealand,University of Auckland,10-15K,No,Unstable,Medium,Medium,8,2024,3,280,12500,2,1,1,0,0,Medium,2,1,0,0,0.25253186959426294,OK
+3.15,Data Science,Germany,Technical University of Munich,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,10,2025,4,714,8000,4,0,1,1,2,Medium,1,1,0,0,0.21923738333496035,OK
+3.28,Finance,UK,University of Leeds,10-15K,Yes High,Unstable,Medium,Medium,6,2024,3,220,12500,2,1,1,1,3,Medium,2,1,1,1,0.9898559435551936,OK
+2.29,IT,Malaysia,University of Malaya,16-20K,Yes Medium,Stable,High,Low,11,2023,4,2,18000,1,2,0,1,2,Low,2,1,0,0,0.47583089902392117,OK
+3.17,Computer Science,Ireland,University College Dublin,10-15K,No,Transitional phase Last 5 months,Medium,Medium,12,2025,1,766,12500,4,1,1,0,0,Medium,2,1,0,0,0.038082816406240526,OK
+2.25,Hospitality Management,Australia,Deakin University,16-20K,Yes Low,Stable,High,Low,3,2024,2,126,18000,1,2,0,1,1,Low,2,1,1,0,0.5163628937079767,FN
+2.85,Law,UK,University of Manchester,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,11,2025,4,754,18000,4,2,1,1,3,Low,3,0,1,1,0.9700772794655393,OK
+3.15,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,11,2025,4,741,8000,4,0,1,1,1,Medium,1,1,0,0,0.09505698186630206,OK
+3.08,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes High,Newly Elected,High,High,4,2026,2,886,12500,5,2,2,1,3,Medium,4,0,1,1,0.9875108980499592,OK
+3.12,Law,UK,University of Birmingham,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,1,2026,1,812,8000,4,0,1,1,3,Medium,1,1,1,1,0.6099372002204039,OK
+2.75,AI,USA,Arizona State University,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,12,2025,1,768,8000,4,0,1,1,1,Low,1,0,0,0,0.07015159531688081,OK
+3.34,Business Administration,Malaysia,University of Malaya,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,9,2025,4,672,8000,4,0,1,1,3,Medium,1,1,0,1,0.6623199240994903,FP
+3.34,Hospitality Management,Australia,University of Sydney,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,3,2025,2,516,8000,3,0,1,0,0,Medium,1,1,0,0,0.007585280972161704,OK
+3.48,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes High,Stable,High,Medium,2,2024,1,111,18000,1,2,1,1,3,High,3,0,0,1,0.879678669100395,FP
+3.21,Data Science,Australia,University of Melbourne,16-20K,Yes High,Newly Elected,High,High,7,2026,3,978,18000,5,2,2,1,3,Medium,4,0,1,1,0.9935364544581468,OK
+3.03,Computer Science,USA,Arizona State University,16-20K,Yes High,Newly Elected,High,Medium,4,2026,2,898,18000,5,2,1,1,3,Medium,3,1,1,1,0.9909837716284151,OK
+2.58,IT,Malaysia,University of Malaya,10-15K,No,Unstable,Medium,Medium,5,2024,2,206,12500,2,1,1,0,0,Low,2,0,1,0,0.4367528883218825,FN
+2.83,Law,UK,University of Leeds,16-20K,Yes Low,Stable,High,Medium,12,2023,1,38,18000,1,2,1,1,1,Low,3,0,1,1,0.5623197470518669,OK
+3.44,Supply Chain Management,Ireland,University College Dublin,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,532,12500,3,1,1,1,3,High,2,0,0,0,0.521971099930056,OK
+2.52,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes High,Stable,Low,Medium,11,2023,4,24,8000,1,0,1,1,3,Low,1,0,1,1,0.7505360834934769,OK
+2.63,Cyber Security,USA,Arizona State University,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,4,2025,2,536,8000,3,0,1,1,3,Low,1,0,0,0,0.06691088386008218,OK
+3.07,Mechanical Engineering,Germany,Technical University of Munich,10-15K,Yes High,Newly Elected,Medium,Medium,4,2026,2,890,12500,5,1,1,1,3,Medium,2,1,1,1,0.9920978904826611,OK
+3.84,Data Science,USA,Arizona State University,16-20K,Yes Medium,Stable,High,High,12,2023,1,54,18000,1,2,2,1,2,High,4,1,0,1,0.7340633186490823,FP
+3.86,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Transitional phase 1st 5 months,High,High,11,2024,4,380,18000,3,2,2,1,1,High,4,1,0,0,0.3352760749916387,OK
+3.18,Business Analytics,Canada,University of British Columbia,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,12,2024,1,403,18000,3,2,1,1,3,Medium,3,1,1,1,0.9013230825513546,OK
+3.72,Agriculture,New Zealand,University of Auckland,10-15K,No,Transitional phase 1st 5 months,Medium,High,6,2025,3,589,12500,3,1,2,0,0,High,3,1,0,0,0.14304277338149957,OK
+3.03,Psychology,UK,Coventry University,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,511,12500,3,1,1,1,1,Medium,2,1,0,0,0.04728045673721402,OK
+3.45,Cyber Security,USA,Arizona State University,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,9,2025,4,691,18000,4,2,1,1,2,High,3,0,1,1,0.8898081000419459,OK
+3.37,Computer Science,Ireland,University College Dublin,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,504,12500,3,1,1,1,3,Medium,2,1,0,1,0.5860386965791333,FP
+3.36,Data Science,Germany,Technical University of Munich,Below 10k,No,Unstable,Low,Medium,6,2024,3,223,8000,2,0,1,0,0,Medium,1,1,0,0,0.1184082075293742,OK
+3.22,Mechanical Engineering,Germany,Technical University of Munich,16-20K,No,Transitional phase 1st 5 months,High,Medium,12,2024,1,398,18000,3,2,1,0,0,Medium,3,1,0,0,0.022575395339253543,OK
+3.27,Automotive Engineering,Germany,Technical University of Munich,Below 10k,Yes Medium,Newly Elected,Low,Medium,3,2026,2,864,8000,5,0,1,1,2,Medium,1,1,1,1,0.9491964629923564,OK
+3.91,Environmental Science,New Zealand,University of Auckland,10-15K,No,Unstable,Medium,High,8,2024,3,277,12500,2,1,2,0,0,High,3,1,1,1,0.87882902069476,OK
+3.32,Law,UK,University of Birmingham,Below 10k,Yes Medium,Newly Elected,Low,Medium,3,2026,2,871,8000,5,0,1,1,2,Medium,1,1,1,1,0.9476041476017139,OK
+3.38,Civil Engineering,UK,Coventry University,16-20K,No,Transitional phase 1st 5 months,High,Medium,10,2024,4,341,18000,3,2,1,0,0,Medium,3,1,0,0,0.03424141323012128,OK
+2.98,Marketing,UK,Coventry University,16-20K,Yes High,Stable,High,Medium,2,2024,1,119,18000,1,2,1,1,3,Low,3,0,1,1,0.818755696817958,OK
+3.25,Psychology,UK,University of Leeds,10-15K,No,Transitional phase Last 5 months,Medium,Medium,10,2025,4,715,12500,4,1,1,0,0,Medium,2,1,0,0,0.038082816406240526,OK
+3.17,Computer Science,USA,Arizona State University,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,10,2025,4,725,8000,4,0,1,1,3,Medium,1,1,1,0,0.5324268148908895,FN
+3.96,Environmental Science,New Zealand,University of Auckland,10-15K,Yes High,Stable,Medium,High,3,2024,2,140,12500,1,1,2,1,3,High,3,1,1,1,0.9300360240616056,OK
+3.35,AI,USA,Arizona State University,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,242,12500,2,1,1,1,2,Medium,2,1,1,1,0.9783331242865587,OK
+3.38,Finance,UK,University of Leeds,16-20K,Yes Medium,Newly Elected,High,Medium,5,2026,2,942,18000,5,2,1,1,2,Medium,3,1,1,1,0.9843466183907651,OK
+2.73,Data Science,Germany,Technical University of Munich,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,729,18000,4,2,1,1,3,Low,3,0,1,1,0.963544035171246,OK
+2.86,Hospitality Management,New Zealand,University of Auckland,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,8,2024,3,292,12500,3,1,1,1,2,Low,2,0,0,0,0.10530601961891786,OK
+3.49,Agriculture,New Zealand,University of Auckland,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,2,2025,1,483,8000,3,0,1,0,0,High,1,0,0,0,0.006893345032446479,OK
+3.13,Civil Engineering,UK,University of Birmingham,16-20K,Yes High,Newly Elected,High,Medium,5,2026,2,939,18000,5,2,1,1,3,Medium,3,1,1,1,0.9924564375477105,OK
+3.6,Hospitality Management,New Zealand,University of Auckland,10-15K,No,Stable,Medium,High,2,2024,1,100,12500,1,1,2,0,0,High,3,1,1,0,0.49898754896664654,FN
+3.03,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,9,2024,4,330,18000,3,2,1,1,2,Medium,3,1,0,0,0.3697885688161658,OK
+3.27,Electrical Engineering,USA,Arizona State University,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,12,2025,1,787,12500,4,1,1,1,1,Medium,2,1,0,0,0.15673325993386028,OK
+2.58,Business Analytics,Australia,Deakin University,Below 10k,No,Unstable,Low,Medium,5,2024,2,192,8000,2,0,1,0,0,Low,1,0,0,0,0.11558241521944401,OK
+3.18,Electrical Engineering,USA,Arizona State University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,11,2024,4,376,8000,3,0,1,1,2,Medium,1,1,0,0,0.033968160517699394,OK
+3.1,Marketing,Malaysia,University of Malaya,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,512,12500,3,1,1,0,0,Medium,2,1,0,0,0.027404918698668436,OK
+3.36,Electrical Engineering,Germany,Technical University of Munich,16-20K,No,Unstable,High,Medium,6,2024,3,241,18000,2,2,1,0,0,Medium,3,1,0,0,0.20352032924125768,OK
+3.39,Business Analytics,Canada,York University,10-15K,No,Unstable,Medium,Medium,4,2024,2,173,12500,2,1,1,0,0,Medium,2,1,1,0,0.43336930065245366,FN
+3.17,Hospitality Management,Australia,University of Melbourne,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,12,2025,1,763,12500,4,1,1,1,2,Medium,2,1,0,1,0.6476134177412657,FP
+3.23,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes Medium,Unstable,Low,Medium,7,2024,3,260,8000,2,0,1,1,2,Medium,1,1,1,1,0.9377868974753338,OK
+3.22,Electrical Engineering,Germany,Technical University of Munich,10-15K,No,Unstable,Medium,Medium,7,2024,3,246,12500,2,1,1,0,0,Medium,2,1,0,0,0.42199403335504226,OK
+3.75,AI,Canada,York University,Below 10k,Yes High,Stable,Low,High,11,2023,4,24,8000,1,0,2,1,3,High,2,1,1,1,0.8573637359947006,OK
+3.31,Business Analytics,Canada,York University,10-15K,Yes Low,Unstable,Medium,Medium,6,2024,3,233,12500,2,1,1,1,1,Medium,2,1,1,1,0.9536323214722433,OK
+3.15,Business Analytics,Australia,RMIT University,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,1,2025,1,453,18000,3,2,1,1,2,Medium,3,1,0,0,0.5044596823375066,OK
+2.05,Business Analytics,Ireland,University College Dublin,Below 10k,Yes Medium,Unstable,Low,Low,6,2024,3,236,8000,2,0,0,1,2,Low,0,1,0,0,0.5295784731896704,OK
+3.36,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,6,2025,3,604,8000,3,0,1,1,1,Medium,1,1,0,0,0.034121909823615966,OK
+3.13,Business Administration,Malaysia,University of Malaya,16-20K,Yes Low,Newly Elected,High,Medium,6,2026,3,951,18000,5,2,1,1,1,Medium,3,1,1,1,0.9471504496126626,OK
+3.19,AI,USA,Arizona State University,10-15K,No,Transitional phase Last 5 months,Medium,Medium,10,2025,4,720,12500,4,1,1,0,0,Medium,2,1,0,0,0.036669553495058224,OK
+2.74,Software Engineering,Australia,University of Sydney,16-20K,Yes High,Stable,High,Medium,1,2024,1,66,18000,1,2,1,1,3,Low,3,0,1,1,0.8907184599996776,OK
+3.35,Data Science,Australia,Monash University,Below 10k,Yes Low,Newly Elected,Low,Medium,4,2026,2,903,8000,5,0,1,1,1,Medium,1,1,1,1,0.9041141025814695,OK
+2.96,Computer Science,Canada,University of British Columbia,Below 10k,Yes High,Unstable,Low,Medium,4,2024,2,162,8000,2,0,1,1,3,Low,1,0,1,1,0.9691106784912012,OK
+3.16,Computer Science,USA,Arizona State University,Below 10k,Yes High,Unstable,Low,Medium,5,2024,2,195,8000,2,0,1,1,3,Medium,1,1,1,1,0.9541365730504607,OK
+2.86,Business Analytics,Australia,Monash University,16-20K,No,Transitional phase Last 5 months,High,Medium,1,2026,1,808,18000,4,2,1,0,0,Low,3,0,0,0,0.03868517207177526,OK
+3.4,Agriculture,New Zealand,University of Auckland,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,9,2025,4,687,12500,4,1,1,1,2,High,2,0,1,1,0.6604159601660562,OK
+3.2,IT,Malaysia,University of Malaya,16-20K,No,Unstable,High,Medium,4,2024,2,161,18000,2,2,1,0,0,Medium,3,1,0,0,0.19779416078379847,OK
+3.14,Computer Science,Canada,University of Toronto,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,6,2025,3,589,8000,3,0,1,1,2,Medium,1,1,0,0,0.04649336358289099,OK
+3.24,Electrical Engineering,USA,Arizona State University,16-20K,Yes Low,Unstable,High,Medium,6,2024,3,241,18000,2,2,1,1,1,Medium,3,1,1,1,0.9522598982912172,OK
+2.52,Mechanical Engineering,Germany,Technical University of Munich,10-15K,No,Stable,Medium,Medium,12,2023,1,39,12500,1,1,1,0,0,Low,2,0,1,1,0.6156332243421934,OK
+3.24,Computer Science,Ireland,University College Dublin,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,12,2024,1,411,8000,3,0,1,0,0,Medium,1,1,0,0,0.006131003038266918,OK
+3.3,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Medium,Unstable,Low,Medium,6,2024,3,238,8000,2,0,1,1,2,Medium,1,1,1,1,0.9454338016739714,OK
+3.28,Public Health,Canada,University of Toronto,Below 10k,Yes High,Newly Elected,Low,Medium,2,2026,1,849,8000,5,0,1,1,3,Medium,1,1,1,1,0.9676042334206815,OK
+2.6,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,10,2025,4,709,8000,4,0,1,1,2,Low,1,0,0,0,0.17006035359468785,OK
+3.3,AI,USA,Arizona State University,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,10,2025,4,723,18000,4,2,1,1,1,Medium,3,1,1,0,0.40403199672362716,FN
+3.15,Computer Science,Canada,York University,16-20K,No,Transitional phase Last 5 months,High,Medium,11,2025,4,757,18000,4,2,1,0,0,Medium,3,1,0,0,0.03812353283444793,OK
+3.16,Finance,UK,King's College London,Below 10k,Yes High,Unstable,Low,Medium,5,2024,2,200,8000,2,0,1,1,3,Medium,1,1,1,1,0.9642393661667543,OK
+3.32,Supply Chain Management,Ireland,University College Dublin,10-15K,Yes Medium,Stable,Medium,Medium,3,2024,2,136,12500,1,1,1,1,2,Medium,2,1,0,1,0.7615308143153818,FP
+3.34,Electrical Engineering,USA,Arizona State University,16-20K,Yes Low,Newly Elected,High,Medium,4,2026,2,883,18000,5,2,1,1,1,Medium,3,1,1,1,0.945850665551427,OK
+3.83,Psychology,UK,University of Leeds,16-20K,No,Stable,High,High,11,2023,4,15,18000,1,2,2,0,0,High,4,1,0,0,0.45355236573488245,OK
+3.21,Computer Science,Ireland,University College Dublin,Below 10k,Yes Low,Unstable,Low,Medium,4,2024,2,165,8000,2,0,1,1,1,Medium,1,1,1,1,0.9115644416329699,OK
+2.81,Finance,UK,University of Leeds,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,8,2024,3,292,8000,3,0,1,1,2,Low,1,0,0,0,0.04295271813328905,OK
+3.91,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes High,Newly Elected,Low,High,2,2026,1,848,8000,5,0,2,1,3,High,2,1,1,1,0.9908748008479931,OK
+3.36,Business Administration,Malaysia,University of Malaya,10-15K,No,Transitional phase Last 5 months,Medium,Medium,1,2026,1,804,12500,4,1,1,0,0,Medium,2,1,0,0,0.04156573746198664,OK
+3.35,Data Science,Germany,Technical University of Munich,10-15K,No,Unstable,Medium,Medium,4,2024,2,162,12500,2,1,1,0,0,Medium,2,1,0,0,0.4563332819507581,OK
+3.41,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,8,2024,3,302,8000,3,0,1,1,1,High,1,0,0,0,0.020553748647138822,OK
+3.21,AI,Canada,York University,10-15K,No,Unstable,Medium,Medium,7,2024,3,252,12500,2,1,1,0,0,Medium,2,1,1,0,0.41752364255857405,FN
+3.1,Civil Engineering,UK,King's College London,Below 10k,Yes Low,Newly Elected,Low,Medium,3,2026,2,862,8000,5,0,1,1,1,Medium,1,1,1,1,0.8915314766254658,OK
+3.29,Automotive Engineering,Germany,Technical University of Munich,16-20K,No,Unstable,High,Medium,4,2024,2,152,18000,2,2,1,0,0,Medium,3,1,1,0,0.4274185510976529,FN
+3.12,Nursing,Australia,University of Melbourne,10-15K,No,Newly Elected,Medium,Medium,7,2026,3,983,12500,5,1,1,0,0,Medium,2,1,0,0,0.323500649495529,OK
+3.23,Agriculture,New Zealand,University of Auckland,16-20K,Yes Low,Newly Elected,High,Medium,5,2026,2,932,18000,5,2,1,1,1,Medium,3,1,1,1,0.9481902518155921,OK
+3.18,Software Engineering,Australia,Deakin University,Below 10k,No,Transitional phase Last 5 months,Low,Medium,1,2026,1,820,8000,4,0,1,0,0,Medium,1,1,0,0,0.0072885818918138395,OK
+2.54,IT,Malaysia,University of Malaya,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,12,2025,1,764,12500,4,1,1,1,3,Low,2,0,1,1,0.8816073293724626,OK
+2.9,Electrical Engineering,USA,Arizona State University,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,5,2025,2,549,8000,3,0,1,0,0,Low,1,0,0,0,0.006786045037757919,OK
+3.13,IT,Malaysia,University of Malaya,Below 10k,Yes High,Unstable,Low,Medium,6,2024,3,225,8000,2,0,1,1,3,Medium,1,1,1,1,0.9631955431466289,OK
+3.27,Business Analytics,Canada,York University,16-20K,Yes High,Newly Elected,High,High,3,2026,2,864,18000,5,2,2,1,3,Medium,4,0,1,1,0.9935178655427135,OK
+3.27,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Newly Elected,Low,Medium,4,2026,2,898,8000,5,0,1,0,0,Medium,1,1,0,0,0.06986886433732631,OK
+3.32,Business Administration,Malaysia,University of Malaya,Below 10k,No,Newly Elected,Low,Medium,3,2026,2,859,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+3.1,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,11,2025,4,744,18000,4,2,1,1,2,Medium,3,1,1,1,0.8860596376417857,OK
+3.15,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes Medium,Unstable,Medium,Medium,7,2024,3,262,12500,2,1,1,1,2,Medium,2,1,1,1,0.9763131301534362,OK
+3.55,Law,UK,Coventry University,Below 10k,Yes High,Transitional phase Last 5 months,Low,High,11,2025,4,738,8000,4,0,2,1,3,High,2,1,1,1,0.9429413703917175,OK
+3.13,Data Science,Australia,University of Melbourne,16-20K,Yes Medium,Unstable,High,Medium,7,2024,3,256,18000,2,2,1,1,2,Medium,3,1,1,1,0.9812986605134718,OK
+3.19,Finance,Ireland,University College Dublin,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,10,2024,4,348,8000,3,0,1,0,0,Medium,1,1,0,0,0.006131003038266918,OK
+2.25,Computer Science,Ireland,University College Dublin,Below 10k,Yes Low,Unstable,Low,Low,6,2024,3,218,8000,2,0,0,1,1,Low,0,1,0,0,0.39586051952851714,OK
+3.14,Marketing,Malaysia,University of Malaya,10-15K,No,Transitional phase Last 5 months,Medium,Medium,11,2025,4,740,12500,4,1,1,0,0,Medium,2,1,0,0,0.038846810522824224,OK
+2.86,Civil Engineering,Canada,University of British Columbia,16-20K,No,Stable,High,Medium,12,2023,1,38,18000,1,2,1,0,0,Low,3,0,0,0,0.41310045725891403,OK
+3.38,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,8,2024,3,287,8000,3,0,1,1,2,Medium,1,1,0,0,0.04984520793980825,OK
+2.97,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes High,Stable,Low,Medium,12,2023,1,32,8000,1,0,1,1,3,Low,1,0,1,1,0.6979289155983603,OK
+3.12,Business Analytics,Ireland,University College Dublin,Below 10k,Yes Low,Newly Elected,Low,Medium,5,2026,2,933,8000,5,0,1,1,1,Medium,1,1,1,1,0.9005966232098577,OK
+3.3,Accounting,Malaysia,University of Malaya,Below 10k,Yes Medium,Newly Elected,Low,Medium,5,2026,2,942,8000,5,0,1,1,2,Medium,1,1,1,1,0.9476041476017139,OK
+3.54,Psychology,UK,University of Manchester,Below 10k,Yes Low,Stable,Low,High,2,2024,1,111,8000,1,0,2,1,1,High,2,1,0,1,0.6008578843583331,FP
+3.44,Software Engineering,Australia,University of Melbourne,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,1,2026,1,808,18000,4,2,1,1,3,High,3,0,1,1,0.9766405551973579,OK
+3.33,Data Science,Germany,Technical University of Munich,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,1,2025,1,447,8000,3,0,1,0,0,Medium,1,1,0,0,0.008040709958719378,OK
+3.39,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes High,Newly Elected,High,High,5,2026,2,919,8000,5,2,2,1,3,Medium,4,0,1,1,0.9919914745476781,OK
+3.48,Business Analytics,Ireland,University College Dublin,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,3,2025,2,514,8000,3,0,1,1,3,High,1,0,0,0,0.08874190461115945,OK
+3.37,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,11,2025,4,751,18000,4,2,1,1,1,Medium,3,1,0,0,0.41560622451244666,OK
+3.07,Business Analytics,Australia,University of Sydney,16-20K,Yes High,Newly Elected,High,High,3,2026,2,877,18000,5,2,2,1,3,Medium,4,0,1,1,0.993338021182438,OK
+3.39,Finance,UK,King's College London,16-20K,Yes High,Newly Elected,High,Medium,4,2026,2,902,18000,5,2,1,1,3,Medium,3,1,1,1,0.9939002850236344,OK
+3.15,Business Analytics,Ireland,University College Dublin,16-20K,No,Unstable,High,Medium,5,2024,2,191,18000,2,2,1,0,0,Medium,3,1,0,0,0.20407287027478857,OK
+2.73,Data Science,USA,Arizona State University,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,11,2025,4,737,12500,4,1,1,1,3,Low,2,0,1,1,0.8757026610476512,OK
+3.88,Business Analytics,Ireland,University College Dublin,Below 10k,Yes Medium,Stable,Low,High,2,2024,1,119,8000,1,0,2,1,2,High,2,1,1,1,0.6445930226852404,OK
+3.47,Data Science,USA,Arizona State University,16-20K,Yes Medium,Stable,High,Medium,12,2023,1,60,18000,1,2,1,1,2,High,3,0,0,1,0.7318155528910096,FP
+3.39,Environmental Science,New Zealand,University of Auckland,10-15K,Yes High,Unstable,Medium,Medium,5,2024,2,186,12500,2,1,1,1,3,Medium,2,1,1,1,0.9899759560849323,OK
+2.66,Data Science,Australia,University of Melbourne,10-15K,Yes Low,Stable,Medium,Medium,3,2024,2,138,12500,1,1,1,1,1,Low,2,0,1,1,0.6655427138659457,OK
+3.74,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes Low,Unstable,High,High,7,2024,3,247,18000,2,2,2,1,1,High,4,1,1,1,0.9833947800542016,OK
+3.71,Electrical Engineering,USA,Arizona State University,16-20K,No,Transitional phase Last 5 months,High,High,1,2026,1,798,18000,4,2,2,0,0,High,4,1,1,1,0.5762058316595134,OK
+3.38,Software Engineering,Australia,Deakin University,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,9,2024,4,310,18000,3,2,1,1,3,Medium,3,1,1,1,0.9077369501978634,OK
+3.87,Computer Science,USA,Arizona State University,Below 10k,No,Transitional phase Last 5 months,Low,High,1,2026,1,822,8000,4,0,2,0,0,High,2,1,0,0,0.17898249765820531,OK
+2.77,Marketing,Malaysia,University of Malaya,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,9,2025,4,681,12500,4,1,1,1,3,Low,2,0,1,1,0.9177969554693007,OK
+3.28,IT,Malaysia,University of Malaya,10-15K,No,Unstable,Medium,Medium,4,2024,2,172,12500,2,1,1,0,0,Medium,2,1,0,0,0.410281494009192,OK
+2.73,Nursing,Australia,Monash University,16-20K,No,Stable,High,Medium,11,2023,4,12,18000,1,2,1,0,0,Low,3,0,0,0,0.5387523009006905,OK
+3.18,Business Analytics,Australia,University of Sydney,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,9,2025,4,688,8000,4,0,1,1,3,Medium,1,1,1,1,0.5897500343698648,OK
+3.39,Data Science,USA,Arizona State University,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,339,12500,3,1,1,0,0,Medium,2,1,0,0,0.039150626601987544,OK
+3.26,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,3,2025,2,514,8000,3,0,1,1,3,Medium,1,1,0,0,0.09884867630163162,OK
+3.36,Computer Science,Canada,University of Toronto,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,940,12500,5,1,1,0,0,Medium,2,1,0,0,0.3050547702549637,OK
+3.21,Data Science,USA,Arizona State University,Below 10k,Yes High,Newly Elected,Low,Medium,3,2026,2,855,8000,5,0,1,1,3,Medium,1,1,1,1,0.9583575607392675,OK
+3.34,Hospitality Management,Australia,University of Melbourne,16-20K,Yes Medium,Unstable,High,Medium,4,2024,2,163,18000,2,2,1,1,2,Medium,3,1,1,1,0.9824481649611764,OK
+3.26,Business Analytics,Canada,University of British Columbia,Below 10k,No,Newly Elected,Low,Medium,4,2026,2,899,8000,5,0,1,0,0,Medium,1,1,0,0,0.06702139411534949,OK
+3.35,Marketing,UK,Coventry University,10-15K,No,Unstable,Medium,Medium,5,2024,2,191,12500,2,1,1,0,0,Medium,2,1,1,0,0.43984109205015165,FN
+3.21,Hospitality Management,Australia,Monash University,16-20K,No,Unstable,High,Medium,6,2024,3,228,18000,2,2,1,0,0,Medium,3,1,0,0,0.18634592610668574,OK
+3.14,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Newly Elected,Medium,Medium,4,2026,2,909,12500,5,1,1,1,1,Medium,2,1,1,1,0.9404478201433432,OK
+2.73,Finance,UK,Coventry University,16-20K,Yes High,Newly Elected,High,High,2,2026,1,848,18000,5,2,2,1,3,Low,4,0,1,1,0.9918247103155047,OK
+3.2,Cyber Security,USA,Arizona State University,10-15K,Yes Medium,Unstable,Medium,Medium,8,2024,3,275,12500,2,1,1,1,2,Medium,2,1,1,1,0.9690896408603773,OK
+2.52,Civil Engineering,UK,University of Leeds,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,6,2025,3,584,18000,3,2,1,1,2,Low,3,0,1,0,0.49190595259979397,FN
+3.34,Business Analytics,Canada,York University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,1,2025,1,456,12500,3,1,1,1,3,Medium,2,1,1,1,0.5812199502717388,OK
+3.42,Psychology,UK,University of Manchester,16-20K,Yes High,Stable,High,Medium,3,2024,2,130,18000,1,2,1,1,3,High,3,0,1,1,0.9370809006056655,OK
+3.37,Data Science,Australia,Deakin University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,3,2025,2,499,8000,3,0,1,1,2,Medium,1,1,0,0,0.05350756450553161,OK
+3.32,Environmental Science,New Zealand,University of Auckland,16-20K,No,Unstable,High,Medium,7,2024,3,254,18000,2,2,1,0,0,Medium,3,1,0,0,0.1928347091140915,OK
+3.63,Hospitality Management,Australia,Monash University,Below 10k,No,Stable,Low,High,11,2023,4,22,8000,1,0,2,0,0,High,2,1,1,0,0.4443551561584249,FN
+2.89,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,9,2024,4,319,8000,3,0,1,1,1,Low,1,0,0,0,0.01919964130996702,OK
+3.39,Marketing,Malaysia,University of Malaya,Below 10k,No,Newly Elected,Low,Medium,4,2026,2,910,8000,5,0,1,0,0,Medium,1,1,0,0,0.07474967572134264,OK
+3.74,Business Analytics,Canada,University of Toronto,Below 10k,No,Stable,Low,High,3,2024,2,129,8000,1,0,2,0,0,High,2,1,1,0,0.44053830916712305,FN
+2.39,Computer Science,USA,Arizona State University,Below 10k,No,Stable,Low,Low,11,2023,4,16,8000,1,0,0,0,0,Low,0,1,0,1,0.6071695218911689,FP
+2.74,Electrical Engineering,Germany,Technical University of Munich,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,417,12500,3,1,1,0,0,Low,2,0,0,0,0.026797020940495582,OK
+2.67,Data Science,Australia,University of Sydney,Below 10k,Yes Low,Unstable,Low,Medium,6,2024,3,234,8000,2,0,1,1,1,Low,1,0,1,1,0.8765745474422133,OK
+2.41,Cyber Security,USA,Arizona State University,Below 10k,Yes High,Stable,Low,Low,3,2024,2,129,8000,1,0,0,1,3,Low,0,1,1,1,0.7792363659098789,OK
+2.92,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Low,Stable,High,Medium,1,2024,1,66,18000,1,2,1,1,1,Low,3,0,0,0,0.537643470016234,OK
+3.15,Business Administration,Malaysia,University of Malaya,Below 10k,Yes Medium,Stable,Low,Medium,2,2024,1,99,8000,1,0,1,1,2,Medium,1,1,1,1,0.7419581767147658,OK
+3.82,Civil Engineering,Canada,University of Toronto,10-15K,No,Stable,Medium,High,1,2024,1,79,12500,1,1,2,0,0,High,3,1,0,0,0.4506438149333957,OK
+3.32,Data Science,Australia,Monash University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,10,2025,4,720,8000,4,0,1,1,2,Medium,1,1,0,0,0.2222038014556331,OK
+2.88,Data Science,Germany,Technical University of Munich,Below 10k,Yes Medium,Stable,Low,Medium,1,2024,1,66,8000,1,0,1,1,2,Low,1,0,1,1,0.7454566080028971,OK
+3.73,Environmental Science,New Zealand,University of Auckland,10-15K,No,Newly Elected,Medium,High,6,2026,3,953,12500,5,1,2,0,0,High,3,1,1,1,0.7764187586263578,OK
+3.4,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Transitional phase Last 5 months,Low,Medium,12,2025,1,786,8000,4,0,1,0,0,High,1,0,0,0,0.007975541805071882,OK
+3.16,Software Engineering,Australia,University of Sydney,16-20K,No,Newly Elected,High,Medium,3,2026,2,880,18000,5,2,1,0,0,Medium,3,1,0,0,0.11891716649838523,OK
+2.28,Automotive Engineering,Germany,Technical University of Munich,10-15K,No,Unstable,Medium,Low,4,2024,2,155,12500,2,1,0,0,0,Low,1,1,0,0,0.13780678691941725,OK
+2.32,Computer Science,USA,Arizona State University,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Low,12,2024,1,412,8000,3,0,0,1,1,Low,0,1,0,0,0.004276288678603732,OK
+3.25,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,6,2025,3,603,18000,3,2,1,1,3,Medium,3,1,1,1,0.8532529789166577,OK
+3.23,Civil Engineering,UK,University of Manchester,16-20K,Yes High,Unstable,High,Medium,6,2024,3,233,18000,2,2,1,1,3,Medium,3,1,1,1,0.9892440580800338,OK
+3.94,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Newly Elected,High,High,4,2026,2,905,18000,5,2,2,1,3,High,4,1,1,1,0.9948344262150113,OK
+3.23,Data Science,Germany,Technical University of Munich,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,327,12500,3,1,1,0,0,Medium,2,1,0,0,0.017474028540377648,OK
+3.17,Data Science,Australia,University of Sydney,Below 10k,No,Unstable,Low,Medium,7,2024,3,262,8000,2,0,1,0,0,Medium,1,1,0,0,0.109065871006032,OK
+3.36,Data Science,Germany,Technical University of Munich,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,9,2024,4,329,18000,3,2,1,1,1,Medium,3,1,0,0,0.11743581637296548,OK
+3.37,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Newly Elected,High,Medium,2,2026,1,846,18000,5,2,1,1,1,Medium,3,1,1,1,0.932021558989262,OK
+3.15,Computer Science,Canada,York University,10-15K,Yes High,Newly Elected,High,High,5,2026,2,925,12500,5,2,2,1,3,Medium,4,0,1,1,0.9924564375477105,OK
+3.11,IT,Malaysia,University of Malaya,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,9,2024,4,320,8000,3,0,1,1,2,Medium,1,1,0,0,0.03136357625798029,OK
+3.12,Supply Chain Management,Ireland,University College Dublin,10-15K,No,Transitional phase Last 5 months,Medium,Medium,12,2025,1,783,12500,4,1,1,0,0,Medium,2,1,0,0,0.03640280009830172,OK
+2.96,Business Administration,Malaysia,University of Malaya,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,3,2025,2,516,8000,3,0,1,1,3,Low,1,0,1,0,0.09563924688711836,FN
+3.14,Data Science,Australia,RMIT University,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,309,12500,3,1,1,1,2,Medium,2,1,0,0,0.08070230812598109,OK
+3.37,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Medium,Newly Elected,Low,Medium,7,2026,3,976,8000,5,0,1,1,2,Medium,1,1,1,1,0.9532975721284795,OK
+3.25,Electrical Engineering,USA,Arizona State University,10-15K,No,Newly Elected,Medium,Medium,3,2026,2,852,12500,5,1,1,0,0,Medium,2,1,0,0,0.2685861533247091,OK
+3.86,AI,Canada,York University,Below 10k,Yes Medium,Stable,Low,High,12,2023,1,52,8000,1,0,2,1,2,High,2,1,0,1,0.6604350554668952,FP
+3.33,Finance,Ireland,University College Dublin,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,541,12500,3,1,1,1,2,Medium,2,1,0,0,0.1437238902429721,OK
+3.22,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,11,2025,4,760,18000,4,2,1,1,1,Medium,3,1,0,0,0.4179841911888732,OK
+3.24,Marketing,UK,University of Birmingham,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,5,2025,2,575,12500,3,1,1,1,3,Medium,2,1,1,1,0.5555729213734363,OK
+3.22,Agriculture,New Zealand,University of Auckland,16-20K,No,Transitional phase 1st 5 months,High,Medium,3,2025,2,486,18000,3,2,1,0,0,Medium,3,1,0,0,0.023089796532491137,OK
+3.49,Environmental Science,New Zealand,University of Auckland,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,414,12500,3,1,1,0,0,High,2,0,0,0,0.024347853160209345,OK
+3.08,Environmental Science,New Zealand,University of Auckland,16-20K,No,Newly Elected,High,Medium,6,2026,3,958,18000,5,2,1,0,0,Medium,3,1,1,0,0.12341413541436444,FN
+2.74,Public Health,Canada,York University,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,2,2025,1,473,18000,3,2,1,1,2,Low,3,0,1,0,0.5044596823375066,FN
+3.27,Finance,UK,University of Leeds,10-15K,No,Stable,Medium,Medium,12,2023,1,35,12500,1,1,1,0,0,Medium,2,1,1,0,0.5246290801403142,FN
+2.01,Hospitality Management,UK,University of Leeds,16-20K,Yes Medium,Stable,High,Low,12,2023,1,47,18000,1,2,0,1,2,Low,2,1,0,0,0.5275724548175823,OK
+3.34,Civil Engineering,UK,Coventry University,10-15K,No,Newly Elected,Medium,Medium,4,2026,2,887,12500,5,1,1,0,0,Medium,2,1,1,0,0.28681453313133976,FN
+3.45,Finance,Ireland,University College Dublin,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,12,2024,1,406,8000,3,0,1,1,2,High,1,0,0,0,0.033627540698798496,OK
+3.0,AI,Canada,University of British Columbia,16-20K,Yes Low,Stable,High,Medium,2,2024,1,104,18000,1,2,1,1,1,Medium,3,1,1,1,0.6122005204131533,OK
+3.72,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Stable,High,High,2,2024,1,102,18000,1,2,2,1,1,High,4,1,1,1,0.6852216110490771,OK
+3.23,Finance,Ireland,University College Dublin,Below 10k,No,Unstable,Low,Medium,6,2024,3,234,8000,2,0,1,0,0,Medium,1,1,0,0,0.10744721787319637,OK
+2.93,Finance,Ireland,University College Dublin,16-20K,No,Newly Elected,High,Medium,6,2026,3,970,18000,5,2,1,0,0,Low,3,0,0,0,0.11891716649838523,OK
+2.56,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Newly Elected,High,Medium,5,2026,2,924,18000,5,2,1,1,1,Low,3,0,1,1,0.921718395814281,OK
+3.37,Agriculture,New Zealand,University of Auckland,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,12,2024,1,400,8000,3,0,1,0,0,Medium,1,1,0,0,0.007279821718605736,OK
+3.27,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,962,8000,5,0,1,0,0,Medium,1,1,0,0,0.06986886433732631,OK
+3.19,Business Analytics,Ireland,University College Dublin,16-20K,No,Transitional phase Last 5 months,High,Medium,12,2025,1,766,18000,4,2,1,0,0,Medium,3,1,0,0,0.0364380874192972,OK
+3.24,Law,UK,King's College London,16-20K,Yes Medium,Unstable,High,Medium,6,2024,3,231,18000,2,2,1,1,2,Medium,3,1,1,1,0.977293656003748,OK
+3.26,Finance,Ireland,University College Dublin,Below 10k,No,Newly Elected,Low,Medium,5,2026,2,936,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+3.14,Computer Science,Ireland,University College Dublin,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,523,12500,3,1,1,1,3,Medium,2,1,0,0,0.508792957009255,OK
+2.46,Marketing,UK,University of Manchester,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Low,12,2024,1,418,12500,3,1,0,1,1,Low,1,1,0,0,0.00514511936017327,OK
+3.33,Data Science,Germany,Technical University of Munich,Below 10k,Yes High,Newly Elected,Low,Medium,7,2026,3,973,8000,5,0,1,1,3,Medium,1,1,1,1,0.9732926420818053,OK
+3.31,Data Science,USA,Arizona State University,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,12,2025,1,785,18000,4,2,1,1,1,Medium,3,1,1,0,0.3443788902844663,FN
+3.49,Electrical Engineering,USA,Arizona State University,16-20K,No,Transitional phase Last 5 months,High,Medium,10,2025,4,720,18000,4,2,1,0,0,High,3,0,0,0,0.037707161313595056,OK
+2.43,Accounting,Malaysia,University of Malaya,16-20K,Yes Low,Stable,High,Low,11,2023,4,20,18000,1,2,0,1,1,Low,2,1,1,1,0.5485330995484003,OK
+3.95,Business Analytics,Australia,RMIT University,10-15K,No,Transitional phase 1st 5 months,Medium,High,2,2025,1,471,12500,3,1,2,0,0,High,3,1,0,0,0.17269666803959552,OK
+3.39,Data Science,Germany,Technical University of Munich,10-15K,Yes Medium,Newly Elected,Medium,Medium,4,2026,2,889,12500,5,1,1,1,2,Medium,2,1,1,1,0.9813186695280005,OK
+3.41,Environmental Science,New Zealand,University of Auckland,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,8,2024,3,299,12500,3,1,1,0,0,High,2,0,0,0,0.018081207229091435,OK
+2.69,Business Analytics,Australia,University of Sydney,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,12,2025,1,774,8000,4,0,1,1,2,Low,1,0,0,0,0.15401444107106388,OK
+3.4,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Unstable,High,Medium,5,2024,2,196,18000,2,2,1,1,3,High,3,0,1,1,0.9903679751695432,OK
+3.4,Civil Engineering,Canada,University of Toronto,10-15K,Yes High,Unstable,Medium,Medium,5,2024,2,204,12500,2,1,1,1,3,High,2,0,1,1,0.9897780213654223,OK
+3.26,Supply Chain Management,Ireland,University College Dublin,16-20K,No,Transitional phase Last 5 months,High,Medium,11,2025,4,732,18000,4,2,1,0,0,Medium,3,1,0,0,0.035018532160049055,OK
+3.19,Civil Engineering,UK,University of Birmingham,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,6,2025,3,599,8000,3,0,1,1,1,Medium,1,1,0,0,0.02702896129347169,OK
+3.31,Computer Science,Canada,University of Toronto,10-15K,No,Transitional phase Last 5 months,Medium,Medium,1,2026,1,805,12500,4,1,1,0,0,Medium,2,1,0,0,0.036780895835840974,OK
+3.2,Agriculture,New Zealand,University of Auckland,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,912,12500,5,1,1,0,0,Medium,2,1,0,0,0.3023547961706562,OK
+3.19,Public Health,Canada,University of British Columbia,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,10,2024,4,356,8000,3,0,1,1,1,Medium,1,1,0,0,0.024836257454692517,OK
+3.49,Data Science,Australia,University of Sydney,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,9,2025,4,686,12500,4,1,1,1,3,High,2,0,1,1,0.9256029439757308,OK
+2.17,IT,Malaysia,University of Malaya,16-20K,No,Stable,High,Low,2,2024,1,107,18000,1,2,0,0,0,Low,2,1,1,0,0.46082209974528443,FN
+3.27,Business Analytics,Australia,University of Sydney,Below 10k,Yes Medium,Unstable,Low,Medium,7,2024,3,255,8000,2,0,1,1,2,Medium,1,1,1,1,0.9393335231553634,OK
+3.12,Civil Engineering,Canada,York University,10-15K,Yes Medium,Newly Elected,Medium,Medium,4,2026,2,909,12500,5,1,1,1,2,Medium,2,1,1,1,0.9800171161137062,OK
+3.55,Data Science,Germany,Technical University of Munich,16-20K,No,Transitional phase Last 5 months,High,High,10,2025,4,727,18000,4,2,2,0,0,High,4,1,1,0,0.3837639033879036,FN
+2.73,Finance,UK,Coventry University,16-20K,Yes High,Unstable,High,Medium,5,2024,2,185,18000,2,2,1,1,3,Low,3,0,1,1,0.9887191136840178,OK
+3.63,Data Science,USA,Arizona State University,16-20K,Yes High,Transitional phase Last 5 months,High,High,9,2025,4,684,18000,4,2,2,1,3,High,4,1,1,1,0.9815165788002119,OK
+3.3,Business Analytics,Canada,University of British Columbia,16-20K,Yes High,Newly Elected,High,High,5,2026,2,922,18000,5,2,2,1,3,Medium,4,0,1,1,0.9935178655427135,OK
+2.91,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes Medium,Stable,Low,Medium,2,2024,1,103,8000,1,0,1,1,2,Low,1,0,1,1,0.7316555552901698,OK
+3.19,Hospitality Management,Australia,Deakin University,16-20K,No,Newly Elected,High,Medium,7,2026,3,984,18000,5,2,1,0,0,Medium,3,1,0,0,0.11269710408768283,OK
+2.55,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,706,18000,4,2,1,1,3,Low,3,0,1,1,0.9568214880966174,OK
+2.57,Data Science,Germany,Technical University of Munich,Below 10k,No,Stable,Low,Medium,3,2024,2,129,8000,1,0,1,0,0,Low,1,0,1,1,0.5525722989252426,OK
+3.38,Marketing,Malaysia,University of Malaya,Below 10k,No,Transitional phase Last 5 months,Low,Medium,12,2025,1,771,8000,4,0,1,0,0,Medium,1,1,0,0,0.00797852987646007,OK
+3.25,Civil Engineering,UK,University of Manchester,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,12,2025,1,772,18000,4,2,1,1,2,Medium,3,1,1,1,0.8583460603391126,OK
+3.39,Finance,UK,University of Manchester,10-15K,Yes Medium,Newly Elected,Medium,Medium,2,2026,1,845,12500,5,1,1,1,2,Medium,2,1,1,1,0.9807177107750116,OK
+2.55,Finance,UK,University of Birmingham,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,516,12500,3,1,1,0,0,Low,2,0,0,0,0.027404918698668436,OK
+3.72,Software Engineering,Australia,University of Sydney,Below 10k,No,Stable,Low,High,2,2024,1,106,8000,1,0,2,0,0,High,2,1,1,0,0.41509862267736025,FN
+3.31,Software Engineering,Australia,Deakin University,10-15K,No,Unstable,Medium,Medium,6,2024,3,218,12500,2,1,1,0,0,Medium,2,1,0,0,0.41752364255857405,OK
+3.17,Marketing,Malaysia,University of Malaya,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,411,12500,3,1,1,0,0,Medium,2,1,0,0,0.024809297360216895,OK
+3.56,Accounting,Malaysia,University of Malaya,Below 10k,Yes Medium,Stable,Low,High,12,2023,1,33,8000,1,0,2,1,2,High,2,1,0,1,0.6673809334712344,FP
+3.21,Computer Science,Ireland,University College Dublin,Below 10k,No,Stable,Low,Medium,2,2024,1,111,8000,1,0,1,0,0,Medium,1,1,0,0,0.4615243855511971,OK
+3.42,Computer Science,Canada,University of Toronto,16-20K,Yes Medium,Stable,High,Medium,11,2023,4,1,18000,1,2,1,1,2,High,3,0,0,1,0.7898779654156346,FP
+2.93,Data Science,Germany,Technical University of Munich,Below 10k,No,Unstable,Low,Medium,5,2024,2,183,8000,2,0,1,0,0,Low,1,0,0,0,0.12351890043666959,OK
+3.15,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Stable,Low,Medium,3,2024,2,140,8000,1,0,1,0,0,Medium,1,1,1,0,0.5001535138004103,FN
+3.45,Accounting,Malaysia,University of Malaya,10-15K,No,Stable,Medium,Medium,3,2024,2,128,12500,1,1,1,0,0,High,2,0,1,0,0.4934560604664574,FN
+2.27,Marketing,UK,King's College London,Below 10k,No,Stable,Low,Low,3,2024,2,150,8000,1,0,0,0,0,Low,0,1,1,0,0.21035019667054944,FN
+2.96,Data Science,Australia,RMIT University,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,415,12500,3,1,1,1,2,Low,2,0,0,0,0.10958739823744024,OK
+2.33,Agriculture,New Zealand,University of Auckland,Below 10k,Yes High,Stable,Low,Low,12,2023,1,32,8000,1,0,0,1,3,Low,0,1,1,1,0.7637270940300784,OK
+3.28,Electrical Engineering,USA,Arizona State University,10-15K,No,Newly Elected,Medium,Medium,3,2026,2,871,12500,5,1,1,0,0,Medium,2,1,0,0,0.2854411496223778,OK
+3.84,Electrical Engineering,USA,Arizona State University,10-15K,No,Stable,Medium,High,3,2024,2,147,12500,1,1,2,0,0,High,3,1,1,1,0.6462945405135818,OK
+3.27,Psychology,UK,University of Leeds,10-15K,Yes Low,Unstable,Medium,Medium,4,2024,2,171,12500,2,1,1,1,1,Medium,2,1,1,1,0.9547819251669759,OK
+3.48,Mechanical Engineering,Germany,Technical University of Munich,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,2,2025,1,469,12500,3,1,1,1,2,High,2,0,0,0,0.1252699108786088,OK
+3.21,Environmental Science,New Zealand,University of Auckland,16-20K,No,Unstable,High,Medium,7,2024,3,251,18000,2,2,1,0,0,Medium,3,1,0,0,0.1928347091140915,OK
+3.39,Hospitality Management,New Zealand,University of Auckland,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,12,2025,1,765,12500,4,1,1,1,2,Medium,2,1,1,1,0.6347652929304473,OK
+2.74,Marketing,UK,University of Leeds,Below 10k,No,Unstable,Low,Medium,5,2024,2,206,8000,2,0,1,0,0,Low,1,0,0,0,0.11800495757621716,OK
+2.54,Marketing,Malaysia,University of Malaya,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,524,12500,3,1,1,1,2,Low,2,0,1,0,0.12014011209736614,FN
+3.32,Law,UK,Coventry University,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,12,2025,1,768,12500,4,1,1,1,3,Medium,2,1,1,1,0.9153721685626665,OK
+3.24,Civil Engineering,Canada,University of British Columbia,Below 10k,No,Unstable,Low,Medium,5,2024,2,200,8000,2,0,1,0,0,Medium,1,1,0,0,0.09386679281205468,OK
+3.78,Computer Science,Canada,University of British Columbia,Below 10k,Yes High,Newly Elected,High,High,6,2026,3,968,8000,5,2,2,1,3,High,4,1,1,1,0.9949505798900274,OK
+3.3,Environmental Science,New Zealand,University of Auckland,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,12,2025,1,763,12500,4,1,1,1,2,Medium,2,1,1,1,0.5474529296049414,OK
+3.23,AI,USA,Arizona State University,Below 10k,No,Newly Elected,Low,Medium,5,2026,2,941,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+3.36,Agriculture,New Zealand,University of Auckland,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,12,2024,1,409,18000,3,2,1,1,1,Medium,3,1,0,0,0.15531004206493068,OK
+3.21,Environmental Science,New Zealand,University of Auckland,10-15K,No,Newly Elected,Medium,Medium,7,2026,3,982,12500,5,1,1,0,0,Medium,2,1,0,0,0.3023547961706562,OK
+3.11,Marketing,Malaysia,University of Malaya,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,9,2025,4,677,8000,4,0,1,1,1,Medium,1,1,0,0,0.09148545314262621,OK
+3.26,AI,Canada,York University,16-20K,No,Newly Elected,High,Medium,3,2026,2,868,18000,5,2,1,0,0,Medium,3,1,1,0,0.1110312757320522,FN
+3.4,Marketing,Malaysia,University of Malaya,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,9,2024,4,306,8000,3,0,1,1,3,High,1,0,0,0,0.07690879545908631,OK
+3.73,Accounting,Malaysia,University of Malaya,16-20K,No,Stable,High,High,11,2023,4,1,18000,1,2,2,0,0,High,4,1,0,0,0.44825836287954063,OK
+2.51,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Medium,Stable,Low,Medium,2,2024,1,94,8000,1,0,1,1,2,Low,1,0,0,1,0.7113402627811218,FP
+3.0,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Unstable,Medium,Medium,4,2024,2,163,12500,2,1,1,1,1,Medium,2,1,1,1,0.9585367513652202,OK
+3.4,Marketing,UK,University of Manchester,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,5,2025,2,553,18000,3,2,1,1,1,High,3,0,0,0,0.1891792804932006,OK
+3.12,Data Science,Germany,Technical University of Munich,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,1,2025,1,445,8000,3,0,1,0,0,Medium,1,1,0,0,0.007874885064401128,OK
+3.1,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Stable,Low,Medium,2,2024,1,95,8000,1,0,1,1,1,Medium,1,1,0,1,0.6545551174431385,FP
+3.36,Marketing,UK,King's College London,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,11,2025,4,758,8000,4,0,1,1,3,Medium,1,1,1,1,0.6623199240994903,OK
+3.33,Data Science,Australia,University of Sydney,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,939,12500,5,1,1,0,0,Medium,2,1,0,0,0.29352085610696693,OK
+3.26,Psychology,UK,University of Manchester,16-20K,No,Newly Elected,High,Medium,6,2026,3,970,18000,5,2,1,0,0,Medium,3,1,0,0,0.1110312757320522,OK
+3.64,Marketing,UK,University of Birmingham,Below 10k,Yes Medium,Stable,Low,High,1,2024,1,77,8000,1,0,2,1,2,High,2,1,1,1,0.6602583963187065,OK
+3.03,Data Science,Germany,Technical University of Munich,10-15K,Yes Low,Newly Elected,Medium,Medium,5,2026,2,929,12500,5,1,1,1,1,Medium,2,1,1,1,0.9404478201433432,OK
+2.53,Data Science,Germany,Technical University of Munich,16-20K,No,Unstable,High,Medium,7,2024,3,269,18000,2,2,1,0,0,Low,3,0,0,0,0.153543348454161,OK
+3.28,Computer Science,Ireland,University College Dublin,16-20K,Yes Low,Newly Elected,High,Medium,4,2026,2,904,18000,5,2,1,1,1,Medium,3,1,1,1,0.9460757004493026,OK
+3.12,Public Health,Canada,University of Toronto,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,10,2024,4,356,8000,3,0,1,1,2,Medium,1,1,0,0,0.040599000754130636,OK
+3.56,Computer Science,USA,Arizona State University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,High,4,2025,2,531,12500,3,1,2,1,3,High,3,1,1,1,0.7138244590769991,OK
+2.87,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Unstable,Low,Medium,5,2024,2,209,8000,2,0,1,0,0,Low,1,0,0,0,0.1307753444378035,OK
+3.6,IT,Malaysia,University of Malaya,16-20K,No,Newly Elected,High,High,6,2026,3,971,18000,5,2,2,0,0,High,4,1,1,1,0.7269507662773036,OK
+3.85,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,High,4,2025,2,521,12500,3,1,2,1,1,High,3,1,0,0,0.06847583685228163,OK
+3.45,Software Engineering,Australia,University of Melbourne,16-20K,No,Transitional phase 1st 5 months,High,Medium,8,2024,3,303,18000,3,2,1,0,0,High,3,0,0,0,0.016153065390443703,OK
+3.15,IT,Malaysia,University of Malaya,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,12,2025,1,779,18000,4,2,1,1,3,Medium,3,1,1,1,0.9550819476615173,OK
+3.35,Finance,Ireland,University College Dublin,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,1,2025,1,451,12500,3,1,1,0,0,Medium,2,1,0,0,0.03352718126003513,OK
+3.15,Computer Science,USA,Arizona State University,Below 10k,Yes Low,Unstable,Low,Medium,6,2024,3,222,8000,2,0,1,1,1,Medium,1,1,1,1,0.9132639639702501,OK
+3.47,Electrical Engineering,USA,Arizona State University,Below 10k,No,Transitional phase Last 5 months,Low,Medium,10,2025,4,708,8000,4,0,1,0,0,High,1,0,0,0,0.007648228178510425,OK
+3.36,Agriculture,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,9,2025,4,680,18000,4,2,1,1,3,Medium,3,1,1,1,0.976298271228531,OK
+3.24,AI,USA,Arizona State University,10-15K,No,Newly Elected,Medium,Medium,4,2026,2,911,12500,5,1,1,0,0,Medium,2,1,0,0,0.2854411496223778,OK
+3.61,Computer Science,Canada,University of British Columbia,Below 10k,No,Stable,Low,High,1,2024,1,64,8000,1,0,2,0,0,High,2,1,1,0,0.480946184126139,FN
+2.27,Electrical Engineering,Germany,Technical University of Munich,Below 10k,No,Unstable,Low,Low,4,2024,2,167,8000,2,0,0,0,0,Low,0,1,0,0,0.023084024321684778,OK
+2.82,IT,Malaysia,University of Malaya,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,12,2025,1,773,18000,4,2,1,1,2,Low,3,0,1,1,0.8554106756344879,OK
+3.46,Software Engineering,Australia,Deakin University,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,370,12500,3,1,1,0,0,High,2,0,0,0,0.024347853160209345,OK
+3.35,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,11,2024,4,381,18000,3,2,1,1,1,Medium,3,1,0,0,0.18192458426504907,OK
+3.38,Business Analytics,Ireland,University College Dublin,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,8,2024,3,289,8000,3,0,1,1,2,Medium,1,1,0,0,0.04780650752908546,OK
+3.2,IT,Malaysia,University of Malaya,Below 10k,No,Transitional phase Last 5 months,Low,Medium,12,2025,1,789,8000,4,0,1,0,0,Medium,1,1,0,0,0.007075718602766595,OK
+3.25,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes Low,Unstable,High,Medium,5,2024,2,209,18000,2,2,1,1,1,Medium,3,1,1,1,0.9558321938197097,OK
+3.12,Accounting,Malaysia,University of Malaya,10-15K,No,Unstable,Medium,Medium,7,2024,3,267,12500,2,1,1,0,0,Medium,2,1,0,0,0.3401348571205175,OK
+3.39,Data Science,Germany,Technical University of Munich,10-15K,No,Transitional phase Last 5 months,Medium,Medium,9,2025,4,697,12500,4,1,1,0,0,Medium,2,1,0,0,0.04230312476725972,OK
+3.23,Data Science,Germany,Technical University of Munich,10-15K,No,Newly Elected,Medium,Medium,4,2026,2,883,12500,5,1,1,0,0,Medium,2,1,0,0,0.2973413145527112,OK
+3.37,Public Health,Canada,University of Toronto,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,490,12500,3,1,1,0,0,Medium,2,1,0,0,0.029505298164162332,OK
+2.44,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Low,Stable,Low,Low,3,2024,2,146,8000,1,0,0,1,1,Low,0,1,0,0,0.2346069088848894,OK
+3.1,Computer Science,Canada,York University,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,384,12500,3,1,1,1,2,Medium,2,1,0,0,0.1133980525350509,OK
+3.65,Business Analytics,Australia,Deakin University,16-20K,Yes Low,Transitional phase Last 5 months,High,High,12,2025,1,788,18000,4,2,2,1,1,High,4,1,1,1,0.731313733573888,OK
+3.33,Cyber Security,USA,Arizona State University,10-15K,Yes Medium,Newly Elected,Medium,Medium,6,2026,3,951,12500,5,1,1,1,2,Medium,2,1,1,1,0.977565797878958,OK
+3.16,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Low,Unstable,High,Medium,7,2024,3,252,18000,2,2,1,1,1,Medium,3,1,1,1,0.9494521883955669,OK
+2.53,AI,Canada,York University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,12,2025,1,788,8000,4,0,1,1,2,Low,1,0,1,0,0.15482550136024803,FN
+2.79,Nursing,Australia,University of Melbourne,10-15K,No,Unstable,Medium,Medium,4,2024,2,159,12500,2,1,1,0,0,Low,2,0,0,0,0.47105920201501283,OK
+3.38,Accounting,Malaysia,University of Malaya,10-15K,Yes High,Newly Elected,High,High,3,2026,2,870,12500,5,2,2,1,3,Medium,4,0,1,1,0.9936364296483778,OK
+2.8,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Medium,Stable,Low,Medium,12,2023,1,55,8000,1,0,1,1,2,Low,1,0,0,1,0.6778611485156849,FP
+3.08,Data Science,USA,Arizona State University,Below 10k,No,Stable,Low,Medium,12,2023,1,56,8000,1,0,1,0,0,Medium,1,1,1,0,0.4962508796105101,FN
+3.1,Psychology,UK,Coventry University,Below 10k,Yes Low,Unstable,Low,Medium,5,2024,2,202,8000,2,0,1,1,1,Medium,1,1,1,1,0.9132639639702501,OK
+3.02,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Low,Newly Elected,High,Medium,2,2026,1,843,18000,5,2,1,1,1,Medium,3,1,1,1,0.9209006269188076,OK
+3.4,Psychology,UK,Coventry University,10-15K,Yes Low,Stable,Medium,Medium,3,2024,2,148,12500,1,1,1,1,1,High,2,0,1,1,0.8198463340819799,OK
+3.32,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Medium,Unstable,High,Medium,5,2024,2,206,18000,2,2,1,1,2,Medium,3,1,1,1,0.9767808123601665,OK
+2.6,Business Analytics,Canada,York University,Below 10k,No,Stable,Low,Medium,12,2023,1,47,8000,1,0,1,0,0,Low,1,0,1,1,0.5573044427118686,OK
+3.18,Civil Engineering,UK,University of Leeds,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,11,2024,4,371,18000,3,2,1,1,3,Medium,3,1,1,1,0.9111408449470797,OK
+2.63,Cyber Security,USA,Arizona State University,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,10,2025,4,719,8000,4,0,1,1,3,Low,1,0,0,0,0.476716964459602,OK
+2.65,Data Science,Germany,Technical University of Munich,Below 10k,Yes Medium,Stable,Low,Medium,2,2024,1,101,8000,1,0,1,1,2,Low,1,0,1,1,0.7113402627811218,OK
+3.3,Hospitality Management,Australia,University of Melbourne,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,8,2024,3,284,12500,3,1,1,0,0,Medium,2,1,0,0,0.021914731633952755,OK
+3.48,Marketing,Malaysia,University of Malaya,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,12,2024,1,425,8000,3,0,1,1,2,High,1,0,0,0,0.033627540698798496,OK
+3.43,Data Science,Germany,Technical University of Munich,Below 10k,Yes Medium,Stable,Low,Medium,2,2024,1,110,8000,1,0,1,1,2,High,1,0,1,1,0.7399150962229684,OK
+3.2,Civil Engineering,UK,University of Birmingham,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,1,2026,1,796,8000,4,0,1,1,3,Medium,1,1,0,1,0.6183732446994211,FP
+3.23,Marketing,UK,University of Manchester,16-20K,No,Transitional phase Last 5 months,High,Medium,11,2025,4,754,18000,4,2,1,0,0,Medium,3,1,0,0,0.037373210201574705,OK
+3.46,Computer Science,Ireland,University College Dublin,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,1,2025,1,448,8000,3,0,1,1,2,High,1,0,0,0,0.042262531467921645,OK
+3.06,Agriculture,New Zealand,University of Auckland,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,3,2025,2,496,8000,3,0,1,0,0,Medium,1,1,0,0,0.006786045037757919,OK
+3.38,Data Science,Germany,Technical University of Munich,Below 10k,No,Transitional phase Last 5 months,Low,Medium,12,2025,1,780,8000,4,0,1,0,0,Medium,1,1,0,0,0.00812512241384193,OK
+3.24,Cyber Security,USA,Arizona State University,Below 10k,No,Stable,Low,Medium,11,2023,4,17,8000,1,0,1,0,0,Medium,1,1,1,0,0.535856579490098,FN
+3.18,Software Engineering,Australia,Deakin University,10-15K,No,Newly Elected,Medium,Medium,6,2026,3,959,12500,5,1,1,0,0,Medium,2,1,0,0,0.2970098581352818,OK
+3.46,Electrical Engineering,USA,Arizona State University,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,12,2025,1,779,12500,4,1,1,1,1,High,2,0,0,0,0.15571418799648074,OK
+2.57,Business Analytics,Canada,York University,Below 10k,No,Stable,Low,Medium,11,2023,4,15,8000,1,0,1,0,0,Low,1,0,0,1,0.600876696845236,FP
+3.34,Data Science,Germany,Technical University of Munich,10-15K,Yes Medium,Unstable,Medium,Medium,7,2024,3,264,12500,2,1,1,1,2,Medium,2,1,1,1,0.9766259491575519,OK
+3.43,Nursing,Australia,Deakin University,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,9,2025,4,670,8000,4,0,1,1,3,High,1,0,1,1,0.6527244983698647,OK
+3.28,Business Analytics,Canada,University of Toronto,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,12,2025,1,767,18000,4,2,1,1,1,Medium,3,1,1,0,0.33916808094195805,FN
+3.09,Computer Science,USA,Arizona State University,Below 10k,Yes Medium,Stable,Low,Medium,11,2023,4,19,8000,1,0,1,1,2,Medium,1,1,1,1,0.6965811064248625,OK
+3.23,Supply Chain Management,Ireland,University College Dublin,10-15K,Yes Low,Newly Elected,Medium,Medium,5,2026,2,942,12500,5,1,1,1,1,Medium,2,1,1,1,0.9308119371648708,OK
+3.18,Agriculture,New Zealand,University of Auckland,10-15K,Yes Medium,Unstable,Medium,Medium,7,2024,3,259,12500,2,1,1,1,2,Medium,2,1,1,1,0.9767572210840072,OK
+3.11,Accounting,Malaysia,University of Malaya,16-20K,No,Transitional phase Last 5 months,High,Medium,9,2025,4,681,18000,4,2,1,0,0,Medium,3,1,0,0,0.03812353283444793,OK
+2.92,Business Analytics,Ireland,University College Dublin,16-20K,No,Newly Elected,High,Medium,3,2026,2,858,18000,5,2,1,0,0,Low,3,0,0,0,0.1161879809366399,OK
+3.18,AI,USA,Arizona State University,10-15K,No,Unstable,Medium,Medium,5,2024,2,212,12500,2,1,1,0,0,Medium,2,1,1,0,0.41205792992237467,FN
+2.53,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase Last 5 months,Low,Medium,12,2025,1,766,8000,4,0,1,0,0,Low,1,0,0,0,0.0073485333836703715,OK
+3.39,Business Administration,Malaysia,University of Malaya,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,954,8000,5,0,1,0,0,Medium,1,1,0,0,0.07474967572134264,OK
+3.27,Law,UK,University of Birmingham,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,9,2025,4,694,18000,4,2,1,1,1,Medium,3,1,0,0,0.41352588819728825,OK
+3.14,Agriculture,New Zealand,University of Auckland,16-20K,Yes High,Newly Elected,High,High,5,2026,2,936,18000,5,2,2,1,3,Medium,4,0,1,1,0.9932533427506988,OK
+3.29,Marketing,Malaysia,University of Malaya,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,236,12500,2,1,1,1,2,Medium,2,1,1,1,0.9753793443724674,OK
+3.15,Law,UK,University of Leeds,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,12,2025,1,780,12500,4,1,1,1,2,Medium,2,1,1,1,0.5977485201855749,OK
+2.84,Law,UK,King's College London,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,1,2025,1,452,18000,3,2,1,1,2,Low,3,0,1,0,0.5044596823375066,FN
+3.24,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,3,2025,2,495,8000,3,0,1,1,2,Medium,1,1,0,0,0.0462942812084963,OK
+3.21,Civil Engineering,Canada,York University,16-20K,No,Newly Elected,High,Medium,3,2026,2,878,18000,5,2,1,0,0,Medium,3,1,0,0,0.0993962221202804,OK
+2.87,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,966,8000,5,0,1,0,0,Low,1,0,0,0,0.07974773145073215,OK
+3.51,Data Science,Germany,Technical University of Munich,Below 10k,No,Unstable,Low,High,6,2024,3,242,8000,2,0,2,0,0,High,2,1,1,0,0.5098550012944907,FN
+3.11,Cyber Security,USA,Arizona State University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,351,12500,3,1,1,1,3,Medium,2,1,0,0,0.379741336522018,OK
+2.96,IT,Australia,Torrens University,16-20K,Yes Medium,Stable,High,Medium,3,2024,2,134,18000,1,2,1,1,2,Low,3,0,1,1,0.8077903024420452,OK
+3.24,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,5,2025,2,563,8000,3,0,1,1,2,Medium,1,1,0,0,0.0462942812084963,OK
+3.9,Law,UK,King's College London,Below 10k,No,Unstable,Low,High,6,2024,3,218,8000,2,0,2,0,0,High,2,1,1,1,0.6628308984372366,OK
+3.87,Law,UK,Coventry University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,High,12,2025,1,767,8000,4,0,2,1,2,High,2,1,1,1,0.7023774868177245,OK
+3.17,Nursing,Australia,University of Melbourne,Below 10k,Yes Low,Unstable,Low,Medium,7,2024,3,256,8000,2,0,1,1,1,Medium,1,1,1,1,0.9177939919847542,OK
+3.46,Data Science,Germany,Technical University of Munich,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,11,2025,4,745,12500,4,1,1,1,1,High,2,0,0,0,0.2013814891805829,OK
+2.91,Electrical Engineering,USA,Arizona State University,16-20K,No,Transitional phase Last 5 months,High,Medium,9,2025,4,699,18000,4,2,1,0,0,Low,3,0,0,0,0.03670881658923,OK
+2.99,Finance,UK,Coventry University,Below 10k,No,Unstable,Low,Medium,4,2024,2,162,8000,2,0,1,0,0,Low,1,0,0,0,0.12728044649995002,OK
+3.77,Business Administration,Malaysia,University of Malaya,10-15K,No,Stable,Medium,High,2,2024,1,109,12500,1,1,2,0,0,High,3,1,0,0,0.4970728093893117,OK
+3.51,Software Engineering,Australia,Monash University,Below 10k,No,Newly Elected,Low,High,5,2026,2,934,8000,5,0,2,0,0,High,2,1,1,0,0.26782717095132863,FN
+2.75,Psychology,UK,University of Birmingham,16-20K,Yes Low,Newly Elected,High,Medium,2,2026,1,846,18000,5,2,1,1,1,Low,3,0,1,1,0.9306861035640525,OK
+3.74,Electrical Engineering,Germany,Technical University of Munich,10-15K,No,Stable,Medium,High,1,2024,1,86,12500,1,1,2,0,0,High,3,1,1,0,0.5094426395371545,FN
+3.25,Hospitality Management,Australia,RMIT University,Below 10k,Yes Medium,Unstable,Low,Medium,4,2024,2,174,8000,2,0,1,1,2,Medium,1,1,1,1,0.9432134867954721,OK
+2.57,Law,UK,King's College London,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,1,2026,1,822,8000,4,0,1,1,1,Low,1,0,0,0,0.18253467397270362,OK
+2.25,Business Analytics,Canada,York University,Below 10k,No,Unstable,Low,Low,7,2024,3,272,8000,2,0,0,0,0,Low,0,1,0,0,0.014737256063605911,OK
+3.21,Civil Engineering,Canada,York University,16-20K,No,Unstable,High,Medium,4,2024,2,166,18000,2,2,1,0,0,Medium,3,1,0,0,0.1793867757462103,OK
+3.35,Civil Engineering,Canada,University of British Columbia,Below 10k,Yes Medium,Stable,Low,Medium,11,2023,4,26,8000,1,0,1,1,2,Medium,1,1,1,1,0.728827663611624,OK
+2.87,Psychology,UK,King's College London,16-20K,Yes High,Newly Elected,High,Medium,2,2026,1,844,18000,5,2,1,1,3,Low,3,0,1,1,0.9924117257979492,OK
+3.16,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes High,Newly Elected,High,Medium,4,2026,2,882,18000,5,2,1,1,3,Medium,3,1,1,1,0.9854979170778442,OK
+3.21,AI,Canada,York University,10-15K,No,Newly Elected,Medium,Medium,4,2026,2,905,12500,5,1,1,0,0,Medium,2,1,1,0,0.29352085610696693,FN
+2.89,Environmental Science,New Zealand,University of Auckland,10-15K,Yes High,Stable,Medium,Medium,12,2023,1,36,12500,1,1,1,1,3,Low,2,0,1,1,0.7098851160871398,OK
+3.84,Supply Chain Management,Ireland,University College Dublin,10-15K,Yes High,Newly Elected,Medium,High,4,2026,2,907,12500,5,1,2,1,3,High,3,1,1,1,0.9940601046064331,OK
+3.39,Cyber Security,USA,Arizona State University,10-15K,No,Unstable,Medium,Medium,4,2024,2,160,12500,2,1,1,0,0,Medium,2,1,0,0,0.47159022985704463,OK
+3.55,Finance,Ireland,University College Dublin,16-20K,Yes High,Transitional phase 1st 5 months,High,High,6,2025,3,605,18000,3,2,2,1,3,High,4,1,1,1,0.9579597856479526,OK
+3.2,Computer Science,Canada,York University,Below 10k,No,Unstable,Low,Medium,6,2024,3,238,8000,2,0,1,0,0,Medium,1,1,0,0,0.10744721787319637,OK
+3.35,Marketing,Malaysia,University of Malaya,Below 10k,Yes High,Newly Elected,High,High,2,2026,1,849,8000,5,2,2,1,3,Medium,4,0,1,1,0.9922465328888669,OK
+3.09,Data Science,USA,Arizona State University,16-20K,Yes Medium,Unstable,High,Medium,7,2024,3,267,18000,2,2,1,1,2,Medium,3,1,1,1,0.9715505029783087,OK
+3.39,Software Engineering,Australia,Monash University,10-15K,Yes Medium,Unstable,Medium,Medium,5,2024,2,204,12500,2,1,1,1,2,Medium,2,1,1,1,0.9762032743725704,OK
+3.28,Business Analytics,Canada,University of Toronto,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,9,2025,4,698,18000,4,2,1,1,3,Medium,3,1,1,1,0.9719298661332302,OK
+2.86,Business Administration,Malaysia,University of Malaya,10-15K,Yes Low,Newly Elected,Medium,Medium,5,2026,2,916,12500,5,1,1,1,1,Low,2,0,1,1,0.9417320214589562,OK
+3.1,IT,Malaysia,University of Malaya,Below 10k,No,Transitional phase Last 5 months,Low,Medium,11,2025,4,737,8000,4,0,1,0,0,Medium,1,1,0,0,0.007222337818937459,OK
+2.38,Nursing,Canada,York University,16-20K,Yes Medium,Stable,High,Low,1,2024,1,70,18000,1,2,0,1,2,Low,2,1,1,1,0.6905051184666451,OK
+3.52,Computer Science,Canada,University of Toronto,Below 10k,No,Stable,Low,High,3,2024,2,135,8000,1,0,2,0,0,High,2,1,0,0,0.49418239102065725,OK
+3.22,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,4,2025,2,524,18000,3,2,1,1,1,Medium,3,1,0,0,0.15883969219773117,OK
+2.4,Marketing,UK,University of Birmingham,10-15K,No,Stable,Medium,Low,1,2024,1,88,12500,1,1,0,0,0,Low,1,1,1,1,0.604886043407317,OK
+3.01,Agriculture,New Zealand,University of Auckland,10-15K,No,Stable,Medium,Medium,12,2023,1,40,12500,1,1,1,0,0,Medium,2,1,0,0,0.5393416659170519,OK
+2.83,Law,UK,University of Birmingham,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,10,2025,4,724,8000,4,0,1,1,1,Low,1,0,0,0,0.09499538662473847,OK
+2.74,IT,Malaysia,University of Malaya,16-20K,No,Stable,High,Medium,12,2023,1,32,18000,1,2,1,0,0,Low,3,0,1,1,0.5635049578461818,OK
+3.16,Data Science,USA,Arizona State University,10-15K,No,Unstable,Medium,Medium,5,2024,2,186,12500,2,1,1,0,0,Medium,2,1,0,0,0.4420068351650911,OK
+3.31,Public Health,Canada,York University,16-20K,No,Unstable,High,Medium,7,2024,3,243,18000,2,2,1,0,0,Medium,3,1,0,0,0.18634592610668574,OK
+3.39,Civil Engineering,Canada,University of British Columbia,10-15K,Yes Medium,Newly Elected,Medium,Medium,6,2026,3,958,12500,5,1,1,1,2,Medium,2,1,1,1,0.9802820066190867,OK
+3.07,Data Science,USA,Arizona State University,10-15K,Yes High,Newly Elected,High,High,5,2026,2,916,12500,5,2,2,1,3,Medium,4,0,1,1,0.9909837716284151,OK
+3.68,Civil Engineering,Canada,York University,Below 10k,No,Transitional phase 1st 5 months,Low,High,11,2024,4,372,8000,3,0,2,0,0,High,2,1,0,0,0.049225943933088434,OK
+2.99,Supply Chain Management,Ireland,University College Dublin,16-20K,No,Stable,High,Medium,3,2024,2,139,18000,1,2,1,0,0,Low,3,0,1,0,0.35595171883125776,FN
+3.3,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,11,2025,4,753,18000,4,2,1,1,1,Medium,3,1,1,0,0.4179841911888732,FN
+3.51,Finance,Ireland,University College Dublin,Below 10k,No,Unstable,Low,High,6,2024,3,226,8000,2,0,2,0,0,High,2,1,1,0,0.5052674807798766,FN
+3.18,Cyber Security,USA,Arizona State University,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,1,2025,1,437,8000,3,0,1,0,0,Medium,1,1,0,0,0.007026371082932538,OK
+3.02,Environmental Science,New Zealand,University of Auckland,Below 10k,No,Stable,Low,Medium,1,2024,1,91,8000,1,0,1,0,0,Medium,1,1,1,0,0.4903843823427886,FN
+2.21,Environmental Science,New Zealand,University of Auckland,16-20K,No,Stable,High,Low,3,2024,2,129,18000,1,2,0,0,0,Low,2,1,0,0,0.402785723481238,OK
+3.4,AI,USA,Arizona State University,Below 10k,Yes High,Unstable,Low,Medium,5,2024,2,208,8000,2,0,1,1,3,High,1,0,1,1,0.9742608948143807,OK
+2.6,Civil Engineering,UK,Coventry University,Below 10k,Yes High,Stable,Low,Medium,12,2023,1,48,8000,1,0,1,1,3,Low,1,0,0,1,0.8047059425438813,FP
+3.55,Environmental Science,New Zealand,University of Auckland,16-20K,No,Transitional phase 1st 5 months,High,High,10,2024,4,344,18000,3,2,2,0,0,High,4,1,0,0,0.17923346292110978,OK
+3.48,Civil Engineering,UK,University of Birmingham,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,10,2024,4,354,8000,3,0,1,0,0,High,1,0,0,0,0.005318686224122829,OK
+2.64,IT,Malaysia,University of Malaya,16-20K,No,Newly Elected,High,Medium,6,2026,3,945,18000,5,2,1,0,0,Low,3,0,0,0,0.11271152330949509,OK
+3.38,Electrical Engineering,Germany,Technical University of Munich,10-15K,No,Transitional phase Last 5 months,Medium,Medium,11,2025,4,756,12500,4,1,1,0,0,Medium,2,1,0,0,0.04230312476725972,OK
+3.14,Computer Science,Ireland,University College Dublin,16-20K,Yes Low,Stable,High,Medium,12,2023,1,41,18000,1,2,1,1,1,Medium,3,1,0,1,0.6014281365901024,FP
+3.47,Nursing,Australia,University of Sydney,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,406,12500,3,1,1,0,0,High,2,0,0,0,0.025892369901377825,OK
+3.21,Finance,UK,University of Leeds,16-20K,Yes High,Newly Elected,High,Medium,4,2026,2,897,18000,5,2,1,1,3,Medium,3,1,1,1,0.9922955370234918,OK
+3.4,Environmental Science,New Zealand,University of Auckland,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,1,2026,1,798,12500,4,1,1,1,3,High,2,0,1,1,0.9186679468352712,OK
+3.32,Electrical Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Newly Elected,High,Medium,5,2026,2,912,18000,5,2,1,1,2,Medium,3,1,1,1,0.9840899042442001,OK
+3.46,Hospitality Management,Australia,RMIT University,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,8,2024,3,298,18000,3,2,1,1,1,High,3,0,0,0,0.11031754272491597,OK
+2.73,Business Analytics,Ireland,University College Dublin,10-15K,Yes Medium,Unstable,Medium,Medium,5,2024,2,189,12500,2,1,1,1,2,Low,2,0,1,1,0.9710124316563913,OK
+2.84,IT,Australia,Torrens University,Below 10k,Yes High,Stable,Low,Medium,11,2023,4,12,8000,1,0,1,1,3,Low,1,0,1,1,0.8225006823914365,OK
+3.31,AI,Canada,University of British Columbia,16-20K,Yes High,Newly Elected,High,Medium,6,2026,3,946,18000,5,2,1,1,3,Medium,3,1,1,1,0.9936851268296558,OK
+3.1,Automotive Engineering,Germany,Technical University of Munich,16-20K,No,Stable,High,Medium,2,2024,1,99,18000,1,2,1,0,0,Medium,3,1,0,0,0.4579410613175689,OK
+2.65,AI,USA,Arizona State University,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,12,2024,1,413,18000,3,2,1,1,3,Low,3,0,1,1,0.794223943381135,OK
+3.21,Civil Engineering,Canada,University of British Columbia,Below 10k,Yes High,Newly Elected,High,High,6,2026,3,955,8000,5,2,2,1,3,Medium,4,0,1,1,0.9922955370234918,OK
+3.64,Environmental Science,New Zealand,University of Auckland,16-20K,No,Stable,High,High,1,2024,1,64,18000,1,2,2,0,0,High,4,1,1,0,0.4022000667572479,FN
+3.14,Public Health,Canada,York University,10-15K,Yes Low,Newly Elected,Medium,Medium,7,2026,3,986,12500,5,1,1,1,1,Medium,2,1,1,1,0.939411519803368,OK
+2.59,Civil Engineering,Canada,University of British Columbia,10-15K,No,Stable,Medium,Medium,12,2023,1,37,12500,1,1,1,0,0,Low,2,0,0,1,0.5888272946366198,FP
+3.82,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Medium,Unstable,Low,High,7,2024,3,262,8000,2,0,2,1,2,High,2,1,1,1,0.9882355785781249,OK
+3.21,Business Administration,Malaysia,University of Malaya,Below 10k,Yes Low,Newly Elected,Low,Medium,6,2026,3,953,8000,5,0,1,1,1,Medium,1,1,1,1,0.9010471869356321,OK
+3.31,AI,Canada,University of Toronto,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,11,2024,4,372,18000,3,2,1,1,3,Medium,3,1,1,1,0.9260772069955475,OK
+2.01,Civil Engineering,Canada,University of Toronto,16-20K,No,Newly Elected,High,Low,4,2026,2,886,18000,5,2,0,0,0,Low,2,1,0,0,0.10358677021304569,OK
+3.05,Business Analytics,Australia,RMIT University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,6,2025,3,597,12500,3,1,1,1,3,Medium,2,1,1,1,0.6147700402795379,OK
+3.47,Marketing,Malaysia,University of Malaya,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,10,2025,4,727,18000,4,2,1,1,2,High,3,0,1,1,0.8800432375940932,OK
+3.02,Civil Engineering,Canada,University of British Columbia,16-20K,No,Stable,High,Medium,1,2024,1,70,18000,1,2,1,0,0,Medium,3,1,0,0,0.4344889738608394,OK
+3.34,Computer Science,USA,Arizona State University,Below 10k,No,Transitional phase Last 5 months,Low,Medium,11,2025,4,739,8000,4,0,1,0,0,Medium,1,1,0,0,0.00797852987646007,OK
+3.29,Data Science,Germany,Technical University of Munich,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,10,2025,4,714,8000,4,0,1,1,3,Medium,1,1,0,1,0.654474833798235,FP
+3.38,Marketing,Malaysia,University of Malaya,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,913,12500,5,1,1,0,0,Medium,2,1,0,0,0.31276921951229897,OK
+3.48,Business Analytics,Ireland,University College Dublin,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,11,2025,4,737,8000,4,0,1,1,1,High,1,0,0,0,0.09161515359416722,OK
+3.22,Business Analytics,Australia,Monash University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,12,2024,1,412,8000,3,0,1,1,2,Medium,1,1,0,0,0.036169550805570085,OK
+2.77,Software Engineering,Australia,University of Sydney,10-15K,Yes High,Unstable,Medium,Medium,6,2024,3,219,12500,2,1,1,1,3,Low,2,0,1,1,0.9892233595410143,OK
+3.55,Marketing,Malaysia,University of Malaya,Below 10k,Yes Medium,Unstable,Low,High,7,2024,3,265,8000,2,0,2,1,2,High,2,1,1,1,0.9875785521383694,OK
+3.14,Data Science,Germany,Technical University of Munich,Below 10k,Yes High,Stable,Low,Medium,1,2024,1,64,8000,1,0,1,1,3,Medium,1,1,1,1,0.8493451638421542,OK
+3.37,Mechanical Engineering,Germany,Technical University of Munich,Below 10k,Yes High,Newly Elected,High,High,2,2026,1,848,8000,5,2,2,1,3,Medium,4,0,1,1,0.9922465328888669,OK
+3.32,Software Engineering,Australia,University of Sydney,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,12,2024,1,421,18000,3,2,1,1,3,Medium,3,1,1,1,0.9285086478043849,OK
+3.71,Psychology,UK,University of Manchester,10-15K,Yes Low,Transitional phase Last 5 months,Medium,High,10,2025,4,718,12500,4,1,2,1,1,High,3,1,1,1,0.5586610287009603,OK
+3.71,Accounting,Malaysia,University of Malaya,16-20K,No,Transitional phase Last 5 months,High,High,12,2025,1,777,18000,4,2,2,0,0,High,4,1,1,1,0.5857689591671512,OK
+3.9,Software Engineering,Australia,Deakin University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,High,8,2024,3,296,8000,3,0,2,1,2,High,2,1,0,0,0.07496187866675197,OK
+3.94,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Unstable,High,High,5,2024,2,211,18000,2,2,2,1,3,High,4,1,1,1,0.9923519034148495,OK
+3.48,Civil Engineering,Canada,University of British Columbia,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,9,2024,4,312,8000,3,0,1,1,3,High,1,0,1,0,0.06638865872170593,FN
+2.52,AI,USA,Arizona State University,Below 10k,Yes Low,Newly Elected,Low,Medium,4,2026,2,890,8000,5,0,1,1,1,Low,1,0,1,1,0.862523662398814,OK
+3.19,Psychology,UK,Coventry University,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,6,2025,3,600,8000,3,0,1,1,3,Medium,1,1,0,0,0.09678436968307727,OK
+3.33,Data Science,USA,Arizona State University,10-15K,Yes Medium,Newly Elected,Medium,Medium,2,2026,1,841,12500,5,1,1,1,2,Medium,2,1,1,1,0.9694255312255123,OK
+3.19,Accounting,Malaysia,University of Malaya,16-20K,Yes High,Unstable,High,Medium,6,2024,3,229,18000,2,2,1,1,3,Medium,3,1,1,1,0.9887941423058273,OK
+3.39,Nursing,Australia,University of Sydney,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,6,2025,3,603,18000,3,2,1,1,2,Medium,3,1,0,1,0.6089685052599946,FP
+3.3,Mechanical Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,2,2025,1,465,12500,3,1,1,1,1,Medium,2,1,0,0,0.04455740517675725,OK
+3.54,Mechanical Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase Last 5 months,Low,High,12,2025,1,775,8000,4,0,2,0,0,High,2,1,0,0,0.06931123715087131,OK
+2.93,Finance,Ireland,University College Dublin,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,1,2025,1,449,8000,3,0,1,1,2,Low,1,0,0,0,0.04562213300362285,OK
+3.21,Agriculture,New Zealand,University of Auckland,16-20K,No,Newly Elected,High,Medium,6,2026,3,969,18000,5,2,1,0,0,Medium,3,1,0,0,0.1152690461197391,OK
+3.24,Automotive Engineering,Germany,Technical University of Munich,10-15K,No,Newly Elected,Medium,Medium,7,2026,3,987,12500,5,1,1,0,0,Medium,2,1,1,0,0.2973413145527112,FN
+2.73,Automotive Engineering,Germany,Technical University of Munich,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,5,2025,2,576,18000,3,2,1,1,1,Low,3,0,0,0,0.14514813133093427,OK
+3.3,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,1,2026,1,800,18000,4,2,1,1,3,Medium,3,1,1,1,0.9746701632479476,OK
+3.25,Mechanical Engineering,Germany,Technical University of Munich,Below 10k,No,Unstable,Low,Medium,6,2024,3,237,8000,2,0,1,0,0,Medium,1,1,0,0,0.10922017259351442,OK
+3.16,Electrical Engineering,Germany,Technical University of Munich,Below 10k,No,Stable,Low,Medium,12,2023,1,60,8000,1,0,1,0,0,Medium,1,1,0,0,0.5008394106552686,OK
+3.39,Mechanical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,11,2025,4,739,8000,4,0,1,1,1,Medium,1,1,0,0,0.09914209128682304,OK
+3.19,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes High,Newly Elected,High,Medium,3,2026,2,870,18000,5,2,1,1,3,Medium,3,1,1,1,0.9914593097302355,OK
+3.4,Computer Science,Ireland,University College Dublin,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,10,2025,4,700,12500,4,1,1,1,1,High,2,0,0,0,0.19844577796645496,OK
+2.58,IT,Malaysia,University of Malaya,Below 10k,Yes Medium,Unstable,Low,Medium,4,2024,2,175,8000,2,0,1,1,2,Low,1,0,1,1,0.9182300576470639,OK
+2.77,Electrical Engineering,USA,Arizona State University,16-20K,No,Transitional phase Last 5 months,High,Medium,12,2025,1,768,18000,4,2,1,0,0,Low,3,0,0,0,0.03553953129879663,OK
+3.28,Civil Engineering,Canada,University of Toronto,16-20K,Yes Low,Newly Elected,High,Medium,4,2026,2,910,18000,5,2,1,1,1,Medium,3,1,1,1,0.9373153440420944,OK
+3.36,Data Science,Germany,Technical University of Munich,Below 10k,No,Newly Elected,Low,Medium,3,2026,2,858,8000,5,0,1,0,0,Medium,1,1,0,0,0.07602905620972875,OK
+3.24,Psychology,UK,University of Manchester,16-20K,Yes Medium,Unstable,High,Medium,5,2024,2,194,18000,2,2,1,1,2,Medium,3,1,1,1,0.977293656003748,OK
+3.25,Mechanical Engineering,Germany,Technical University of Munich,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,929,12500,5,1,1,0,0,Medium,2,1,0,0,0.2973413145527112,OK
+3.18,Business Analytics,Ireland,University College Dublin,16-20K,Yes High,Newly Elected,High,Medium,4,2026,2,907,18000,5,2,1,1,3,Medium,3,1,1,1,0.9922222354599318,OK
+3.23,Nursing,Australia,University of Sydney,16-20K,No,Transitional phase 1st 5 months,High,Medium,1,2025,1,441,18000,3,2,1,0,0,Medium,3,1,0,0,0.024556516548107896,OK
+3.35,Hospitality Management,New Zealand,University of Auckland,10-15K,No,Stable,Medium,Medium,12,2023,1,58,12500,1,1,1,0,0,Medium,2,1,1,0,0.5090962233776106,FN
+2.89,Business Analytics,Canada,York University,16-20K,No,Stable,High,Medium,12,2023,1,51,18000,1,2,1,0,0,Low,3,0,1,0,0.4651451193322081,FN
+2.92,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,4,2025,2,533,8000,3,0,1,1,1,Low,1,0,0,0,0.025972787801049963,OK
+3.13,Accounting,Malaysia,University of Malaya,Below 10k,No,Unstable,Low,Medium,7,2024,3,258,8000,2,0,1,0,0,Medium,1,1,0,0,0.12154550752987853,OK
+2.62,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,11,2024,4,377,18000,3,2,1,1,3,Low,3,0,0,1,0.9079941096608338,FP
+3.41,Data Science,USA,Arizona State University,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,386,12500,3,1,1,1,2,High,2,0,0,0,0.1401729414136292,OK
+3.12,Business Analytics,Canada,York University,10-15K,Yes High,Newly Elected,High,High,4,2026,2,885,12500,5,2,2,1,3,Medium,4,0,1,1,0.9922568857098362,OK
+3.08,Marketing,UK,Coventry University,16-20K,Yes Low,Unstable,High,Medium,6,2024,3,237,18000,2,2,1,1,1,Medium,3,1,1,1,0.9549384737691354,OK
+3.4,Environmental Science,New Zealand,University of Auckland,Below 10k,No,Stable,Low,Medium,3,2024,2,131,8000,1,0,1,0,0,High,1,0,1,0,0.47749792579339045,FN
+3.69,Hospitality Management,New Zealand,University of Auckland,10-15K,Yes Low,Unstable,Medium,High,6,2024,3,218,12500,2,1,2,1,1,High,3,1,1,1,0.9785070133134022,OK
+3.4,Software Engineering,Australia,University of Sydney,10-15K,No,Unstable,Medium,Medium,5,2024,2,197,12500,2,1,1,0,0,High,2,0,0,0,0.42937047390472,OK
+2.2,Agriculture,New Zealand,University of Auckland,10-15K,Yes Low,Unstable,Medium,Low,5,2024,2,201,12500,2,1,0,1,1,Low,1,1,0,0,0.3669995717345648,OK
+3.22,Psychology,UK,University of Manchester,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,3,2025,2,498,8000,3,0,1,1,1,Medium,1,1,0,0,0.025859190565357616,OK
+3.39,Mechanical Engineering,Germany,Technical University of Munich,10-15K,Yes High,Unstable,Medium,Medium,4,2024,2,167,12500,2,1,1,1,3,Medium,2,1,1,1,0.9906829287081969,OK
+3.15,Computer Science,USA,Arizona State University,Below 10k,Yes High,Newly Elected,Low,Medium,2,2026,1,847,8000,5,0,1,1,3,Medium,1,1,1,1,0.950659850881525,OK
+2.89,Data Science,Australia,Monash University,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,1,2026,1,795,12500,4,1,1,1,3,Low,2,0,1,1,0.9268835671286046,OK
+3.15,Computer Science,USA,Arizona State University,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,11,2024,4,389,18000,3,2,1,1,2,Medium,3,1,1,0,0.3567316094846707,FN
+3.18,Software Engineering,Australia,Deakin University,16-20K,No,Newly Elected,High,Medium,5,2026,2,925,18000,5,2,1,0,0,Medium,3,1,0,0,0.11269710408768283,OK
+2.39,Computer Science,Canada,University of British Columbia,Below 10k,Yes High,Unstable,Low,Low,6,2024,3,221,8000,2,0,0,1,3,Low,0,1,1,1,0.7610278061287218,OK
+3.35,Marketing,Malaysia,University of Malaya,Below 10k,Yes High,Unstable,Low,Medium,5,2024,2,204,8000,2,0,1,1,3,Medium,1,1,1,1,0.9709257800118606,OK
+3.36,Computer Science,USA,Arizona State University,10-15K,Yes High,Newly Elected,High,High,2,2026,1,844,12500,5,2,2,1,3,Medium,4,0,1,1,0.9929508508126633,OK
+3.86,Cyber Security,USA,Arizona State University,10-15K,No,Unstable,Medium,High,7,2024,3,273,12500,2,1,2,0,0,High,3,1,1,1,0.8827628805126038,OK
+3.43,Business Analytics,Ireland,University College Dublin,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,12,2025,1,790,18000,4,2,1,1,2,High,3,0,1,1,0.8541563210781177,OK
+2.46,Business Analytics,Ireland,University College Dublin,10-15K,Yes High,Transitional phase Last 5 months,Medium,Low,11,2025,4,735,12500,4,1,0,1,3,Low,1,1,0,0,0.17027781141823484,OK
+3.22,Accounting,Malaysia,University of Malaya,Below 10k,No,Newly Elected,Low,Medium,3,2026,2,859,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+2.9,Business Analytics,Ireland,University College Dublin,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,9,2024,4,305,18000,3,2,1,1,1,Low,3,0,1,0,0.0915764413536118,FN
+2.51,Accounting,Malaysia,University of Malaya,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,420,12500,3,1,1,1,1,Low,2,0,0,0,0.0385508281932876,OK
+3.27,Marketing,Malaysia,University of Malaya,10-15K,Yes High,Unstable,Medium,Medium,6,2024,3,215,12500,2,1,1,1,3,Medium,2,1,1,1,0.9898559435551936,OK
+3.39,Finance,UK,King's College London,16-20K,Yes High,Unstable,High,Medium,7,2024,3,243,18000,2,2,1,1,3,Medium,3,1,1,1,0.9909728970236061,OK
+3.35,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Medium,Unstable,Low,Medium,7,2024,3,269,8000,2,0,1,1,2,Medium,1,1,1,1,0.9472056167978333,OK
+3.38,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Newly Elected,High,High,2,2026,1,847,18000,5,2,2,1,3,Medium,4,0,1,1,0.9901513419300322,OK
+2.84,Marketing,Malaysia,University of Malaya,16-20K,Yes High,Stable,High,Medium,3,2024,2,137,18000,1,2,1,1,3,Low,3,0,0,1,0.9271306810796615,FP
+3.28,Cyber Security,USA,Arizona State University,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,1,2026,1,798,12500,4,1,1,1,3,Medium,2,1,1,1,0.9183979909320689,OK
+3.25,Computer Science,Canada,University of British Columbia,10-15K,Yes Medium,Unstable,Medium,Medium,7,2024,3,246,12500,2,1,1,1,2,Medium,2,1,1,1,0.9753793443724674,OK
+2.89,Finance,Ireland,University College Dublin,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,6,2025,3,589,18000,3,2,1,1,2,Low,3,0,0,0,0.5333183972236097,OK
+2.87,Environmental Science,New Zealand,University of Auckland,16-20K,No,Transitional phase Last 5 months,High,Medium,10,2025,4,715,18000,4,2,1,0,0,Low,3,0,0,0,0.041316478151292135,OK
+3.19,Psychology,UK,University of Manchester,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,1,2026,1,793,12500,4,1,1,1,1,Medium,2,1,0,0,0.18978397401571984,OK
+2.91,Computer Science,Ireland,University College Dublin,16-20K,No,Transitional phase Last 5 months,High,Medium,1,2026,1,807,18000,4,2,1,0,0,Low,3,0,0,0,0.03812353283444793,OK
+3.33,Data Science,Australia,University of Sydney,10-15K,Yes High,Unstable,Medium,Medium,4,2024,2,156,12500,2,1,1,1,3,Medium,2,1,1,1,0.9903553844095222,OK
+3.2,Computer Science,USA,Arizona State University,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,2,2025,1,459,18000,3,2,1,1,3,Medium,3,1,1,1,0.8318421280630857,OK
+3.45,Business Analytics,Ireland,University College Dublin,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,817,8000,4,0,1,1,2,High,1,0,0,0,0.2326327519375605,OK
+2.29,Business Administration,Malaysia,University of Malaya,10-15K,Yes Low,Stable,Medium,Low,3,2024,2,143,12500,1,1,0,1,1,Low,1,1,1,1,0.6170690304141323,OK
+2.89,Business Analytics,Australia,Deakin University,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,9,2025,4,677,8000,4,0,1,1,1,Low,1,0,0,0,0.08932200996432313,OK
+3.57,Business Analytics,Australia,Monash University,10-15K,Yes Medium,Unstable,Medium,High,7,2024,3,249,12500,2,1,2,1,2,High,3,1,1,1,0.9882539534691522,OK
+3.35,Business Analytics,Australia,University of Sydney,Below 10k,Yes Low,Unstable,Low,Medium,7,2024,3,269,8000,2,0,1,1,1,Medium,1,1,1,1,0.9122530065422826,OK
+3.33,Marketing,Malaysia,University of Malaya,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,948,8000,5,0,1,0,0,Medium,1,1,0,0,0.0686854387497542,OK
+2.48,Automotive Engineering,Germany,Technical University of Munich,16-20K,No,Stable,High,Low,1,2024,1,91,18000,1,2,0,0,0,Low,2,1,1,0,0.5257029208869325,FN
+2.96,Agriculture,New Zealand,University of Auckland,16-20K,No,Unstable,High,Medium,4,2024,2,164,18000,2,2,1,0,0,Low,3,0,0,0,0.23346683752972977,OK
+3.11,Business Analytics,Canada,York University,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,12,2025,1,766,12500,4,1,1,1,2,Medium,2,1,0,1,0.5914063375375883,FP
+3.04,Hospitality Management,Australia,Torrens University,Below 10k,No,Stable,Low,Medium,11,2023,4,24,8000,1,0,1,0,0,Medium,1,1,0,0,0.46484318135545416,OK
+3.01,Hospitality Management,New Zealand,University of Auckland,10-15K,No,Unstable,Medium,Medium,7,2024,3,266,12500,2,1,1,0,0,Medium,2,1,1,0,0.34967732935324425,FN
+3.87,Cyber Security,USA,Arizona State University,16-20K,No,Newly Elected,High,High,7,2026,3,974,18000,5,2,2,0,0,High,4,1,1,1,0.7801748432238771,OK
+3.15,Finance,Ireland,University College Dublin,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,368,12500,3,1,1,0,0,Medium,2,1,0,0,0.026322492189125187,OK
+3.27,Computer Science,Canada,University of Toronto,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,11,2025,4,760,8000,4,0,1,1,2,Medium,1,1,0,0,0.2222038014556331,OK
+3.61,Psychology,UK,University of Manchester,10-15K,No,Newly Elected,Medium,High,6,2026,3,971,12500,5,1,2,0,0,High,3,1,1,1,0.7690015000385786,OK
+3.15,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes Low,Newly Elected,Low,Medium,6,2026,3,960,8000,5,0,1,1,1,Medium,1,1,1,1,0.9065667472732374,OK
+3.52,Civil Engineering,UK,King's College London,Below 10k,Yes Medium,Stable,Low,High,2,2024,1,120,8000,1,0,2,1,2,High,2,1,1,1,0.6493278859134747,OK
+3.25,AI,USA,Arizona State University,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,215,12500,2,1,1,1,2,Medium,2,1,1,1,0.9685253838384386,OK
+3.14,Environmental Science,New Zealand,University of Auckland,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,12,2025,1,775,12500,4,1,1,1,3,Medium,2,1,1,1,0.8646701185267778,OK
+2.03,IT,Australia,Torrens University,16-20K,No,Stable,High,Low,3,2024,2,146,18000,1,2,0,0,0,Low,2,1,1,0,0.5013031384170713,FN
+3.29,Data Science,Germany,Technical University of Munich,16-20K,Yes Medium,Unstable,High,Medium,6,2024,3,229,18000,2,2,1,1,2,Medium,3,1,1,1,0.9776974060208102,OK
+3.34,Cyber Security,USA,Arizona State University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,11,2025,4,741,8000,4,0,1,1,2,Medium,1,1,0,0,0.2592049713906032,OK
+3.38,Electrical Engineering,USA,Arizona State University,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,1,2026,1,812,12500,4,1,1,1,3,Medium,2,1,1,1,0.8880362562040257,OK
+3.27,Law,UK,University of Birmingham,10-15K,No,Unstable,Medium,Medium,5,2024,2,196,12500,2,1,1,0,0,Medium,2,1,1,0,0.41752364255857405,FN
+3.3,Cyber Security,USA,Arizona State University,16-20K,Yes High,Unstable,High,Medium,7,2024,3,271,18000,2,2,1,1,3,Medium,3,1,1,1,0.9893334254751992,OK
+3.44,Accounting,Malaysia,University of Malaya,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,9,2025,4,699,8000,4,0,1,1,3,High,1,0,1,1,0.6527244983698647,OK
+3.26,Computer Science,USA,Arizona State University,10-15K,Yes Low,Unstable,Medium,Medium,6,2024,3,239,12500,2,1,1,1,1,Medium,2,1,1,1,0.9530552533329267,OK
+3.32,Agriculture,New Zealand,University of Auckland,10-15K,Yes Medium,Newly Elected,Medium,Medium,6,2026,3,954,12500,5,1,1,1,2,Medium,2,1,1,1,0.981115922637069,OK
+3.36,Public Health,Canada,University of Toronto,Below 10k,No,Transitional phase Last 5 months,Low,Medium,11,2025,4,754,8000,4,0,1,0,0,Medium,1,1,0,0,0.007697535720444481,OK
+3.32,Public Health,Canada,University of British Columbia,Below 10k,No,Unstable,Low,Medium,5,2024,2,190,8000,2,0,1,0,0,Medium,1,1,0,0,0.10744721787319637,OK
+3.14,Computer Science,Canada,York University,10-15K,Yes High,Newly Elected,High,High,3,2026,2,870,12500,5,2,2,1,3,Medium,4,0,1,1,0.9924564375477105,OK
+2.68,IT,Malaysia,University of Malaya,Below 10k,Yes Low,Stable,Low,Medium,2,2024,1,108,8000,1,0,1,1,1,Low,1,0,1,1,0.5898835523310706,OK
+3.18,Computer Science,Ireland,University College Dublin,Below 10k,No,Unstable,Low,Medium,5,2024,2,197,8000,2,0,1,0,0,Medium,1,1,0,0,0.109065871006032,OK
+3.17,Nursing,Australia,RMIT University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,508,12500,3,1,1,1,3,Medium,2,1,0,0,0.5355115961615947,OK
+2.97,Marketing,UK,University of Birmingham,16-20K,Yes Medium,Stable,High,Medium,12,2023,1,37,18000,1,2,1,1,2,Low,3,0,0,1,0.6563349387936349,FP
+3.39,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,10,2024,4,356,18000,3,2,1,1,2,Medium,3,1,0,1,0.5551222137624942,FP
+3.39,Law,UK,University of Birmingham,16-20K,Yes Low,Newly Elected,High,Medium,5,2026,2,923,18000,5,2,1,1,1,Medium,3,1,1,1,0.9478278227126159,OK
+2.62,Cyber Security,USA,Arizona State University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,11,2024,4,385,8000,3,0,1,1,2,Low,1,0,0,0,0.03010740548396185,OK
+3.43,Business Analytics,Canada,York University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,794,8000,4,0,1,1,2,High,1,0,1,0,0.2326327519375605,FN
+3.94,Computer Science,Canada,University of British Columbia,Below 10k,No,Stable,Low,High,3,2024,2,134,8000,1,0,2,0,0,High,2,1,0,0,0.35639844105740287,OK
+3.21,Environmental Science,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,728,18000,4,2,1,1,3,Medium,3,1,1,1,0.9643774350416904,OK
+3.4,Marketing,Malaysia,University of Malaya,10-15K,No,Unstable,Medium,Medium,4,2024,2,177,12500,2,1,1,0,0,High,2,0,0,0,0.42937047390472,OK
+3.11,Marketing,UK,King's College London,10-15K,Yes High,Unstable,Medium,Medium,6,2024,3,230,12500,2,1,1,1,3,Medium,2,1,1,1,0.9878912863011182,OK
+3.3,AI,Canada,University of British Columbia,16-20K,No,Unstable,High,Medium,5,2024,2,199,18000,2,2,1,0,0,Medium,3,1,0,0,0.18634592610668574,OK
+3.5,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes Medium,Newly Elected,High,High,3,2026,2,851,18000,5,2,2,1,2,High,4,1,1,1,0.9856199715701449,OK
+2.7,Business Administration,Malaysia,University of Malaya,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,543,12500,3,1,1,1,2,Low,2,0,0,0,0.12014011209736614,OK
+3.38,Supply Chain Management,Ireland,University College Dublin,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,2,2025,1,474,12500,3,1,1,1,3,Medium,2,1,0,1,0.5647010832637798,FP
+3.08,Marketing,UK,Coventry University,Below 10k,No,Transitional phase Last 5 months,Low,Medium,9,2025,4,699,8000,4,0,1,0,0,Medium,1,1,0,0,0.007439578897378869,OK
+3.33,Finance,Ireland,University College Dublin,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,10,2025,4,707,18000,4,2,1,1,2,Medium,3,1,1,1,0.8808569750710065,OK
+3.39,Finance,UK,University of Manchester,10-15K,Yes Low,Unstable,Medium,Medium,7,2024,3,258,12500,2,1,1,1,1,Medium,2,1,1,1,0.9562642399034031,OK
+3.22,Finance,Ireland,University College Dublin,16-20K,No,Newly Elected,High,Medium,7,2026,3,984,18000,5,2,1,0,0,Medium,3,1,0,0,0.1110312757320522,OK
+3.32,Business Analytics,Australia,University of Sydney,10-15K,No,Newly Elected,Medium,Medium,6,2026,3,953,12500,5,1,1,0,0,Medium,2,1,0,0,0.28809473126199714,OK
+3.93,Agriculture,New Zealand,University of Auckland,Below 10k,Yes High,Stable,Low,High,2,2024,1,96,8000,1,0,2,1,3,High,2,1,1,1,0.8769856441068165,OK
+3.12,Electrical Engineering,USA,Arizona State University,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,5,2025,2,562,18000,3,2,1,1,3,Medium,3,1,0,1,0.7063541315440763,FP
+3.16,IT,Malaysia,University of Malaya,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,5,2025,2,572,12500,3,1,1,1,3,Medium,2,1,0,0,0.508792957009255,OK
+3.23,Agriculture,New Zealand,University of Auckland,10-15K,Yes High,Newly Elected,Medium,Medium,5,2026,2,922,12500,5,1,1,1,3,Medium,2,1,1,1,0.9920814647116155,OK
+3.75,AI,USA,Arizona State University,Below 10k,No,Newly Elected,Low,High,5,2026,2,930,8000,5,0,2,0,0,High,2,1,0,0,0.4955754986722246,OK
+3.58,Psychology,UK,University of Birmingham,10-15K,No,Newly Elected,Medium,High,2,2026,1,844,12500,5,1,2,0,0,High,3,1,1,1,0.7537110219259139,OK
+2.73,Marketing,Malaysia,University of Malaya,10-15K,Yes Low,Newly Elected,Medium,Medium,7,2026,3,978,12500,5,1,1,1,1,Low,2,0,1,1,0.929459977575767,OK
+3.11,Nursing,Australia,University of Melbourne,16-20K,Yes High,Unstable,High,Medium,5,2024,2,208,18000,2,2,1,1,3,Medium,3,1,1,1,0.9906355022379417,OK
+3.54,Agriculture,New Zealand,University of Auckland,10-15K,No,Transitional phase Last 5 months,Medium,High,12,2025,1,776,12500,4,1,2,0,0,High,3,1,0,0,0.30294048684298314,OK
+2.04,Civil Engineering,Canada,York University,10-15K,No,Stable,Medium,Low,1,2024,1,91,12500,1,1,0,0,0,Low,1,1,1,1,0.551184336906325,OK
+2.51,Data Science,Germany,Technical University of Munich,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,3,2025,2,508,12500,3,1,1,1,3,Low,2,0,1,0,0.5232984684473313,FN
+3.34,AI,USA,Arizona State University,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,9,2024,4,315,18000,3,2,1,1,1,Medium,3,1,0,0,0.0739231387959483,OK
+2.73,Law,UK,University of Leeds,10-15K,No,Transitional phase Last 5 months,Medium,Medium,12,2025,1,791,12500,4,1,1,0,0,Low,2,0,0,0,0.03761208279832887,OK
+3.32,Computer Science,Canada,University of British Columbia,16-20K,No,Unstable,High,Medium,5,2024,2,186,18000,2,2,1,0,0,Medium,3,1,0,0,0.18634592610668574,OK
+3.36,IT,Malaysia,University of Malaya,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,518,12500,3,1,1,1,3,Medium,2,1,1,1,0.5860386965791333,OK
+2.02,AI,Canada,York University,16-20K,No,Stable,High,Low,3,2024,2,147,18000,1,2,0,0,0,Low,2,1,1,1,0.6274643592771181,OK
+3.1,Civil Engineering,Canada,York University,10-15K,Yes Medium,Transitional phase Last 5 months,Medium,Medium,10,2025,4,710,12500,4,1,1,1,2,Medium,2,1,1,1,0.6445213964748253,OK
+2.58,Automotive Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Unstable,High,Medium,4,2024,2,167,18000,2,2,1,1,2,Low,3,0,1,1,0.9714734475113618,OK
+3.28,Data Science,USA,Arizona State University,Below 10k,Yes Low,Newly Elected,Low,Medium,4,2026,2,908,8000,5,0,1,1,1,Medium,1,1,1,1,0.9010471869356321,OK
+3.05,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,546,12500,3,1,1,1,1,Medium,2,1,0,0,0.04811413530527939,OK
+2.64,Business Analytics,Canada,University of Toronto,10-15K,Yes High,Newly Elected,High,High,3,2026,2,872,12500,5,2,2,1,3,Low,4,0,1,1,0.9906750213698123,OK
+2.62,Business Analytics,Canada,University of Toronto,16-20K,No,Transitional phase 1st 5 months,High,Medium,9,2024,4,320,18000,3,2,1,0,0,Low,3,0,0,0,0.012710527702722234,OK
+3.33,Civil Engineering,Canada,University of British Columbia,16-20K,Yes High,Newly Elected,High,Medium,4,2026,2,890,18000,5,2,1,1,3,Medium,3,1,1,1,0.9936851268296558,OK
+3.25,Hospitality Management,New Zealand,University of Auckland,Below 10k,Yes Low,Unstable,Low,Medium,6,2024,3,217,8000,2,0,1,1,1,Medium,1,1,1,1,0.9149105793594379,OK
+3.39,Business Analytics,Australia,University of Sydney,16-20K,No,Newly Elected,High,Medium,4,2026,2,901,18000,5,2,1,0,0,Medium,3,1,0,0,0.11759338102518535,OK
+3.41,Finance,UK,Coventry University,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,537,12500,3,1,1,1,2,High,2,0,0,0,0.14277508312377352,OK
+3.32,Nursing,Australia,Deakin University,16-20K,No,Newly Elected,High,Medium,5,2026,2,926,18000,5,2,1,0,0,Medium,3,1,0,0,0.11741285150250169,OK
+2.86,Cyber Security,USA,Arizona State University,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,11,2024,4,379,8000,3,0,1,0,0,Low,1,0,0,0,0.006512559803776855,OK
+3.39,Electrical Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,1,2025,1,441,8000,3,0,1,0,0,Medium,1,1,0,0,0.008494759851312133,OK
+3.18,Environmental Science,New Zealand,University of Auckland,10-15K,No,Unstable,Medium,Medium,4,2024,2,180,12500,2,1,1,0,0,Medium,2,1,1,0,0.43193898010796705,FN
+3.98,Data Science,USA,Arizona State University,16-20K,No,Stable,High,High,12,2023,1,56,18000,1,2,2,0,0,High,4,1,0,0,0.4156980191251579,OK
+3.02,Nursing,Australia,Torrens University,16-20K,No,Stable,High,Medium,2,2024,1,95,18000,1,2,1,0,0,Medium,3,1,0,0,0.3944481145354597,OK
+3.09,Software Engineering,Australia,RMIT University,16-20K,Yes Low,Newly Elected,High,Medium,6,2026,3,959,18000,5,2,1,1,1,Medium,3,1,1,1,0.9471504496126626,OK
+3.13,Business Analytics,Canada,York University,Below 10k,No,Unstable,Low,Medium,7,2024,3,256,8000,2,0,1,0,0,Medium,1,1,0,0,0.1187641316358247,OK
+2.56,Hospitality Management,Australia,Deakin University,10-15K,No,Stable,Medium,Medium,2,2024,1,94,12500,1,1,1,0,0,Low,2,0,0,0,0.5281679461020727,OK
+3.0,Marketing,UK,Coventry University,Below 10k,No,Stable,Low,Medium,3,2024,2,121,8000,1,0,1,0,0,Medium,1,1,1,0,0.4706768556107999,FN
+2.97,Finance,UK,King's College London,Below 10k,No,Stable,Low,Medium,1,2024,1,63,8000,1,0,1,0,0,Low,1,0,0,0,0.4962508796105101,OK
+3.08,AI,Canada,York University,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,11,2025,4,743,12500,4,1,1,1,1,Medium,2,1,0,0,0.19404986445514974,OK
+2.77,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,1,2026,1,792,18000,4,2,1,1,1,Low,3,0,1,0,0.39186798314235705,FN
+3.36,AI,USA,Arizona State University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Medium,6,2025,3,583,8000,3,0,1,1,2,Medium,1,1,0,0,0.060607893124228374,OK
+2.93,Law,UK,University of Leeds,16-20K,Yes Medium,Stable,High,Medium,12,2023,1,32,18000,1,2,1,1,2,Low,3,0,1,1,0.710461105541441,OK
+3.17,Civil Engineering,Canada,University of Toronto,16-20K,Yes High,Newly Elected,High,High,7,2026,3,981,18000,5,2,2,1,3,Medium,4,0,1,1,0.9924226734681965,OK
+3.26,Business Analytics,Australia,Monash University,10-15K,Yes Medium,Stable,Medium,Medium,1,2024,1,86,12500,1,1,1,1,2,Medium,2,1,1,1,0.7013791993536327,OK
+3.94,Data Science,Australia,University of Melbourne,10-15K,No,Transitional phase Last 5 months,Medium,High,12,2025,1,790,12500,4,1,2,0,0,High,3,1,0,1,0.5636848438341984,FP
+3.51,IT,Malaysia,University of Malaya,Below 10k,Yes High,Stable,Low,High,1,2024,1,72,8000,1,0,2,1,3,High,2,1,1,1,0.8766675415149633,OK
+2.92,Data Science,USA,Arizona State University,Below 10k,No,Unstable,Low,Medium,6,2024,3,239,8000,2,0,1,0,0,Low,1,0,1,0,0.12154550752987853,FN
+3.34,Environmental Science,New Zealand,University of Auckland,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,8,2024,3,301,8000,3,0,1,0,0,Medium,1,1,0,0,0.005579733600818316,OK
+2.8,Civil Engineering,UK,Coventry University,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,2,2025,1,482,18000,3,2,1,1,2,Low,3,0,1,0,0.4952825701900579,FN
+3.87,Agriculture,New Zealand,University of Auckland,10-15K,Yes Low,Stable,Medium,High,1,2024,1,65,12500,1,1,2,1,1,High,3,1,0,1,0.6309661386797097,FP
+3.33,Supply Chain Management,Ireland,University College Dublin,Below 10k,Yes High,Newly Elected,Low,Medium,6,2026,3,956,8000,5,0,1,1,3,Medium,1,1,1,1,0.9718762194815367,OK
+3.6,AI,Canada,University of British Columbia,10-15K,Yes High,Stable,Medium,High,11,2023,4,0,12500,1,1,2,1,3,High,3,1,0,1,0.8979848222491721,FP
+2.67,Hospitality Management,Australia,Monash University,16-20K,Yes High,Unstable,High,Medium,8,2024,3,277,18000,2,2,1,1,3,Low,3,0,1,1,0.9871434909469325,OK
+3.25,Marketing,Malaysia,University of Malaya,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,9,2025,4,695,8000,4,0,1,1,3,Medium,1,1,0,1,0.6414771085173625,FP
+3.37,Cyber Security,USA,Arizona State University,Below 10k,Yes High,Newly Elected,High,High,5,2026,2,929,8000,5,2,2,1,3,Medium,4,0,1,1,0.9948608481196525,OK
+3.13,Agriculture,New Zealand,University of Auckland,16-20K,Yes Low,Unstable,High,Medium,7,2024,3,254,18000,2,2,1,1,1,Medium,3,1,1,1,0.9567213845839101,OK
+3.26,Data Science,Australia,Monash University,Below 10k,Yes Low,Newly Elected,Low,Medium,5,2026,2,929,8000,5,0,1,1,1,Medium,1,1,1,1,0.9010471869356321,OK
+3.36,Computer Science,Ireland,University College Dublin,Below 10k,No,Unstable,Low,Medium,4,2024,2,164,8000,2,0,1,0,0,Medium,1,1,0,0,0.12203578655235445,OK
+3.33,Business Administration,Malaysia,University of Malaya,Below 10k,No,Stable,Low,Medium,3,2024,2,150,8000,1,0,1,0,0,Medium,1,1,0,0,0.36624629957543653,OK
+3.29,Agriculture,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,10,2024,4,355,18000,3,2,1,1,3,Medium,3,1,1,1,0.9341700456595813,OK
+2.2,Business Analytics,Australia,RMIT University,16-20K,Yes High,Unstable,High,Low,4,2024,2,155,18000,2,2,0,1,3,Low,2,1,1,1,0.9746841320350651,OK
+3.19,Business Analytics,Australia,University of Sydney,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,345,12500,3,1,1,1,1,Medium,2,1,0,0,0.04525485507228252,OK
+2.56,Finance,UK,Coventry University,Below 10k,Yes High,Newly Elected,Low,Medium,7,2026,3,983,8000,5,0,1,1,3,Low,1,0,1,1,0.9619196812324489,OK
+2.66,Environmental Science,New Zealand,University of Auckland,Below 10k,Yes High,Newly Elected,High,High,3,2026,2,858,8000,5,2,2,1,3,Low,4,0,1,1,0.9907068477169848,OK
+3.16,Public Health,Canada,University of British Columbia,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,228,12500,2,1,1,1,2,Medium,2,1,1,1,0.9758849383152243,OK
+3.15,Accounting,Malaysia,University of Malaya,16-20K,No,Transitional phase Last 5 months,High,Medium,10,2025,4,726,18000,4,2,1,0,0,Medium,3,1,0,0,0.03812353283444793,OK
+3.56,Accounting,Malaysia,University of Malaya,10-15K,Yes Medium,Unstable,Medium,High,7,2024,3,245,12500,2,1,2,1,2,High,3,1,1,1,0.9885554771130299,OK
+3.41,Software Engineering,Australia,Monash University,Below 10k,No,Stable,Low,Medium,3,2024,2,143,8000,1,0,1,0,0,High,1,0,1,0,0.46697201361510715,FN
+3.3,Business Administration,Malaysia,University of Malaya,10-15K,No,Unstable,Medium,Medium,7,2024,3,251,12500,2,1,1,0,0,Medium,2,1,1,0,0.41752364255857405,FN
+3.36,Electrical Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase Last 5 months,Low,Medium,9,2025,4,688,8000,4,0,1,0,0,Medium,1,1,0,0,0.00812512241384193,OK
+2.74,Cyber Security,USA,Arizona State University,Below 10k,Yes Low,Newly Elected,Low,Medium,2,2026,1,839,8000,5,0,1,1,1,Low,1,0,1,1,0.8869982867414876,OK
+3.46,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Low,Stable,Low,Medium,1,2024,1,85,8000,1,0,1,1,1,High,1,0,1,1,0.6383707108343222,OK
+2.89,Business Analytics,Canada,York University,10-15K,Yes High,Newly Elected,High,High,4,2026,2,893,12500,5,2,2,1,3,Low,4,0,1,1,0.993338021182438,OK
+3.2,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Stable,High,Medium,12,2023,1,51,18000,1,2,1,1,2,Medium,3,1,1,1,0.7098615262540395,OK
+2.94,Data Science,Australia,Monash University,16-20K,Yes Low,Stable,High,Medium,2,2024,1,107,18000,1,2,1,1,1,Low,3,0,1,1,0.6122005204131533,OK
+3.34,Psychology,UK,University of Manchester,10-15K,No,Transitional phase Last 5 months,Medium,Medium,11,2025,4,752,12500,4,1,1,0,0,Medium,2,1,0,0,0.04156573746198664,OK
+3.26,AI,Canada,University of British Columbia,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,708,18000,4,2,1,1,3,Medium,3,1,1,1,0.971080726803054,OK
+3.81,IT,Malaysia,University of Malaya,Below 10k,Yes Medium,Unstable,Low,High,4,2024,2,181,8000,2,0,2,1,2,High,2,1,1,1,0.986807772925501,OK
+3.02,AI,Canada,University of Toronto,Below 10k,No,Newly Elected,Low,Medium,2,2026,1,843,8000,5,0,1,0,0,Medium,1,1,0,0,0.0713806985199798,OK
+3.26,Accounting,Malaysia,University of Malaya,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,12,2025,1,780,12500,4,1,1,1,3,Medium,2,1,1,1,0.9108518663539122,OK
+3.05,Nursing,Australia,RMIT University,16-20K,No,Transitional phase Last 5 months,High,Medium,12,2025,1,774,18000,4,2,1,0,0,Medium,3,1,0,0,0.04050563601022117,OK
+3.22,Hospitality Management,New Zealand,University of Auckland,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,334,12500,3,1,1,1,3,Medium,2,1,1,0,0.5350132037368305,FN
+3.23,Business Analytics,Canada,University of British Columbia,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,12,2025,1,784,8000,4,0,1,1,1,Medium,1,1,0,0,0.07300040294711206,OK
+3.35,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes High,Stable,High,Medium,12,2023,1,34,18000,1,2,1,1,3,Medium,3,1,0,1,0.8770596701441524,FP
+3.34,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Newly Elected,Low,Medium,6,2026,3,967,8000,5,0,1,1,1,Medium,1,1,1,1,0.9056935198257766,OK
+3.25,Civil Engineering,UK,University of Manchester,16-20K,Yes Medium,Transitional phase 1st 5 months,High,Medium,6,2025,3,605,18000,3,2,1,1,2,Medium,3,1,1,0,0.5379570674925894,FN
+3.3,Hospitality Management,Australia,RMIT University,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,10,2025,4,703,12500,4,1,1,1,3,Medium,2,1,1,1,0.9390910425694934,OK
+2.96,Cyber Security,USA,Arizona State University,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,8,2024,3,281,12500,3,1,1,1,1,Low,2,0,0,0,0.03875601614820177,OK
+2.66,Civil Engineering,Canada,York University,10-15K,No,Transitional phase Last 5 months,Medium,Medium,1,2026,1,808,12500,4,1,1,0,0,Low,2,0,0,0,0.03468125081891412,OK
+3.32,Business Analytics,Ireland,University College Dublin,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,332,12500,3,1,1,1,3,Medium,2,1,1,0,0.4402013879039027,FN
+3.03,Automotive Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,6,2025,3,600,8000,3,0,1,0,0,Medium,1,1,0,0,0.00817409309215565,OK
+2.85,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,10,2024,4,363,18000,3,2,1,1,1,Low,3,0,0,0,0.15396988768183278,OK
+3.45,Electrical Engineering,USA,Arizona State University,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,11,2025,4,748,18000,4,2,1,1,1,High,3,0,1,0,0.4021718538513058,FN
+2.95,Civil Engineering,UK,Coventry University,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,709,18000,4,2,1,1,3,Low,3,0,1,1,0.9688482765957316,OK
+3.22,Marketing,Malaysia,University of Malaya,16-20K,Yes Low,Newly Elected,High,Medium,3,2026,2,859,18000,5,2,1,1,1,Medium,3,1,1,1,0.9460757004493026,OK
+2.23,IT,Malaysia,University of Malaya,10-15K,No,Stable,Medium,Low,2,2024,1,98,12500,1,1,0,0,0,Low,1,1,1,1,0.6306942126667004,OK
+2.74,Computer Science,Canada,York University,16-20K,No,Unstable,High,Medium,5,2024,2,188,18000,2,2,1,0,0,Low,3,0,0,0,0.20289393135014713,OK
+3.38,Business Administration,Malaysia,University of Malaya,Below 10k,No,Stable,Low,Medium,2,2024,1,92,8000,1,0,1,0,0,Medium,1,1,1,0,0.4842385002206706,FN
+3.24,Environmental Science,New Zealand,University of Auckland,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,5,2025,2,577,18000,3,2,1,1,1,Medium,3,1,0,0,0.15883969219773117,OK
+3.21,Public Health,Canada,University of British Columbia,Below 10k,Yes High,Transitional phase 1st 5 months,Low,Medium,3,2025,2,488,8000,3,0,1,1,3,Medium,1,1,0,0,0.08297302155809201,OK
+3.42,Hospitality Management,New Zealand,University of Auckland,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,12,2024,1,418,8000,3,0,1,0,0,High,1,0,0,0,0.006978242237887937,OK
+3.2,Business Analytics,Canada,York University,10-15K,Yes Low,Unstable,Medium,Medium,6,2024,3,213,12500,2,1,1,1,1,Medium,2,1,1,1,0.9536323214722433,OK
+3.2,Marketing,UK,Coventry University,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,8,2024,3,300,12500,3,1,1,1,2,Medium,2,1,0,0,0.07196594795892622,OK
+3.35,Business Administration,Malaysia,University of Malaya,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,8,2024,3,290,8000,3,0,1,0,0,Medium,1,1,0,0,0.00771740597893849,OK
+2.55,Data Science,Australia,Deakin University,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,6,2025,3,603,8000,3,0,1,1,1,Low,1,0,0,0,0.037055253587535204,OK
+2.51,Data Science,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,11,2025,4,737,8000,4,0,1,1,1,Low,1,0,0,0,0.06470354024010123,OK
+3.6,Civil Engineering,Canada,University of Toronto,16-20K,Yes Medium,Unstable,High,High,4,2024,2,181,18000,2,2,2,1,2,High,4,1,1,1,0.9881326265330738,OK
+3.4,Data Science,USA,Arizona State University,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,972,8000,5,0,1,0,0,High,1,0,0,0,0.07185535096520984,OK
+3.17,Data Science,USA,Arizona State University,Below 10k,No,Transitional phase Last 5 months,Low,Medium,9,2025,4,682,8000,4,0,1,0,0,Medium,1,1,0,0,0.0072885818918138395,OK
+2.75,Finance,UK,University of Leeds,Below 10k,Yes High,Unstable,Low,Medium,6,2024,3,227,8000,2,0,1,1,3,Low,1,0,1,1,0.9680893275196608,OK
+3.03,Marketing,UK,King's College London,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,1,2026,1,814,8000,4,0,1,1,3,Medium,1,1,1,1,0.6453186943315189,OK
+2.58,Software Engineering,Australia,University of Melbourne,Below 10k,No,Stable,Low,Medium,12,2023,1,33,8000,1,0,1,0,0,Low,1,0,0,1,0.548198690107115,FP
+3.47,Finance,Ireland,University College Dublin,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,8,2024,3,281,12500,3,1,1,1,2,High,2,0,0,0,0.09418952017205338,OK
+3.29,Business Analytics,Australia,University of Melbourne,16-20K,Yes High,Transitional phase Last 5 months,High,Medium,10,2025,4,714,18000,4,2,1,1,3,Medium,3,1,1,1,0.9763728720873205,OK
+3.32,Civil Engineering,UK,Coventry University,16-20K,No,Newly Elected,High,Medium,3,2026,2,857,18000,5,2,1,0,0,Medium,3,1,0,0,0.0993962221202804,OK
+2.99,Civil Engineering,UK,University of Manchester,16-20K,Yes Low,Transitional phase 1st 5 months,High,Medium,9,2024,4,306,18000,3,2,1,1,1,Low,3,0,0,0,0.08179249880653283,OK
+3.61,Marketing,Malaysia,University of Malaya,Below 10k,Yes High,Newly Elected,Low,High,5,2026,2,942,8000,5,0,2,1,3,High,2,1,1,1,0.9941054064023599,OK
+3.23,IT,Malaysia,University of Malaya,10-15K,Yes Medium,Newly Elected,Medium,Medium,5,2026,2,941,12500,5,1,1,1,2,Medium,2,1,1,1,0.9797329111152492,OK
+3.44,Marketing,Malaysia,University of Malaya,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,4,2025,2,529,8000,3,0,1,0,0,High,1,0,0,0,0.00626754126604541,OK
+3.19,Automotive Engineering,Germany,Technical University of Munich,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,11,2025,4,750,18000,4,2,1,1,2,Medium,3,1,1,1,0.8842299250643094,OK
+2.79,Accounting,Malaysia,University of Malaya,16-20K,Yes Low,Transitional phase Last 5 months,High,Medium,9,2025,4,678,18000,4,2,1,1,1,Low,3,0,0,0,0.3968532973641085,OK
+2.65,Data Science,Germany,Technical University of Munich,16-20K,No,Unstable,High,Medium,4,2024,2,163,18000,2,2,1,0,0,Low,3,0,1,0,0.2238310654028607,FN
+3.2,Civil Engineering,UK,University of Manchester,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,12,2024,1,420,12500,3,1,1,1,2,Medium,2,1,0,0,0.09855951212854226,OK
+3.33,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Medium,Unstable,High,Medium,7,2024,3,257,18000,2,2,1,1,2,Medium,3,1,1,1,0.9744563316100665,OK
+3.61,Computer Science,USA,Arizona State University,Below 10k,Yes Medium,Unstable,Low,High,6,2024,3,216,8000,2,0,2,1,2,High,2,1,1,1,0.9887020770507305,OK
+3.0,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Newly Elected,Medium,Medium,2,2026,1,850,12500,5,1,1,1,1,Medium,2,1,1,1,0.9244466003279153,OK
+3.14,AI,Canada,University of British Columbia,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,2,2025,1,465,8000,3,0,1,0,0,Medium,1,1,0,0,0.007463231737971336,OK
+3.25,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,9,2025,4,699,18000,4,2,1,1,2,Medium,3,1,1,1,0.8735867092189374,OK
+3.79,AI,USA,Arizona State University,10-15K,No,Newly Elected,Medium,High,4,2026,2,889,12500,5,1,2,0,0,High,3,1,1,1,0.7562571463282708,OK
+2.82,AI,USA,Arizona State University,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,12,2024,1,414,8000,3,0,1,1,1,Low,1,0,0,0,0.02109021182604628,OK
+2.94,Hospitality Management,New Zealand,University of Auckland,10-15K,Yes Medium,Stable,Medium,Medium,2,2024,1,100,12500,1,1,1,1,2,Low,2,0,1,1,0.7154261346957254,OK
+3.22,Mechanical Engineering,Germany,Technical University of Munich,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,11,2024,4,382,12500,3,1,1,1,3,Medium,2,1,0,0,0.4591280865948362,OK
+2.7,Finance,UK,Coventry University,Below 10k,No,Newly Elected,Low,Medium,5,2026,2,925,8000,5,0,1,0,0,Low,1,0,0,0,0.07155009125222038,OK
+2.79,Business Analytics,Australia,Deakin University,16-20K,No,Transitional phase 1st 5 months,High,Medium,5,2025,2,549,18000,3,2,1,0,0,Low,3,0,0,0,0.024500748704703333,OK
+3.15,Civil Engineering,UK,Coventry University,16-20K,No,Newly Elected,High,Medium,5,2026,2,924,18000,5,2,1,0,0,Medium,3,1,0,0,0.1065547956042263,OK
+3.48,Civil Engineering,UK,Coventry University,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,10,2024,4,341,12500,3,1,1,1,3,High,2,0,1,1,0.5423745831289266,OK
+3.19,Hospitality Management,Australia,Deakin University,16-20K,No,Unstable,High,Medium,7,2024,3,253,18000,2,2,1,0,0,Medium,3,1,0,0,0.18890160605594702,OK
+3.84,Computer Science,Ireland,University College Dublin,16-20K,Yes Medium,Stable,High,High,1,2024,1,78,18000,1,2,2,1,2,High,4,1,0,1,0.730762697758982,FP
+3.35,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes High,Unstable,High,Medium,7,2024,3,264,18000,2,2,1,1,3,Medium,3,1,1,1,0.9917117619817075,OK
+2.47,Marketing,Malaysia,University of Malaya,Below 10k,No,Stable,Low,Low,3,2024,2,142,8000,1,0,0,0,0,Low,0,1,1,1,0.548030170257714,OK
+3.56,Psychology,UK,University of Leeds,16-20K,Yes High,Unstable,High,High,6,2024,3,214,18000,2,2,2,1,3,High,4,1,1,1,0.9925234598530183,OK
+3.15,Business Analytics,Ireland,University College Dublin,10-15K,Yes Low,Stable,Medium,Medium,2,2024,1,107,12500,1,1,1,1,1,Medium,2,1,1,1,0.6025831676573463,OK
+2.14,Civil Engineering,Canada,York University,10-15K,Yes Low,Stable,Medium,Low,2,2024,1,112,12500,1,1,0,1,1,Low,1,1,1,1,0.6037881474692947,OK
+2.7,Finance,UK,University of Manchester,16-20K,No,Transitional phase 1st 5 months,High,Medium,9,2024,4,319,18000,3,2,1,0,0,Low,3,0,0,0,0.013172089131511293,OK
+2.27,Computer Science,USA,Arizona State University,Below 10k,Yes Medium,Transitional phase 1st 5 months,Low,Low,8,2024,3,283,8000,3,0,0,1,2,Low,0,1,0,0,0.005840367802872987,OK
+3.11,Data Science,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,1,2025,1,445,8000,3,0,1,1,1,Medium,1,1,0,0,0.025423916700905873,OK
+3.21,Data Science,Australia,University of Melbourne,16-20K,Yes High,Unstable,High,Medium,5,2024,2,182,18000,2,2,1,1,3,Medium,3,1,1,1,0.9904361363284281,OK
+3.35,Supply Chain Management,Ireland,University College Dublin,Below 10k,No,Newly Elected,Low,Medium,6,2026,3,967,8000,5,0,1,0,0,Medium,1,1,0,0,0.07115692265177925,OK
+3.24,IT,Malaysia,University of Malaya,10-15K,Yes Medium,Unstable,Medium,Medium,7,2024,3,263,12500,2,1,1,1,2,Medium,2,1,1,1,0.9746521400483568,OK
+3.38,Computer Science,Ireland,University College Dublin,Below 10k,No,Unstable,Low,Medium,7,2024,3,273,8000,2,0,1,0,0,Medium,1,1,0,0,0.08913753030100614,OK
+3.11,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase Last 5 months,Low,Medium,9,2025,4,674,8000,4,0,1,1,1,Medium,1,1,0,0,0.09302247719553514,OK
+3.33,Nursing,Australia,University of Melbourne,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,4,2025,2,534,8000,3,0,1,0,0,Medium,1,1,0,0,0.007377007264780616,OK
+2.91,Supply Chain Management,Ireland,University College Dublin,16-20K,No,Unstable,High,Medium,4,2024,2,155,18000,2,2,1,0,0,Low,3,0,0,0,0.42746836999355076,OK
+3.26,Marketing,Malaysia,University of Malaya,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,9,2024,4,321,12500,3,1,1,1,3,Medium,2,1,1,0,0.4080015129050362,FN
+3.12,Finance,UK,Coventry University,10-15K,No,Transitional phase 1st 5 months,Medium,Medium,1,2025,1,431,12500,3,1,1,0,0,Medium,2,1,0,0,0.02889252920848638,OK
+3.25,Public Health,Canada,York University,10-15K,Yes Low,Transitional phase Last 5 months,Medium,Medium,9,2025,4,697,12500,4,1,1,1,1,Medium,2,1,0,0,0.1996783664500922,OK
+3.66,Supply Chain Management,Ireland,University College Dublin,16-20K,No,Transitional phase 1st 5 months,High,High,3,2025,2,491,18000,3,2,2,0,0,High,4,1,0,0,0.23590513893200132,OK
+2.54,AI,Canada,University of British Columbia,16-20K,Yes High,Stable,High,Medium,12,2023,1,41,18000,1,2,1,1,3,Low,3,0,1,1,0.8053219442686429,OK
+3.15,Civil Engineering,UK,Coventry University,16-20K,No,Unstable,High,Medium,7,2024,3,249,18000,2,2,1,0,0,Medium,3,1,0,0,0.1846818625506832,OK
+2.9,Computer Science,Ireland,University College Dublin,10-15K,No,Stable,Medium,Medium,3,2024,2,134,12500,1,1,1,0,0,Low,2,0,0,0,0.5161208954311151,OK
+3.16,Public Health,Canada,York University,10-15K,No,Unstable,Medium,Medium,4,2024,2,155,12500,2,1,1,0,0,Medium,2,1,1,1,0.6451200122341332,OK
+3.23,Marketing,UK,University of Leeds,10-15K,Yes Medium,Newly Elected,Medium,Medium,5,2026,2,918,12500,5,1,1,1,2,Medium,2,1,1,1,0.9803172968917876,OK
+3.77,Finance,Ireland,University College Dublin,16-20K,Yes High,Transitional phase Last 5 months,High,High,10,2025,4,715,18000,4,2,2,1,3,High,4,1,1,1,0.9796931664682474,OK
+2.64,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Newly Elected,Low,Medium,3,2026,2,877,8000,5,0,1,1,1,Low,1,0,1,1,0.8646856194789889,OK
+3.13,Civil Engineering,Canada,University of British Columbia,10-15K,No,Newly Elected,Medium,Medium,5,2026,2,936,12500,5,1,1,0,0,Medium,2,1,0,0,0.2840377082051386,OK
+3.17,Electrical Engineering,Germany,Technical University of Munich,Below 10k,No,Transitional phase Last 5 months,Low,Medium,11,2025,4,737,8000,4,0,1,0,0,Medium,1,1,0,0,0.007422592605316518,OK
+3.26,Automotive Engineering,Germany,Technical University of Munich,16-20K,Yes High,Transitional phase 1st 5 months,High,Medium,2,2025,1,485,18000,3,2,1,1,3,Medium,3,1,1,1,0.9358387859720878,OK
+3.26,Finance,UK,King's College London,10-15K,Yes High,Transitional phase 1st 5 months,Medium,Medium,1,2025,1,445,12500,3,1,1,1,3,Medium,2,1,1,1,0.5506714454533934,OK
+3.26,Electrical Engineering,Germany,Technical University of Munich,10-15K,Yes Medium,Unstable,Medium,Medium,6,2024,3,217,12500,2,1,1,1,2,Medium,2,1,1,1,0.9758162911650146,OK
+3.55,Marketing,Malaysia,University of Malaya,Below 10k,Yes Medium,Newly Elected,Low,High,6,2026,3,952,8000,5,0,2,1,2,High,2,1,1,1,0.9856133272886914,OK
+3.94,Finance,UK,University of Manchester,Below 10k,No,Unstable,Low,High,6,2024,3,229,8000,2,0,2,0,0,High,2,1,1,1,0.6628308984372366,OK
+3.23,IT,Malaysia,University of Malaya,16-20K,No,Unstable,High,Medium,4,2024,2,154,18000,2,2,1,0,0,Medium,3,1,0,0,0.41566372492436393,OK
+2.62,Computer Science,Canada,York University,Below 10k,No,Unstable,Low,Medium,4,2024,2,165,8000,2,0,1,0,0,Low,1,0,0,0,0.12390265486004481,OK
+3.36,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes Medium,Newly Elected,High,Medium,5,2026,2,926,18000,5,2,1,1,2,Medium,3,1,1,1,0.9856199715701449,OK
+3.06,Computer Science,Ireland,University College Dublin,10-15K,Yes Medium,Unstable,Medium,Medium,5,2024,2,205,12500,2,1,1,1,2,Medium,2,1,1,1,0.9758849383152243,OK
+2.5,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Medium,Transitional phase 1st 5 months,Medium,Medium,5,2025,2,564,12500,3,1,1,1,2,Low,2,0,0,0,0.11211546766258977,OK
+2.86,Computer Science,USA,Arizona State University,16-20K,No,Transitional phase Last 5 months,High,Medium,11,2025,4,738,18000,4,2,1,0,0,Low,3,0,0,0,0.03820556461356051,OK
+3.11,Finance,Ireland,University College Dublin,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,4,2025,2,532,12500,3,1,1,1,1,Medium,2,1,0,0,0.04728045673721402,OK
+3.33,Computer Science,Canada,University of British Columbia,10-15K,Yes Medium,Stable,Medium,Medium,11,2023,4,7,12500,1,1,1,1,2,Medium,2,1,1,1,0.7251453278275035,OK
+3.31,Electrical Engineering,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,10,2024,4,359,8000,3,0,1,1,1,Medium,1,1,0,0,0.025284688877600058,OK
+3.49,Data Science,Germany,Technical University of Munich,Below 10k,Yes Low,Transitional phase 1st 5 months,Low,Medium,2,2025,1,470,8000,3,0,1,1,1,High,1,0,0,0,0.023515058298263596,OK
+3.18,Software Engineering,Australia,University of Sydney,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,803,8000,4,0,1,1,2,Medium,1,1,0,0,0.23876487213394487,OK
+3.71,Civil Engineering,UK,Coventry University,10-15K,Yes Medium,Stable,Medium,High,11,2023,4,14,12500,1,1,2,1,2,High,3,1,1,1,0.7452581797633087,OK
+3.39,Finance,Ireland,University College Dublin,10-15K,Yes Medium,Stable,Medium,Medium,2,2024,1,110,12500,1,1,1,1,2,Medium,2,1,1,1,0.7140358629739053,OK
+3.19,Software Engineering,Australia,Deakin University,10-15K,No,Unstable,Medium,Medium,7,2024,3,263,12500,2,1,1,0,0,Medium,2,1,0,0,0.421606997428162,OK
+3.26,Data Science,USA,Arizona State University,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,12,2025,1,763,8000,4,0,1,1,2,Medium,1,1,0,0,0.16348442471733352,OK
+3.11,Civil Engineering,UK,Coventry University,Below 10k,Yes Medium,Unstable,Low,Medium,6,2024,3,224,8000,2,0,1,1,2,Medium,1,1,1,1,0.9399499207555706,OK
+3.01,Psychology,UK,University of Manchester,Below 10k,No,Stable,Low,Medium,2,2024,1,103,8000,1,0,1,0,0,Medium,1,1,0,0,0.4962508796105101,OK
+3.17,Nursing,Australia,University of Melbourne,16-20K,No,Newly Elected,High,Medium,5,2026,2,928,18000,5,2,1,0,0,Medium,3,1,0,0,0.11916159012257833,OK
+3.39,Law,UK,University of Birmingham,Below 10k,Yes High,Transitional phase Last 5 months,Low,Medium,1,2026,1,818,8000,4,0,1,1,3,Medium,1,1,1,1,0.6828837723987569,OK
+2.96,IT,Malaysia,University of Malaya,10-15K,No,Unstable,Medium,Medium,8,2024,3,279,12500,2,1,1,0,0,Low,2,0,0,0,0.25355930761504614,OK
+2.86,Civil Engineering,UK,Coventry University,Below 10k,No,Transitional phase Last 5 months,Low,Medium,9,2025,4,690,8000,4,0,1,0,0,Low,1,0,0,0,0.007111210946767761,OK
+2.8,Business Analytics,Canada,University of British Columbia,Below 10k,Yes High,Stable,Low,Medium,2,2024,1,104,8000,1,0,1,1,3,Low,1,0,1,1,0.8650935468485481,OK
+3.28,AI,Canada,York University,16-20K,No,Transitional phase Last 5 months,High,Medium,12,2025,1,779,18000,4,2,1,0,0,Medium,3,1,0,0,0.037373210201574705,OK
+3.01,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Medium,Newly Elected,High,Medium,5,2026,2,922,18000,5,2,1,1,2,Medium,3,1,1,1,0.9821374296306488,OK
+3.23,Marketing,UK,University of Leeds,16-20K,No,Newly Elected,High,Medium,6,2026,3,961,18000,5,2,1,0,0,Medium,3,1,0,0,0.1110312757320522,OK
+2.91,Supply Chain Management,Ireland,University College Dublin,16-20K,Yes Low,Newly Elected,High,Medium,2,2026,1,839,18000,5,2,1,1,1,Low,3,0,1,1,0.9248543819952696,OK
+3.35,Marketing,Malaysia,University of Malaya,Below 10k,No,Unstable,Low,Medium,5,2024,2,198,8000,2,0,1,0,0,Medium,1,1,0,0,0.11650561196588405,OK
+3.2,Agriculture,New Zealand,University of Auckland,16-20K,No,Stable,High,Medium,3,2024,2,148,18000,1,2,1,0,0,Medium,3,1,0,0,0.5179131987494138,OK
+3.16,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Low,Unstable,Medium,Medium,4,2024,2,163,12500,2,1,1,1,1,Medium,2,1,1,1,0.9585367513652202,OK
+3.27,Cyber Security,USA,Arizona State University,16-20K,No,Newly Elected,High,Medium,5,2026,2,927,18000,5,2,1,0,0,Medium,3,1,0,0,0.11914578088578946,OK
+2.0,Finance,UK,University of Leeds,16-20K,No,Stable,High,Low,1,2024,1,68,18000,1,2,0,0,0,Low,2,1,0,0,0.47652929607751104,OK
+3.28,IT,Malaysia,University of Malaya,Below 10k,Yes High,Newly Elected,Low,Medium,5,2026,2,929,8000,5,0,1,1,3,Medium,1,1,1,1,0.972505541543121,OK
+2.67,Automotive Engineering,Germany,Technical University of Munich,Below 10k,Yes High,Unstable,Low,Medium,5,2024,2,198,8000,2,0,1,1,3,Low,1,0,1,1,0.9577583866752416,OK
+3.15,Business Analytics,Ireland,University College Dublin,10-15K,No,Unstable,Medium,Medium,4,2024,2,168,12500,2,1,1,0,0,Medium,2,1,1,0,0.5066076293255021,FN
+3.02,Computer Science,USA,Arizona State University,16-20K,No,Stable,High,Medium,12,2023,1,55,18000,1,2,1,0,0,Medium,3,1,1,0,0.47169641420279285,FN
+3.23,Civil Engineering,UK,Coventry University,10-15K,Yes Low,Transitional phase 1st 5 months,Medium,Medium,6,2025,3,595,12500,3,1,1,1,1,Medium,2,1,0,0,0.04915936760441185,OK
+3.27,Computer Science,Canada,University of Toronto,Below 10k,No,Newly Elected,Low,Medium,5,2026,2,937,8000,5,0,1,0,0,Medium,1,1,0,0,0.06640954794852123,OK
+2.46,Environmental Science,New Zealand,University of Auckland,10-15K,Yes Low,Unstable,Medium,Low,6,2024,3,239,12500,2,1,0,1,1,Low,1,1,0,1,0.5808446174269914,FP
+2.75,Psychology,UK,University of Birmingham,16-20K,No,Unstable,High,Medium,5,2024,2,212,18000,2,2,1,0,0,Low,3,0,0,0,0.20289393135014713,OK
+3.78,Business Analytics,Canada,University of British Columbia,Below 10k,Yes High,Transitional phase Last 5 months,Low,High,9,2025,4,688,8000,4,0,2,1,3,High,2,1,1,1,0.9457872373673492,OK
+3.1,AI,USA,Arizona State University,Below 10k,Yes High,Newly Elected,Low,Medium,5,2026,2,915,8000,5,0,1,1,3,Medium,1,1,1,1,0.9591980808237734,OK
+3.37,Mechanical Engineering,Germany,Technical University of Munich,16-20K,Yes Low,Unstable,High,Medium,5,2024,2,198,18000,2,2,1,1,1,Medium,3,1,1,1,0.9562943042470196,OK
+3.47,Civil Engineering,Canada,University of Toronto,Below 10k,No,Transitional phase 1st 5 months,Low,Medium,9,2024,4,307,8000,3,0,1,0,0,High,1,0,0,0,0.003930659515994343,OK
+3.17,AI,USA,Arizona State University,10-15K,Yes Medium,Unstable,Medium,Medium,4,2024,2,153,12500,2,1,1,1,2,Medium,2,1,1,1,0.9705266774806671,OK
+3.13,IT,Malaysia,University of Malaya,10-15K,Yes Low,Newly Elected,Medium,Medium,6,2026,3,967,12500,5,1,1,1,1,Medium,2,1,1,1,0.9376898238450718,OK
+3.18,Software Engineering,Australia,University of Sydney,10-15K,Yes High,Transitional phase Last 5 months,Medium,Medium,11,2025,4,760,12500,4,1,1,1,3,Medium,2,1,1,1,0.9113711517875133,OK
+2.61,Automotive Engineering,Germany,Technical University of Munich,10-15K,Yes Medium,Stable,Medium,Medium,3,2024,2,134,12500,1,1,1,1,2,Low,2,0,0,1,0.7782157984711475,FP
+2.05,Hospitality Management,New Zealand,University of Auckland,16-20K,Yes High,Transitional phase Last 5 months,High,Low,10,2025,4,728,18000,4,2,0,1,3,Low,2,1,1,1,0.8585294796768451,OK
+3.14,Civil Engineering,UK,University of Leeds,Below 10k,Yes Medium,Transitional phase Last 5 months,Low,Medium,1,2026,1,797,8000,4,0,1,1,2,Medium,1,1,0,0,0.23235447714475607,OK
+3.43,Data Science,Germany,Technical University of Munich,16-20K,No,Transitional phase 1st 5 months,High,Medium,3,2025,2,505,18000,3,2,1,0,0,High,3,0,0,0,0.031581103849277994,OK
+3.47,Marketing,UK,University of Leeds,16-20K,Yes Medium,Transitional phase Last 5 months,High,Medium,1,2026,1,809,18000,4,2,1,1,2,High,3,0,1,1,0.8793117118534467,OK
+3.2,Hospitality Management,Australia,Monash University,10-15K,Yes High,Newly Elected,Medium,Medium,3,2026,2,874,12500,5,1,1,1,3,Medium,2,1,1,1,0.9910210446501968,OK
+3.33,Agriculture,New Zealand,University of Auckland,Below 10k,Yes Low,Unstable,Low,Medium,6,2024,3,224,8000,2,0,1,1,1,Medium,1,1,1,1,0.9149105793594379,OK

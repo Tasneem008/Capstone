@@ -1,0 +1,7 @@
+{
+  "cv_winner": "GB 200 depth 4 lr 0.05",
+  "cv_winner_accuracy": 0.8416666666666666,
+  "adopted_model": "GB current (100, depth 3, lr 0.10)",
+  "reason": "A tuned tree is within 0.3 points of the current Gradient Boosting CV accuracy. The current model stays. The extra fit is not a real gain.",
+  "selection_rule": "Mean 5-fold accuracy on the training split. Test metrics are reported after the choice."
+}

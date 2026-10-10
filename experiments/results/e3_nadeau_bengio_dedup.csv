@@ -1,0 +1,4 @@
+mean_diff,t,df,p,model_a,model_b,metric,tag
+0.02182392133016868,3.952370975865351,24,0.0005942477604968972,Gradient Boosting,Logistic regression,F1,dedup
+0.030542201786900893,4.229901578484133,24,0.00029429959469877496,Gradient Boosting,"Stacking (RF+XGB+GB, logistic meta)",F1,dedup
+-0.008718280456732215,-1.3093337709695074,24,0.2028186395112506,"Stacking (RF+XGB+GB, logistic meta)",Logistic regression,F1,dedup

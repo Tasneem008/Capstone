@@ -1,0 +1,4 @@
+a_only_correct,b_only_correct,p,model_a,model_b,tag
+64,37,0.009335048120644805,Gradient Boosting,Logistic regression,full
+18,10,0.1849333420395851,Gradient Boosting,"Stacking (RF+XGB+GB, logistic meta)",full
+61,42,0.07561910758625782,"Stacking (RF+XGB+GB, logistic meta)",Logistic regression,full
