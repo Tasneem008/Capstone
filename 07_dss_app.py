@@ -8,6 +8,7 @@ Extended with:
 """
 
 from datetime import datetime
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -93,14 +94,42 @@ FRIENDLY_NAMES = {
     "Date Intake": "Intake Date",
 }
 
-# Ablation F1-drop context (Table 9) baked into the recommendation copy so
-# counselors see *why* a group matters, not just that it does.
+# Ablation F1-drop context in the recommendation copy, so counselors see *why*
+# a group matters, not just that it does. Read from the ablation results file
+# (written by 05_ablation_study.py) so the text always matches current results.
+ABLATION_RESULTS_PATH = (
+    Path(__file__).resolve().parent / "results_ablation" / "ablation_results.csv"
+)
+
+
+def load_ablation_f1_drops(path=ABLATION_RESULTS_PATH):
+    """Return {feature group: F1 drop when removed}, or {} if the file is missing."""
+    if not path.exists():
+        return {}
+    # keep_default_na=False: the baseline row's group is the literal text "None".
+    results = pd.read_csv(path, keep_default_na=False)
+    results = results[results["Removed_Group"] != "None"]
+    return {
+        group.replace("_Features", ""): float(drop)
+        for group, drop in zip(results["Removed_Group"], results["F1_Drop"])
+    }
+
+
+ABLATION_F1_DROP = load_ablation_f1_drops()
+
+
+def ablation_note(group):
+    """' (ablation F1 drop of 0.132 when removed)', or '' if no result exists."""
+    drop = ABLATION_F1_DROP.get(group)
+    return "" if drop is None else f" (ablation F1 drop of {drop:.3f} when removed)"
+
+
 RECOMMENDATION_TEMPLATES = {
     "Behavioral": {
         "negative": (
             "**Due_Diligence** is pulling this prediction toward "
             "non-continuation. This is historically the single strongest "
-            "driver of dropout risk (ablation F1 drop of 0.391 when removed). "
+            f"driver of dropout risk{ablation_note('Behavioral')}. "
             "Recommend a structured due-diligence session covering visa "
             "requirements, cost of living, and course accreditation before "
             "the student finalizes plans."
@@ -114,8 +143,8 @@ RECOMMENDATION_TEMPLATES = {
     },
     "Financial": {
         "negative": (
-            "**Budget constraints** are a significant risk factor here "
-            "(ablation F1 drop of 0.209 when removed). Discuss scholarships, "
+            "**Budget constraints** are a risk factor "
+            f"here{ablation_note('Financial')}. Discuss scholarships, "
             "part-time work eligibility, cost-of-living differences between "
             "destination cities, or more affordable course/institution "
             "alternatives."
@@ -143,8 +172,8 @@ RECOMMENDATION_TEMPLATES = {
     "Phase_Temporal": {
         "negative": (
             "The current **political phase / intake timing** is contributing "
-            "meaningfully to uncertainty (ablation F1 drop of 0.142 when "
-            "removed). Provide up-to-date guidance on visa and policy "
+            f"meaningfully to uncertainty{ablation_note('Phase_Temporal')}. "
+            "Provide up-to-date guidance on visa and policy "
             "changes, and consider whether a different intake window would "
             "reduce exposure to this instability."
         ),
