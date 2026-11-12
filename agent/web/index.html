@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SARP-Agent | Study abroad counselling</title>
+  <meta name="description" content="Plan your study abroad journey with SARP-Agent, in English, Banglish or Bengali.">
+  <meta name="theme-color" content="#0B6B53">
+  <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wdth,wght@75..125,300..800&family=Hind+Siliguri:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script>
+    // Apply the saved or system theme before the first paint.
+    try {
+      const saved = localStorage.getItem("sarp.theme");
+      const dark = saved ? saved === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = dark ? "dark" : "light";
+    } catch (e) { document.documentElement.dataset.theme = "light"; }
+  </script>
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar" aria-label="Chats">
+      <div class="sidebar-top">
+        <a class="brand" href="/" aria-label="SARP-Agent home">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--green)"/><path d="M7.5 16.2 24.5 8.6l-5.6 15.6-3.3-6.3-8.1-1.7Z" fill="var(--surface)"/><path d="m15.6 17.9 3.6-3.7" stroke="var(--green)" stroke-width="1.6" stroke-linecap="round"/><circle cx="24.6" cy="23.8" r="2.6" fill="var(--marigold)"/></svg>
+          <span class="brand-word">SARP<span>Agent</span></span>
+        </a>
+        <button class="icon-btn only-mobile" id="closeSidebar" type="button" data-i18n-label="close"></button>
+      </div>
+      <button class="new-chat" id="newChat" type="button"><span class="ico" data-icon="plus"></span><span data-i18n="newChat">New chat</span><kbd>Ctrl Shift O</kbd></button>
+      <nav class="history" id="history" aria-label="Previous chats"></nav>
+      <div class="sidebar-foot">
+        <label><span data-i18n="replyLanguage">Reply language</span>
+          <select id="language">
+            <option value="auto" data-i18n="auto">Detect automatically</option>
+            <option value="english">English</option>
+            <option value="banglish">Banglish</option>
+            <option value="bengali">বাংলা</option>
+          </select>
+        </label>
+        <button class="icon-btn" id="themeToggle" type="button" data-i18n-label="theme"></button>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn only-mobile" id="openSidebar" type="button" data-i18n-label="menu"></button>
+        <h1 class="chat-title" id="chatTitle">New chat</h1>
+        <span class="mode-pill" id="modePill" hidden></span>
+        <button class="btn-counsellor" id="talkBtn" type="button"><span class="ico" data-icon="phone"></span><span data-i18n="talk">Talk to a counsellor</span></button>
+      </header>
+
+      <section class="pass-wrap" id="passWrap" hidden aria-label="Your plan"></section>
+
+      <div class="scroller" id="scroller">
+        <div class="thread" id="thread" role="log" aria-label="Conversation">
+          <section class="welcome" id="welcome">
+            <h2><span data-i18n="welcomeTitle">Where do you want to study?</span><span class="bn">কোথায় পড়তে যেতে চান?</span></h2>
+            <p data-i18n="welcomeText">Ask about countries, courses, costs, documents or visas, in English, Banglish or বাংলা. I'll build your plan as we talk.</p>
+            <div class="starters" id="starters"></div>
+            <p class="privacy" data-i18n="privacyNote">Your chats are saved so our counsellors can help you, and may be answered by a partner AI service. Please don't share passwords or bank details.</p>
+          </section>
+        </div>
+      </div>
+      <button class="jump" id="jump" type="button" hidden data-i18n-label="jump"></button>
+
+      <footer class="composer-wrap">
+        <form class="composer" id="composer">
+          <textarea id="input" rows="1" data-i18n-placeholder="placeholder" aria-label="Message"></textarea>
+          <button class="send" id="send" type="submit" disabled data-i18n-label="send"></button>
+        </form>
+        <p class="disclaimer" data-i18n="disclaimer">SARP-Agent can make mistakes. Check fees and visa rules with your counsellor.</p>
+      </footer>
+    </main>
+  </div>
+
+  <dialog id="callback" aria-labelledby="cbTitle">
+    <form class="dialog-body" id="callbackForm" method="dialog" novalidate>
+      <h2 id="cbTitle" data-i18n="cbTitle">Talk to a counsellor</h2>
+      <p data-i18n="cbText">Leave your details and a counsellor will call you back.</p>
+      <label><span data-i18n="name">Your name</span><input name="name" autocomplete="name" required maxlength="80"></label>
+      <label><span data-i18n="contact">Phone or WhatsApp number</span><input name="contact" type="tel" autocomplete="tel" inputmode="tel" required maxlength="40"></label>
+      <label><span data-i18n="when">Best time to call</span>
+        <select name="time">
+          <option value="" data-i18n="whenAny">Any time</option>
+          <option data-i18n="morning">Morning (10am to 1pm)</option>
+          <option data-i18n="afternoon">Afternoon (1pm to 5pm)</option>
+          <option data-i18n="evening">Evening (5pm to 8pm)</option>
+        </select>
+      </label>
+      <p class="privacy" data-i18n="cbPrivacy">Your number is shared only with our counsellors.</p>
+      <p class="form-error" id="cbError" hidden></p>
+      <div class="dialog-actions">
+        <button class="btn" type="button" id="cbCancel" data-i18n="cancel">Cancel</button>
+        <button class="btn primary" type="submit" data-i18n="request">Request a call</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="sr-only" id="announcer" aria-live="polite"></div>
+  <script src="/static/app.js" type="module"></script>
+</body>
+</html>

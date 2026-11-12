@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SARP-Agent | Counsellor insights</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wdth,wght@75..125,300..800&family=Hind+Siliguri:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script>
+    try {
+      const saved = localStorage.getItem("sarp.theme");
+      const dark = saved ? saved === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = dark ? "dark" : "light";
+    } catch (e) { document.documentElement.dataset.theme = "light"; }
+  </script>
+</head>
+<body>
+  <div class="c-app" id="app">
+    <aside class="c-list" aria-label="Student chats">
+      <h1>Counsellor insights</h1>
+      <p class="sub" id="modelCard">Loading…</p>
+      <div id="list"></div>
+    </aside>
+    <main class="c-detail" id="detail">
+      <p class="c-empty">Choose a chat to see the student's plan, SARP-Net prediction and transcript.</p>
+    </main>
+  </div>
+  <script src="/static/counsellor.js" type="module"></script>
+</body>
+</html>
