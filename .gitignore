@@ -11,3 +11,9 @@ env/
 
 
 *.log
+# SARP-Agent: secrets, local chat data and Vercel CLI files
+.env
+.env.*
+agent_data/
+*.db
+.vercel/

@@ -1,0 +1,24 @@
+# Deployment settings for the SARP-Agent chat website (agent/) on Vercel. See agent/DEPLOY.md.
+# The Streamlit dashboard keeps using requirements.txt: Streamlit Cloud reads requirements.txt before
+# pyproject.toml, and .vercelignore keeps requirements.txt out of the Vercel upload.
+# On the PC, install everything with:  pip install -r requirements.txt -r agent/requirements.txt
+
+[project]
+name = "sarp-agent"
+version = "1.0.0"
+description = "SARP-Agent: study-abroad counselling chat built on the SARP-Net continuation model"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.115",
+    "httpx>=0.27",
+    "numpy>=1.26,<2.3",
+    "pandas>=2.0,<3",
+    "scikit-learn==1.7.1",   # must match the saved gradient_boosting.joblib
+    "shap>=0.51",
+    "matplotlib",            # imported by common.py
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",  # Postgres (Neon) driver
+]
+
+[tool.vercel]
+entrypoint = "agent.server:app"

@@ -1,0 +1,37 @@
+# Upload only what the SARP-Agent website needs. Vercel bundles every uploaded file into the function,
+# so this allow-list keeps figures, reports, Excel files and unused models out (and keeps the
+# Streamlit requirements.txt out, so Vercel installs from pyproject.toml).
+/*
+!/agent
+/agent/test_*.py
+/agent/**/__pycache__
+/agent/start_gateway.ps1
+!/common.py
+!/risk_analyzer.py
+!/pyproject.toml
+!/.python-version
+!/vercel.json
+
+!/Datasets
+/Datasets/*
+!/Datasets/master_6000_engineered.csv
+
+!/results_paper1
+/results_paper1/*
+!/results_paper1/operating_point.json
+
+!/results_paper2
+/results_paper2/*
+!/results_paper2/gradient_boosting.joblib
+!/results_paper2/paper2_model_comparison.csv
+
+!/results_ablation
+/results_ablation/*
+!/results_ablation/ablation_results.csv
+
+!/experiments
+/experiments/*
+!/experiments/results
+/experiments/results/*
+!/experiments/results/e2_due_diligence_by_phase.csv
+!/experiments/results/e2_odds_ratios.csv
